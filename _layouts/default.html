@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- 
+
+ -->
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}MPSYCH.org</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" style="float:left">
+            <img src="{{ site.baseurl }}/gfx/logo.svg" width=150 title="MPSYCH.org"/>
+          </a>
+          <div style="float:left;margin-left:10px;">
+            <span class="institution lightgray">UNIVERSITY OF MASSACHUSETTS BOSTON</span>
+            <a href="{{ site.baseurl }}/"><span class="field">MACHINE<br>PSYCHOLOGY</span></a>
+          </div>
+          
+
+          <nav>
+            <a href="{{ site.baseurl }}/people"{% if page.url == "/people" %}class="active"{% endif %}>PEOPLE</a>
+            <a href="{{ site.baseurl }}/research"{% if page.url == "/research" %}class="active"{% endif %}>RESEARCH</a>
+            <a href="{{ site.baseurl }}/teaching"{% if page.url == "/teaching" %}class="active"{% endif %}>TEACHING</a>
+            <a href="{{ site.baseurl }}/contact"{% if page.url == "/contact" %}class="active"{% endif %}>CONTACT</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <footer>
+<!--       <div style="">
+        <a href="https://www.cs.umb.edu" class="invisiblelink" target=_blank"><img src="/gfx/umb_gray.png" width="50" style="float:left" title="CS.UMB.EDU"></a><div class="institution_bottom white"><a href="https://www.cs.umb.edu" class="invisiblelink" target=_blank">UNIVERSITY OF MASSACHUSETTS BOSTON<br>Department of Computer Science<br>College of Science and Mathematics</a></div>
+      </div> -->
+      <!-- <div style=""> -->
+        <!-- <a href="https://bostongfx.com" target="_blank"><img src="/gfx/bostongfx.png" width="100" title="bostonGFX.com"><span class="small white" style="display:block;margin-top:-6px">Graphics For Everybody</span></a> -->
+      <!-- </div> -->
+      <div style="display:inline-block;margin-top:0px;">
+        <div style="float:left;"><a href="https://www.umb.edu" class="invisiblelink" target=_blank"><img src="/gfx/umb_gray.png" width="50" style="float:left" title="CS.UMB.EDU"></a><div class="institution_bottom white"><a href="https://www.umb.edu" class="invisiblelink" target=_blank">UNIVERSITY OF MASSACHUSETTS BOSTON<br>Department of Computer Science<br>College of Science and Mathematics</a></div>
+        <div style="float:left;padding-left:30px"><a href="https://bostongfx.com" target="_blank"><img src="/gfx/bostongfx.png" width="100" title="bostonGFX.com"><span class="small white" style="display:block;margin-top:-6px">Graphics For Everybody</span></a></div>
+        <br>
+        <a href="https://ILOVEYOU.boston" target="_blank"><img src="/gfx/ILYboston.png" width="120" title="ILOVEYOU.boston" style="padding-top:35px"></a>
+      </div>
+    </footer>
+
+    {% include analytics.html %}
+
+  </body>
+</html>

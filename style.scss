@@ -1,0 +1,484 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "tooltip";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: $background;
+  font: 18px/1.4 $regular;
+  color: $black;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 840px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $bold;
+  color: $black;
+  font-weight: bold;
+
+  line-height: 1.7;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $lightGray;
+  font-size: 10px;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.pubtable {
+    width: 660px;
+    padding-right: 10px;
+    border-right: solid medium white;
+    td {
+      vertical-align: top;
+    }
+}
+
+.pubtable:hover {
+    /* border-right: solid medium $blue;*/
+    /*background: hotpink;*/
+}
+
+.pubtable:hover .thumb {
+    filter: grayscale(0%);
+}
+
+.pubtable a {
+    color: black;
+}
+
+.pubtable:hover a {
+    color: $blue;
+}
+
+.pubtable:hover a:hover {
+    color: black;
+}
+
+.pubtable:hover .title {
+    color: $blue;
+}
+
+.pubtable:hover .title:hover {
+    color: black;
+}
+
+.bibtexVar[href='undefined'] {
+    display: none;
+}
+
+[data-innerText]::after {
+  content: attr(data-innerText);
+}
+
+.file_icon {
+    filter: grayscale(100%);
+}
+
+.file_icon:hover {
+    filter: grayscale(0%);
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.gray {
+  color: $gray;
+}
+
+.thumb {
+  float: left;
+  margin: 3px;
+  border: solid $gray 1px;
+}
+
+.blacknwhite {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);    
+}
+
+.researchteaser {
+  border-left: solid medium $white;
+}
+
+.researchteaser:hover {
+  border-left: solid medium $blue;
+}
+
+.researchteaser:hover .title {
+  color: $blue;
+}
+
+.researchteaser:hover .blacknwhite {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+
+}
+
+.masthead {
+  padding: 20px 0;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.institution {
+  font-size: 16px;
+}
+
+.institution_bottom {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 7px;
+  float: left;
+}
+
+.lightgray {
+  color: gray;
+}
+
+.white {
+  color: white;
+}
+
+.field {
+  font-size: 36px;
+  line-height: .9;
+  position: absolute;
+}
+
+nav {
+  float: right;
+  margin-top: 40px;
+  margin-right: 10px;
+  font-family: $bold;
+  font-size: 26px;
+  letter-spacing: .5px;
+  font-weight: lighter;
+  text-transform: uppercase;
+
+  a {
+    margin-left: 20px;
+    color: $black;
+    text-align: right;
+  }
+  .active {
+    color: $blue;
+  }
+}
+
+.img_circle {
+
+}
+
+.person {
+  margin-left: 10%;
+  margin-bottom: 20px;
+  height:150px;
+  img {
+    border-radius: 50%;
+    filter: grayscale(100%);
+    width: 150px;
+    float:left;
+    border: solid 2px #29ABE2;
+  }
+  .caption {
+    font-size: 20px;
+    margin: 20px;
+    text-align: left;
+    float: left;
+  }
+  .role {
+    color: gray;
+  }
+  .links {
+    font-size: 14px;
+    color: #29ABE2;
+    margin-left: 10px;
+  }
+  a {
+    padding-right: 10px;
+  }
+}
+
+//
+// .main
+//
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+.frontimg {
+  border: solid white 3px;
+  width: 350px;
+  height: 250px;
+  max-width: 100%;
+}
+
+.fullfrontimg {
+  border: solid white 3px;
+  height: 250px;
+}
+
+
+.teaser {
+  font-size: 64px;
+}
+
+.bluetext {
+  color: $blue;
+}
+
+.twocolumn {
+  float:left;
+  width: 48%;
+  margin: 0 1%;
+}
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  img:not(.noborder) {
+    border: solid white 3px;
+  }
+
+
+  .underlay {
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    //text-transform: uppercase;
+    font-size: 12px;
+    float: right;
+  }
+}
+
+.entry {
+  a:not(.cleanlink) {
+    text-decoration: none;
+  }
+}
+
+.invisiblelink {
+  color:white;
+  text-decoration:none;
+}
+
+.invisiblelink:hover {
+  color:white;
+  text-decoration:none;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.right-image
+{
+  float: right;
+}
+
+
+footer {
+  border-top: thin solid lightgray;
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  float: left;
+  padding: 40px 0;
+  text-align: center;
+  background: #415067;
+  -webkit-box-shadow: inset 0 20rem 20rem -20rem rgba(0,0,0,.69);
+  box-shadow: inset 0 20rem 20rem -20rem rgba(0,0,0,.69);
+}
+
+footer {
+  td {
+    vertical-align: bottom;
+    font-family: $bold;
+    font-size: 14px;
+  }
+  #icons {
+    padding-bottom: 10px;
+  }
+}
+
+#largeicons {
+  font-size: 28px;
+  text-decoration: none;
+  float: right;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+//@import "svg-icons";
