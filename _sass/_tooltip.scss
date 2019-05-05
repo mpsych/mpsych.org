@@ -9,7 +9,8 @@
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 80px;
+    margin-top: 7px;
     background-color: $gray;
     color: $white;
     text-align: center;
@@ -19,7 +20,7 @@
     z-index: 1;
     top: 120%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -40px;
     font-family: $bold;
     font-size: 12px;    
     

@@ -461,22 +461,6 @@ footer {
   box-shadow: inset 0 20rem 20rem -20rem rgba(0,0,0,.69);
 }
 
-footer {
-  td {
-    vertical-align: bottom;
-    font-family: $bold;
-    font-size: 14px;
-  }
-  #icons {
-    padding-bottom: 10px;
-  }
-}
-
-#largeicons {
-  font-size: 28px;
-  text-decoration: none;
-  float: right;
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

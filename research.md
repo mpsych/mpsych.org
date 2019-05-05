@@ -18,10 +18,10 @@ With advances in <span class="bluetext">computer science</span>, we target the g
   <center>
   <table class='pubtable'>
     <tr>
-      <td class='padding10' style='width:170px;' valign='top'><a class='bibtexVar' href='papers/?+BIBTEXKEY+' extra='BIBTEXKEY'><img class='bibtexVar thumb blacknwhite' src='papers/+BIBTEXKEY+.png' width="150" height="150" extra="BIBTEXKEY"></a></td>
+      <td class='padding10' style='width:170px;' valign='top'><a class='bibtexVar' href='/paper?+BIBTEXKEY+' extra='BIBTEXKEY'><img class='bibtexVar thumb blacknwhite' src='papers/+BIBTEXKEY+.png' width="150" height="150" extra="BIBTEXKEY"></a></td>
       <td class='padding20' valign='top'>
         <span class='gray author'><span class="first_initial"></span> <span class="von"></span><span class="last"></span><span class="junior"></span></span><br>
-        <a class='bibtexVar cleanlink' href='papers/?+BIBTEXKEY+' extra='BIBTEXKEY'><span class='title'></span></a><br>
+        <a class='bibtexVar cleanlink' href='/paper?+BIBTEXKEY+' extra='BIBTEXKEY'><span class='title'></span></a><br>
         <span class='lightgray journal'></span><span class='lightgray booktitle'></span>, <span class='lightgray year'></span><br>
         <span class='gray'>
           <a class='bibtexVar cleanlink' target='_blank' href='papers/+BIBTEXKEY+.pdf' extra='BIBTEXKEY'>Paper</a> |

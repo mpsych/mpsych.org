@@ -14,6 +14,9 @@ baseurl: ""
 
 excerpt_separator: "<!-- more -->"
 
+description: Research in Machine Psychology - Computer Science at UMass Boston
+name: Machine Psychology at UMass Boston
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -39,8 +42,6 @@ sass:
 
 # Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:

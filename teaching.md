@@ -3,8 +3,8 @@ layout: page
 permalink: /teaching
 ---
 
-<span class="teaser" style="left:20%;width:600px;position:relative">We think that <span class="bluetext">education</span> needs to be</span>
-<span class="teaser" style="position: relative; float:left; left:40%;margin-top:-20px;">accessible <span class="bluetext">for everyone</span>.</span>
+<span class="teaser" style="left:20%;width:600px;position:relative">We think that <span class="bluetext">education</span> needs to</span>
+<span class="teaser" style="position: relative; float:left; left:40%;margin-top:-20px;">be accessible <span class="bluetext">for everyone</span>.</span>
 
 <br><br>
 <p align="justify" style="font-size:24px">
