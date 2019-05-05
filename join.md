@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /join
+permalink: /join/
 ---
 
 <span class="teaser" style="left:15%;width:600px;position:relative">Join us at <span class="bluetext">UMass Boston</span>!</span>

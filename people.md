@@ -10,7 +10,7 @@ permalink: /people
 <br><br><br>
 
 <div class="person">
-  <img src="haehn.jpg" style="transform: rotate(-15deg);">
+  <img src="/people/haehn.jpg" style="transform: rotate(-15deg);">
   <div class="caption">
     Daniel Haehn, PhDc.<br>
     <span class="role">(Incoming) Assistant Professor of Computer Science</span><br>
