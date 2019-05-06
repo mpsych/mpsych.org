@@ -40,3 +40,16 @@ permalink: /people
     </span>
   </div>
 </div>
+
+<p style="margin-left:14%;margin-top:50px;">Collaborators</p>
+
+<div class="collaborator">
+  <img src="/people/collaborators/tompkin.png">
+  <div class="caption">
+    James Tompkin, PhD<br>
+    <span class="role">Assistant Professor at Brown CS</span><br>
+    <span class="links">
+      <a class="cleanlink" href="http://jamestompkin.com">Website</a>
+    </span>
+  </div>
+</div>
