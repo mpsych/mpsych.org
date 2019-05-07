@@ -53,3 +53,14 @@ permalink: /people
     </span>
   </div>
 </div>
+
+<div class="collaborator">
+  <img src="/people/collaborators/kim.png">
+  <div class="caption">
+    Nam Wook Kim, PhDc.<br>
+    <span class="role">(Incoming) Assistant Professor at Boston College</span><br>
+    <span class="links">
+      <a class="cleanlink" href="http://namwkim.org">Website</a>
+    </span>
+  </div>
+</div>
