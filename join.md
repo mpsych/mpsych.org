@@ -8,6 +8,9 @@ permalink: /join
 <span class="teaser" style="position: relative; float:left; left:35%;margin-top:-20px;">and <span class="bluetext">part-time students</span>.</span>
 
 <br><br><br><br><br>
+
+<iframe class='video' src="https://player.vimeo.com/video/340742794?byline=0&portrait=0&title=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 <p align="justify" style="font-size:24px">
 Get your PhD or MS in Computer Science at the <span class="bluetext">University of Massachusetts Boston</span>&mdash;an urban research university with a beautiful seaside campus. We are part of the <span class="bluetext">Department of Computer Science</span> and offer <span class="bluetext">scholarships</span> for part-time PhD students and <span class="bluetext">scholarships + stipends</span> for full-time PhD students. We are also looking for excellent <span class="bluetext">post-docs, undergraduates, and interns</span> who are interested in researching <span class="bluetext">natural</span> and <span class="bluetext">artificial neural networks</span>.
 </p>
