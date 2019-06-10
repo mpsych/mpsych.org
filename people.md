@@ -49,7 +49,7 @@ permalink: /people
     James Tompkin, PhD<br>
     <span class="role">Assistant Professor at Brown CS</span><br>
     <span class="links">
-      <a class="cleanlink" href="http://jamestompkin.com">Website</a>
+      <a class="cleanlink" href="http://jamestompkin.com" target="_blank">Website</a>
     </span>
   </div>
 </div>
@@ -60,7 +60,18 @@ permalink: /people
     Nam Wook Kim, PhD<br>
     <span class="role">(Incoming) Assistant Professor at Boston College</span><br>
     <span class="links">
-      <a class="cleanlink" href="http://namwkim.org">Website</a>
+      <a class="cleanlink" href="http://namwkim.org" target="_blank">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="collaborator">
+  <img src="/people/collaborators/mathieu.png">
+  <div class="caption">
+    Mathieu Dehaes, PhD<br>
+    <span class="role">Associate Professor at Université de Montréal</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://radiologie.umontreal.ca/departement/les-professeurs/profil/dehaes-mathieu/in17806/" target="_blank">Website</a>
     </span>
   </div>
 </div>
