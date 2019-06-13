@@ -25,7 +25,7 @@ Machine learning methods are inspired by neuroscientific discoveries&mdash;but c
 <div class="bibtex_template">
   <div class="researchteaser" style="height:86px;display:flex;align-items:center;">
     <img class='bibtexVar thumb blacknwhite' extra='BIBTEXKEY' src="papers/+BIBTEXKEY+.png" style="width:20%">
-      <div style="line-height:normal;">
+      <div style="line-height:normal;width:310px">
         <a class='bibtexVar cleanlink' href='paper?+BIBTEXKEY+' extra='BIBTEXKEY'><span class='title'></span></a><br>
         <span class='small lightgray shortvenue'></span>
       </div>
