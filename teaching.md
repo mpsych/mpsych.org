@@ -8,5 +8,12 @@ permalink: /teaching
 
 <br><br>
 <p align="justify" style="font-size:24px">
-We strongly support <span class="bluetext">open science</span> and fully commit to <span class="bluetext">open education</span>. Once ready, we will provide all course material online.
+We strongly support <span class="bluetext">open science</span> and fully commit to <span class="bluetext">open education</span>.
 </p>
+
+<div style='margin:50px;background-color:black;width:500px;color:white;padding:20px;border:2px solid #29ABE2;'>
+<img src='gfx/CS460.png' style='width:250px'><br>
+Create interactive web-based 3D visualizations for computers, smartphones, and tablets! This is a hands-on course that explains the fundamental concepts of 3D computer graphics by teaching WebGL.
+<br><br>
+Check out <a href="https://CS460.org" class="bluetext" target="_blank">CS460.org</a> !
+</div>
