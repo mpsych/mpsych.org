@@ -13,7 +13,7 @@ permalink: /people
   <img src="/people/haehn.jpg" style="transform: rotate(-15deg);">
   <div class="caption">
     Daniel Haehn, PhD<br>
-    <span class="role">(Incoming) Assistant Professor of Computer Science</span><br>
+    <span class="role">Assistant Professor of Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/haehn/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/haehn/cv.pdf">CV</a>
@@ -58,7 +58,7 @@ permalink: /people
   <img src="/people/collaborators/kim.png">
   <div class="caption">
     Nam Wook Kim, PhD<br>
-    <span class="role">(Incoming) Assistant Professor at Boston College</span><br>
+    <span class="role">Assistant Professor at Boston College</span><br>
     <span class="links">
       <a class="cleanlink" href="http://namwkim.org" target="_blank">Website</a>
     </span>
