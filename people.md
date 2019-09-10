@@ -31,19 +31,6 @@ permalink: /people
 </div>
 
 
-
-<div class="person">
-  <img src="/gfx/team.png">
-  <div class="caption">
-    This could be your spot!<br>
-    <span class="role" style="color:#cd00cd">Scholarships available for full-time and part-time PhD students.</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/join/">Join us!</a>
-    </span>
-  </div>
-</div>
-
-
 <div class="person">
   <img src="/people/franke/lori.jpg">
   <div class="caption">
@@ -58,6 +45,17 @@ permalink: /people
       <a href="https://github.com/lorifranke" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
+  </div>
+</div>
+
+<div class="person">
+  <img src="/gfx/team.png">
+  <div class="caption">
+    This could be your spot!<br>
+    <span class="role" style="color:#cd00cd">Scholarships available for full-time and part-time PhD students.</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/join/">Join us!</a>
+    </span>
   </div>
 </div>
 
