@@ -35,7 +35,7 @@ permalink: /people
   <img src="/people/franke/lori.jpg">
   <div class="caption">
     Loraine Franke<br>
-    <span class="role">PhD student in Computer Science</span><br>
+    <span class="role">PhD Student in Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/franke/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/franke/cv.pdf">CV</a>
@@ -44,6 +44,22 @@ permalink: /people
       <a href="https://linkedin.com/in/loraine-franke/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/lorifranke" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+  </div>
+  </div>
+</div>
+
+<div class="person">
+  <img src="/people/freeman/freeman.jpeg">
+  <div class="caption">
+    Jesse Freeman<br>
+    <span class="role">PhD Student in Computer Science</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/freeman/cv.pdf">CV</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/jesse-freeman-40018350/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/jessewilliamfreeman" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:freeman@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
