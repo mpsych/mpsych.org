@@ -64,6 +64,23 @@ permalink: /people
   </div>
 </div>
 
+
+<div class="person">
+  <img src="/people/manish.jpg">
+  <div class="caption">
+    Manish Mourya, M.S<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+	<span class="links">
+      <a class="cleanlink" href="https://mouryamanish.github.io">Bio</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/manish-mourya" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/MouryaManish" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:mourya@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+  </div>
+  </div>
+</div>
+
 <div class="person">
   <img src="/gfx/team.png">
   <div class="caption">
