@@ -34,7 +34,7 @@ permalink: /people
 <div class="person">
   <img src="/people/franke.jpg">
   <div class="caption">
-    Loraine Franke, BS, MS<br>
+    Loraine Franke, MS<br>
     <span class="role">PhD Student in Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/franke/bio.txt">Bio</a>
