@@ -34,7 +34,7 @@ permalink: /people
 <div class="person">
   <img src="/people/franke.jpg">
   <div class="caption">
-    Loraine Franke<br>
+    Loraine Franke, BS, MS<br>
     <span class="role">PhD Student in Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/franke/bio.txt">Bio</a>
@@ -51,7 +51,7 @@ permalink: /people
 <div class="person">
   <img src="/people/freeman.jpg">
   <div class="caption">
-    Jesse Freeman<br>
+    Jesse Freeman, BS<br>
     <span class="role">PhD Student in Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/freeman/cv.pdf">CV</a>
@@ -68,7 +68,7 @@ permalink: /people
 <div class="person">
   <img src="/people/manish.jpg">
   <div class="caption">
-    Manish Mourya, M.S<br>
+    Manish Mourya, MS<br>
     <span class="role">Machine Psychology Fellow</span><br>
 	<span class="links">
       <a class="cleanlink" href="https://mouryamanish.github.io">Bio</a>
