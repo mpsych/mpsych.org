@@ -3,12 +3,12 @@ layout: page
 permalink: /
 ---
 
-<div id='advertisement' style='position:absolute;top:20px;right:20px'>
-<!--   <a href='https://mpsych.org/join/'><img src='gfx/animated_heart.gif' style='width:40px;border:thin solid black;'></a><br> -->
+<!--<div id='advertisement' style='position:absolute;top:20px;right:20px'>
   <center>
     <img src='gfx/heart.png' style='width:30px'><br><a href='https://mpsych.org/join/'>JOIN US!</a>
   </center>
 </div>
+-->
 
 <span class="teaser" style="left:20%;position:relative">We study <span class="bluetext">natural</span> and</span>
 <span class="teaser" style="position: relative; float:left; left:30%;margin-top:-20px;"><span class="bluetext">artificial neural networks</span>.</span>
