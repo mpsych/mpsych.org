@@ -81,6 +81,29 @@ permalink: /people
   </div>
 </div>
 
+
+<div class="person">
+  <img src="/people/hussain.jpg" style="transform: rotate(-15deg);">
+  <div class="caption">
+    Yahiya Hussain<br>
+    <span class="role">Undergraduate in Computer Science and Mathematics</span><br>
+<!--     <span class="links">
+      <a class="cleanlink" href="/people/haehn/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/haehn/cv.pdf">CV</a>
+      <a class="cleanlink" href="/people/haehn/research.pdf">Research Statement</a>
+      <a class="cleanlink" href="/people/haehn/teaching.pdf">Teaching Statement</a>
+    </span><br> -->
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+<!--       <a href="https://twitter.com/danielhaehn" target="_blank"><span class="icon-twitter tooltip"><span class="tooltiptext">Twitter</span></span></a>
+      <a href="https://scholar.google.com/citations?user=HGvsO6oAAAAJ&amp;hl=en" target="_blank"><span class="icon-book tooltip"><span class="tooltiptext">Google Scholar</span></span></a> -->
+      <a href="https://www.linkedin.com/in/yahiya-hussain-381891184/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/YahtzeeRage" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:Hussain@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+  </div>
+  </div>
+</div>
+
+
 <div class="person">
   <img src="/gfx/team.png">
   <div class="caption">
@@ -128,23 +151,4 @@ permalink: /people
 </div>
 
 
-<div class="person">
-  <img src="/people/hussain.jpg" style="transform: rotate(-15deg);">
-  <div class="caption">
-    Yahiya Hussain<br>
-    <span class="role">Undergraduate in Computer Science and Mathematics</span><br>
-<!--     <span class="links">
-      <a class="cleanlink" href="/people/haehn/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/haehn/cv.pdf">CV</a>
-      <a class="cleanlink" href="/people/haehn/research.pdf">Research Statement</a>
-      <a class="cleanlink" href="/people/haehn/teaching.pdf">Teaching Statement</a>
-    </span><br> -->
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-<!--       <a href="https://twitter.com/danielhaehn" target="_blank"><span class="icon-twitter tooltip"><span class="tooltiptext">Twitter</span></span></a>
-      <a href="https://scholar.google.com/citations?user=HGvsO6oAAAAJ&amp;hl=en" target="_blank"><span class="icon-book tooltip"><span class="tooltiptext">Google Scholar</span></span></a> -->
-      <a href="https://www.linkedin.com/in/yahiya-hussain-381891184/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/YahtzeeRage" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:Hussain@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
+
