@@ -86,7 +86,7 @@ permalink: /people
   <img src="/people/hussain.jpg" style="transform: rotate(-15deg);">
   <div class="caption">
     Yahiya Hussain<br>
-    <span class="role">Undergraduate in Computer Science and Mathematics</span><br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
 <!--     <span class="links">
       <a class="cleanlink" href="/people/haehn/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/haehn/cv.pdf">CV</a>
