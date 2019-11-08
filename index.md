@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 ---
-
+ 
 <!--<div id='advertisement' style='position:absolute;top:20px;right:20px'>
   <center>
     <img src='gfx/heart.png' style='width:30px'><br><a href='https://mpsych.org/join/'>JOIN US!</a>
