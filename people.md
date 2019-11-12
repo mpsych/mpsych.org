@@ -96,9 +96,9 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
 <!--       <a href="https://twitter.com/danielhaehn" target="_blank"><span class="icon-twitter tooltip"><span class="tooltiptext">Twitter</span></span></a>
       <a href="https://scholar.google.com/citations?user=HGvsO6oAAAAJ&amp;hl=en" target="_blank"><span class="icon-book tooltip"><span class="tooltiptext">Google Scholar</span></span></a> -->
-      <a href="https://www.linkedin.com/in/yahiya-hussain-381891184/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://www.linkedin.com/in/yahiyahussain" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/YahtzeeRage" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:Hussain@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
