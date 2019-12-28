@@ -24,7 +24,7 @@ team @ mpsych.org
 
 <div style="float:right;margin:20px;width:500px">
 Arrive via public transportation:<br>Take the <a href="https://www.mbta.com/schedules/Red/line" class="bluetext" target="_blank">Red Line</a> to the <a href="https://www.mbta.com/stops/place-jfk" target="_blank" class="bluetext">JFK/UMass</a> stop. Free shuttle buses are available to transport you to campus.<br><br>
-Follow the <a href="https://www.umb.edu/map" target="_blank" class="bluetext">Campus map</a> to the Science Center. Or just ask people for directions. They are all very friendly!
+Follow the <a href="https://www.umb.edu/map" target="_blank" class="bluetext">Campus map</a> to McCormack Hall, 3rd floor. Or just ask people for directions. They are all very friendly!
 </div>
 
 {% include map.html %}
