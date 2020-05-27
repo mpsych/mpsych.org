@@ -99,7 +99,7 @@ permalink: /people
 
 
 <div class="person">
-  <img src="/people/hussain.jpg" style="transform: rotate(-15deg);">
+  <img src="/people/hussain.jpg">
   <div class="caption">
     Yahiya Hussain<br>
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
