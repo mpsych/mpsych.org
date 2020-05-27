@@ -10,9 +10,14 @@ permalink: /paper
 
       <div class="bibtex_template" style='font-size:14pt'>
         <center style='width:700px'>
-        <span class=' lightgray journal'></span><span class=' lightgray booktitle'></span>, <span class=' lightgray year'></span><br>            
+        <span class=' lightgray journal'></span><span class=' lightgray booktitle'></span><span class='lightgray'>,</span> <span class=' lightgray year'></span><br>            
               <span class='title'></span><br>
-        <span class=' gray author'><span class="first_initial"></span> <span class="von"></span><span class="last"></span><span class="junior"></span></span><br><br>   
+        <span class=' gray author'><span class="first_initial"></span> <span class="von"></span><span class="last"></span><span class="junior"></span></span><br>
+
+        <span class='lightgray bib_optional bibtexVar' extra='SPOTLIGHT' href='+SPOTLIGHT+'>Spotlight Presentation <img src='gfx/award.png' width='17' height='17'><br></span>
+        <span class='lightgray bib_optional bibtexVar' extra='BESTPAPER' href='+BESTPAPER+'>Best Paper Award <img src='gfx/award.png' width='17' height='17'><br></span>
+
+        <br>
 
         <div style='width:700px; text-align:justify;font-size:12pt;' data-innerText='+ABSTRACT+' class=' bib_optional bibtexVar' extra='ABSTRACT'><img class='bibtexVar thumbnail' src='/papers/+BIBTEXKEY+.png' width="150" height="150" extra="BIBTEXKEY" style='margin-top:10px;float:left; margin-right:12px;filter: grayscale(0%);'></div>
 

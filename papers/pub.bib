@@ -1,4 +1,50 @@
 %
+% 2020
+%
+% @inproceedings{haehn2020trako,
+%   title={},
+%   author={\myname{Haehn, Daniel} and Franke, Loraine and Zhang, Fan and Karayumak, Suheyla Cetin and Pieper, Steve and O'Donnell, Lauren and Rathi, Yogesh},
+%   abstract={Fiber tracking produces large tractography datasets that are tens of gigabytes in size consisting of millions of streamlines. Such vast amounts of data require formats that allow for efficient storage, transfer, and visualization. We present TRAKO, a new data format based on the Graphics Layer Transmission Format (glTF) that enables immediate graphical and hardware-accelerated processing. We integrate a state-of-the-art compression technique for vertices, streamlines, and attached scalar and property data. We then compare TRAKO to existing tractography storage methods and provide a detailed evaluation on eight datasets. TRAKO can achieve data reductions of over 28x without loss of statistical significance when used to replicate analysis from previously published studies. },
+%   booktitle={Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+%   pages={XXX--XXX},
+%   year={2020},
+%   organization={Springer, Cham},
+%   code={https://github.com/bostongfx/TRAKO/},
+% }
+
+@article {lekschas2020peax,
+    title={Peax: Interactive Visual Pattern Search in Sequential Data Using Unsupervised Deep Representation Learning},
+    author={Lekschas, Fritz and Peterson, Brant and Haehn, Daniel and Ma, Eric and Gehlenborg, Nils and Pfister, Hanspeter},
+    abstract={We present Peax, a novel feature-based technique for interactive visual pattern search in sequential data, like time series or data mapped to a genome sequence. Visually searching for patterns by similarity is often challenging because of the large search space, the visual complexity of patterns, and the user’s perception of similarity. For example, in genomics, researchers try to link patterns in multivariate sequential data to cellular or pathogenic processes, but a lack of ground truth and high variance makes automatic pattern detection unreliable. We have developed a convolutional autoencoder for unsupervised representation learning of regions in sequential data that can capture more visual details of complex patterns compared to existing similarity measures. Using this learned representation as features of the sequential data, our accompanying visual query system enables interactive feedback-driven adjustments of the pattern search to adapt to the users’ perceived similarity. Using an active learning sampling strategy, Peax collects user-generated binary relevance feedback. This feedback is used to train a model for binary classification, to ultimately find other regions that exhibit patterns similar to the search target. We demonstrate Peax’s features through a case study in genomics and report on a user study with eight domain experts to assess the usability and usefulness of Peax. Moreover, we evaluate the effectiveness of the learned feature representation for visual similarity search in two additional user studies. We find that our models retrieve significantly more similar patterns than other commonly used techniques.},
+    journal={Computer Graphics Forum},
+    publisher={The Eurographics Association and John Wiley & Sons Ltd.},
+    year={2020},
+    bestpaper={yes},
+    issn={1467-8659},
+    doi={10.1111/cgf.13971},
+    supplemental={https://mpsych.org/papers/lekschas2020peax_supplemental.pdf},
+    code={https://github.com/flekschas/peax-experiment},
+    data={https://github.com/flekschas/peax-experiment},
+    website={http://peax.lekschas.de/},
+    shortvenue={EuroVis 2020 (Best Paper Award)}
+}
+
+@inproceedings{casser2020fast,
+  title={Fast Mitochondria Detection for Connectomics},
+  author={Casser, Vincent and Kang, Kai and Pfister, Hanspeter and \myname{Daniel Haehn}},
+  abstract={High-resolution connectomics data allows for the identification of dysfunctional mitochondria which are linked to a variety of diseases such as autism or bipolar. However, manual analysis is not feasible since datasets can be petabytes in size. We present a fully automatic mitochondria detector based on a modified U-Net architecture that yields high accuracy and fast processing times. We evaluate our method on multiple real-world connectomics datasets, including an improved version of the EPFL mitochondria benchmark. Our results show an Jaccard index of up to 0.90 with inference times lower than 16ms for a 512x512px image tile. This speed is faster than the acquisition speed of modern electron microscopes, enabling mitochondria detection in real-time. Our detector ranks first for real-time detection when compared to previous works and data, results, and code are openly available.},
+  booktitle={International Conference on Medical Imaging with Deep Learning},
+  pages={XXX--XXX},
+  year={2020},
+  spotlight={yes},
+  website={https://sites.google.com/view/connectomics/},
+  code={https://github.com/mpsych/mitochondria/},
+  data={https://sites.google.com/view/connectomics/},
+  shortvenue={MIDL 2020 (Spotlight)}
+}
+
+
+%
 % 2019
 %
 @InProceedings{matejek2019biologically,
@@ -225,6 +271,7 @@
   POSTER={http://mpsych.org/papers/haehn2012neuroimaging_poster.pdf},
   WEBSITE={http://goXTK.com},
   CODE={http://github.com/xtk/X},
+  spotlight={yes},
   POSTER={http://mpsych.org/papers/haehn2012neuroimaging_poster.pdf},
   shortvenue={Neuroinformatics 2012}
 }

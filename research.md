@@ -22,7 +22,9 @@ With advances in <span class="bluetext">computer science</span>, we target the g
       <td class='padding20' valign='top'>
         <span class='gray author'><span class="first_initial"></span> <span class="von"></span><span class="last"></span><span class="junior"></span></span><br>
         <a class='bibtexVar cleanlink' href='/paper?+BIBTEXKEY+' extra='BIBTEXKEY'><span class='title'></span></a><br>
-        <span class='lightgray journal'></span><span class='lightgray booktitle'></span>, <span class='lightgray year'></span><br>
+        <span class='lightgray journal'></span><span class='lightgray booktitle'></span><span class='lightgray'>,</span> <span class='lightgray year'></span><br>
+        <span class='lightgray bib_optional bibtexVar' extra='SPOTLIGHT' href='+SPOTLIGHT+'>Spotlight Presentation <img src='gfx/award.png' width='17' height='17'><br></span>
+        <span class='lightgray bib_optional bibtexVar' extra='BESTPAPER' href='+BESTPAPER+'>Best Paper Award <img src='gfx/award.png' width='17' height='17'><br></span>
         <span class='gray'>
           <a class='bibtexVar cleanlink' target='_blank' href='papers/+BIBTEXKEY+.pdf' extra='BIBTEXKEY'>Paper</a> |
           <span class='bib_optional bibtexVar' extra='SUPPLEMENTAL' href='+SUPPLEMENTAL+'><a class='bibtexVar cleanlink' extra='SUPPLEMENTAL' href='+SUPPLEMENTAL+' target='_blank'>Supplemental</a> | </span>
