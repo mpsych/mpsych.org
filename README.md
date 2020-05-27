@@ -1,4 +1,11 @@
 # mpsych.org
 
+```
+sudo apt-get install ruby-bundler ruby-dev
 
-To run locally: https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll (skip steps 1 and 3)
+gem install github-pages -v '198' --source 'https://rubygems.org/'
+
+bundle install
+
+bundle exec jekyll serve
+```
