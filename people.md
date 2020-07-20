@@ -138,12 +138,12 @@ permalink: /people
 <div class="person">
   <img src="/people/giannaYang.jpg">
   <div class="caption">
-    Gianna Yang, MS<br>
+    Gianna Yang, BE<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/guangyang98/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/GuangYang98" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:yang@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
