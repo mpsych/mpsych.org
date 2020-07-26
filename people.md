@@ -80,38 +80,25 @@ permalink: /people
   </div>
 </div>
 
-
 <div class="person">
-  <img src="/people/manish.jpg">
+  <img src="/people/yang.jpg">
   <div class="caption">
-    Manish Mourya, MS<br>
+    Gianna Yang, BE<br>
     <span class="role">Machine Psychology Fellow</span><br>
-	<span class="links">
-      <a class="cleanlink" href="https://mouryamanish.github.io">Bio</a>
-    </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/manish-mourya" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/MouryaManish" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="https://www.linkedin.com/in/guangyang98/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/GuangYang98" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
-
 
 <div class="person">
   <img src="/people/hussain.jpg">
   <div class="caption">
     Yahiya Hussain<br>
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-<!--     <span class="links">
-      <a class="cleanlink" href="/people/haehn/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/haehn/cv.pdf">CV</a>
-      <a class="cleanlink" href="/people/haehn/research.pdf">Research Statement</a>
-      <a class="cleanlink" href="/people/haehn/teaching.pdf">Teaching Statement</a>
-    </span><br> -->
     <div class="icons gray" style="font-size:14px;margin-left:10px">
-<!--       <a href="https://twitter.com/danielhaehn" target="_blank"><span class="icon-twitter tooltip"><span class="tooltiptext">Twitter</span></span></a>
-      <a href="https://scholar.google.com/citations?user=HGvsO6oAAAAJ&amp;hl=en" target="_blank"><span class="icon-book tooltip"><span class="tooltiptext">Google Scholar</span></span></a> -->
       <a href="https://www.linkedin.com/in/yahiyahussain" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/YahtzeeRage" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
@@ -130,19 +117,6 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/nandiniiys" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/nandiniiys" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
-  <img src="/people/giannaYang.jpg">
-  <div class="caption">
-    Gianna Yang, BE<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/guangyang98/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/GuangYang98" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
@@ -194,5 +168,15 @@ permalink: /people
   </div>
 </div>
 
+<p style="margin-left:14%;margin-top:50px;">Alumni</p>
 
-
+<div class="alumni">
+  <img src="/people/alumni/manish.jpg">
+  <div class="caption">
+    Manish Mourya, MS<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://mouryamanish.github.io">Website</a>
+    </span>
+  </div>
+</div>

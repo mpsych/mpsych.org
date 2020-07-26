@@ -372,6 +372,36 @@ nav {
   }
 }
 
+.alumni {
+  margin-left: 13%;
+  margin-bottom: 20px;
+  height:100px;
+  img {
+    border-radius: 50%;
+    filter: grayscale(100%);
+    width: 100px;
+    float:left;
+    border: solid 2px #29ABE2;
+  }
+  .caption {
+    font-size: 20px;
+    margin: 10px 20px;
+    text-align: left;
+    float: left;
+  }
+  .role {
+    color: gray;
+  }
+  .links {
+    font-size: 14px;
+    color: #29ABE2;
+    margin-left: 10px;
+  }
+  a {
+    padding-right: 10px;
+  }
+}
+
 //
 // .main
 //
