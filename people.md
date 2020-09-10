@@ -123,12 +123,12 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/kristin.jpg">
+  <img src="/people/qi.jpg">
   <div class="caption">
     Kristin Qi<br>
     <span class="role">PhD student in Computational Sciences Program</span><br>
 	<span class="links">
-      <a class="cleanlink" href="/people/kristinqi/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/qi/bio.txt">Bio</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/kristinqi/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
