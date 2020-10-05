@@ -21,7 +21,7 @@ Machine learning methods are inspired by neuroscientific discoveries&mdash;but c
 <br>
 <div class="twocolumn">
 <h2 style='text-align:center'><a href="{{ site.baseurl }}/research" class="cleanlink">RECENT PAPERS</a></h2>
-<div id="bibtex_display" bibtexkeys="haehn2020trako|lin2020twostream|lekschas2020peax|casser2020fast|matejek2019biologically"></div>
+<div id="bibtex_display" bibtexkeys="franke2020modern|haehn2020trako|lin2020twostream|lekschas2020peax|casser2020fast"></div>
 </div>
 
 <div class="twocolumn" style="overflow:hidden;height:500px;border-left:solid thin lightgray;">
