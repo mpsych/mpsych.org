@@ -123,6 +123,22 @@ permalink: /people
 </div>
 
 <div class="person">
+  <img src="/people/barkha.jpg">
+  <div class="caption">
+    Barkha Java, MS<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+	<span class="links">
+      <a class="cleanlink" href="resume.barkhajava.com">CV</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/barkha-java" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/barkhajava" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+  </div>
+  </div>
+</div>
+
+<div class="person">
   <img src="/people/hussain.jpg">
   <div class="caption">
     Yahiya Hussain<br>
@@ -146,22 +162,6 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/nandiniiys" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/nandiniiys" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
-  <img src="/people/barkha.jpg">
-  <div class="caption">
-    Barkha Java<br>
-    <span class="role">Graduate Machine Psychology Fellow</span><br>
-	<span class="links">
-      <a class="cleanlink" href="resume.barkhajava.com">CV</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/barkha-java" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/barkhajava" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
