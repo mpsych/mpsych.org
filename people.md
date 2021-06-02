@@ -186,10 +186,25 @@ permalink: /people
       <a href="https://www.linkedin.com/in/patricia-somera-a700701b3/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/patriciasomera" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:Somera@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
+    </div>
   </div>
 </div>
 
+<div class="person">      
+  <img src="/people/lara.jpg">
+  <div class="caption">
+    Isabelle Lara<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+	<span class="links">
+      <a class="cleanlink" href="/people/resume.lara.pdf">CV</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/isabelle-l-99903a137/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/isabellelara" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+    </div>
+  </div>
+</div>
 
 <div class="person">
   <img src="/gfx/team.png">
