@@ -49,22 +49,6 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/freeman.jpg">
-  <div class="caption">
-    Jesse Freeman, BS<br>
-    <span class="role">PhD Student in Computer Science</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/freeman/cv.pdf">CV</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/jesse-freeman-40018350/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/jessewilliamfreeman" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
   <img src="/people/qi.jpg">
   <div class="caption">
     Kristin Qi<br>
@@ -97,19 +81,6 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/yang.jpg">
-  <div class="caption">
-    Gianna Yang, BE<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/guangyang98/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/GuangYang98" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
   <img src="/people/cheng.png">
   <div class="caption">
     Jiali Cheng<br>
@@ -119,19 +90,6 @@ permalink: /people
       <a href="https://github.com/chengjiali" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
     </div>
-  </div>
-</div>
-
-<div class="person">
-  <img src="/people/oh.jpg">
-  <div class="caption">
-    Hayoun Oh<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/hayoun-oh-49a688205/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/hayounoh" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
   </div>
 </div>
 
@@ -156,22 +114,6 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/yahiyahussain" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/YahtzeeRage" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
-  <img src="/people/yeleswarapu.jpg">
-  <div class="caption">
-    Nandinii Yeleswarapu<br>
-    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-	<span class="links">
-      <a class="cleanlink" href="/people/yeleswarapu/resume.pdf">CV</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/nandiniiys" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/nandiniiys" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
@@ -272,6 +214,61 @@ permalink: /people
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/barkha-java">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/yang.jpg">
+  <div class="caption">
+    Gianna Yang, BE<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/guangyang98/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/yeleswarapu.jpg">
+  <div class="caption">
+    Nandinii Yeleswarapu, BS<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/nandiniiys">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/oh.jpg">
+  <div class="caption">
+    Hayoun Oh, MS<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/hayoun-oh-49a688205/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/freeman.jpg">
+  <div class="caption">
+    Jesse Freeman, BS<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/jesse-freeman-40018350/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/hussain.jpg">
+  <div class="caption">
+    Yahiya Hussain, BS<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/yahiyahussain">Website</a>
     </span>
   </div>
 </div>
