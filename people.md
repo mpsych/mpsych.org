@@ -107,48 +107,6 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/hussain.jpg">
-  <div class="caption">
-    Yahiya Hussain<br>
-    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/yahiyahussain" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/YahtzeeRage" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
-  <img src="/people/somera.png">
-  <div class="caption">
-    Patricia Somera<br>
-    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/patricia-somera-a700701b3/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/patriciasomera" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-    </div>
-  </div>
-</div>
-
-<div class="person">      
-  <img src="/people/lara.jpg">
-  <div class="caption">
-    Isabelle Lara<br>
-    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-	<span class="links">
-      <a class="cleanlink" href="/people/lara/resume.pdf">CV</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/isabelle-l-99903a137/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/isabellelara" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-    </div>
-  </div>
-</div>
-
-<div class="person">
   <img src="/gfx/team.png">
   <div class="caption">
     This could be your spot!<br>
@@ -269,6 +227,28 @@ permalink: /people
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/yahiyahussain">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/somera.png">
+  <div class="caption">
+    Patricia Somera<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/patricia-somera-a700701b3">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/lara.jpg">
+  <div class="caption">
+    Isabelle Lara<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/isabelle-l-99903a137">Website</a>
     </span>
   </div>
 </div>
