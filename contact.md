@@ -15,7 +15,7 @@ We are part of the <span class="bluetext">Department of Computer Science</span> 
 
 <div style="float:left;margin:20px">
 University of Massachusetts Boston<br>
-McCormack Hall, 3rd Floor, Room M-3-0201-64<br>
+McCormack Hall, 3rd Floor, M-3-0201-64<br>
 100 Morrissey Boulevard<br>
 Boston, MA 02125<br><br>
 +1.617.287.6441<br>
