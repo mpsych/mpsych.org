@@ -168,18 +168,18 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/nehaGoyal.JPG">
+  <img src="/people/goyal.jpg">
   <div class="caption">
     Neha Goyal, MS<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/neha/bio.txt">Bio</a>
-      <!-- <a class="cleanlink" href="/people/neha/cv.pdf">CV</a> -->
+      <a class="cleanlink" href="/people/neha/cv.pdf">CV</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/neha-goyal-696a30107/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/nehagoyal1994" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:sneh.goyal.22@gmail.com" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
