@@ -65,22 +65,6 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/vasudevan.jpg">
-  <div class="caption">
-    Aswin Vasudevan, MS<br>
-    <span class="role">PhD Student in Computer Science</span><br>
-    <span class="links">
-      <a class="cleanlink" href="https://www.aswinv.com">Bio</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/aswinvasudevan21/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/AswinVasudevan21" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
   <img src="/people/cheng.png">
   <div class="caption">
     Jiali Cheng<br>
@@ -249,6 +233,17 @@ permalink: /people
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/isabelle-l-99903a137">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/vasudevan.jpg">
+  <div class="caption">
+    Aswin Vasudevan, MS<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/aswinvasudevan21/">Website</a>
     </span>
   </div>
 </div>
