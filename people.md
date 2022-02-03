@@ -167,8 +167,8 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
-  <img src="/people/goyal.jpg">
+<div class="person" style="width: 50px;height:50px">
+  <img src="/people/goyal.jpg" >
   <div class="caption">
     Neha Goyal, MS<br>
     <span class="role">Machine Psychology Fellow</span><br>
