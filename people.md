@@ -108,7 +108,7 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/haehn.jpg">
+  <img src="/people/zurrin.jpg">
   <div class="caption">
     Ryan Zurrin,<br>
     <span class="role">Machine Psychology Fellow</span><br>
@@ -120,11 +120,14 @@ permalink: /people
       <a href="https://twitter.com/ryan_zurrin" target="_blank"><span class="icon-twitter tooltip"><span class="tooltiptext">Twitter</span></span></a>
       <a href="https://www.linkedin.com/in/ryan-zurrin" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/RyanZurrin" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="https:www.ryanzurrin.com" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">Website</span></span></a>
       <a href="mailto:ryanzurrin@ryanzurrin.com" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <span class="links">
+      <a class="cleanlink" href="https://www.ryanzurrin.com" target="_blank">Website</a>
+    </span>
   </div>
   </div>
 </div>
+
 
 <div class="person">
   <img src="/gfx/team.png">
