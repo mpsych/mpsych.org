@@ -118,6 +118,22 @@ permalink: /people
   </div>
 </div>
 
+<div class="person">
+  <img src="/people/bendiksen.jpg">
+  <div class="caption">
+    Pablo Bendiksen, MS<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/bendiksen/bio.txt">Bio</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="www.linkedin.com/in/pablo-bendiksen-11b583127" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/pablobendiksen" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:p.bendiksen001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+  </div>
+  </div>
+</div>
+
 <p style="margin-left:14%;margin-top:50px;">Collaborators</p>
 
 <div class="collaborator">
