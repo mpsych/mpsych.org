@@ -111,7 +111,7 @@ permalink: /people
   <img src="/people/haehn.jpg">
   <div class="caption">
     Ryan Zurrin,<br>
-    <span class="role">B.S. Undergraduate in Computer Science</span><br>
+    <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/zurrin/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/zurrin/cv.pdf">CV</a>
