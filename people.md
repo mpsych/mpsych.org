@@ -81,7 +81,7 @@ permalink: /people
   <img src="/people/RYang.jpg">
   <div class="caption">
     Raymond Yang<br>
-    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="role">Machine Psychology Fellow</span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/raymond-yang-913b64152/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/YangRyRay" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
@@ -111,7 +111,7 @@ permalink: /people
   <img src="/people/zurrin.jpg">
   <div class="caption">
     Ryan Zurrin<br>
-    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/zurrin/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/zurrin/cv.pdf">CV</a>
