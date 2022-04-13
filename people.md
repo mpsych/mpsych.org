@@ -135,7 +135,6 @@ permalink: /people
 </div>
 
 <p style="margin-left:14%;margin-top:50px;">Collaborators</p>
-
 <div class="collaborator">
   <img src="/people/collaborators/tompkin.png">
   <div class="caption">
