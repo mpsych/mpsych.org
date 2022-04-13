@@ -110,7 +110,7 @@ permalink: /people
 <div class="person">
   <img src="/people/zurrin.jpg">
   <div class="caption">
-    Ryan Zurrin,<br>
+    Ryan Zurrin<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/zurrin/bio.txt">Bio</a>
