@@ -102,7 +102,7 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/neha-goyal-696a30107/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/nehagoyal1994" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:sneh.goyal.22@gmail.com" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
@@ -115,13 +115,13 @@ permalink: /people
     <span class="links">
       <a class="cleanlink" href="/people/zurrin/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/zurrin/cv.pdf">CV</a>
+      <a class="cleanlink" href="https://www.ryanzurrin.com" target="_blank">Website</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://twitter.com/ryan_zurrin" target="_blank"><span class="icon-twitter tooltip"><span class="tooltiptext">Twitter</span></span></a>
       <a href="https://www.linkedin.com/in/ryan-zurrin" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/RyanZurrin" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:ryanzurrin@ryanzurrin.com" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-      <a class="cleanlink" href="https://www.ryanzurrin.com" target="_blank">Website</a>
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
@@ -135,9 +135,9 @@ permalink: /people
       <a class="cleanlink" href="/people/bendiksen/bio.txt">Bio</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="www.linkedin.com/in/pablo-bendiksen-11b583127" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://www.linkedin.com/in/pablo-bendiksen-11b583127" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/pablobendiksen" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:pablobendiksen@gmail.com" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
