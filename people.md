@@ -65,31 +65,6 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
-  <img src="/people/cheng.png">
-  <div class="caption">
-    Jiali Cheng<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/jiali-cheng-67056b14a/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/chengjiali" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-    </div>
-  </div>
-</div>
-
-<div class="person">
-  <img src="/people/RYang.jpg">
-  <div class="caption">
-    Raymond Yang<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/raymond-yang-913b64152/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/YangRyRay" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_FIRSTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
 
 <div class="person">
   <img src="/people/goyal.jpg">
@@ -299,3 +274,27 @@ permalink: /people
     </span>
   </div>
 </div>
+
+<div class="alumni">
+  <img src="/people/alumni/cheng.png">
+  <div class="caption">
+    Jiali Cheng<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/jiali-cheng-67056b14a/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/ryang.jpg">
+  <div class="caption">
+    Raymond Yang<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/raymond-yang-913b64152/">Website</a>
+    </span>
+  </div>
+</div>
+
+
