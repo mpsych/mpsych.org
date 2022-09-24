@@ -64,6 +64,22 @@ permalink: /people
 </div>
 
 <div class="person">
+  <img src="/people/mgeshvadi.jpg">
+  <div class="caption">
+    Mahsa Geshvadi, PhD<br>
+    <span class="role">PhD Student in Computer Science</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/mgeshvadi/bio.txt">Bio</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/mahsa-geshvadi-13233a124/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/mahsageshvadi" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+    </div>
+  </div>
+</div>
+
+<div class="person">
   <img src="/people/goyal.jpg">
   <div class="caption">
     Neha Goyal, MS<br>
@@ -128,7 +144,7 @@ permalink: /people
       <a href="https://www.linkedin.com/in/jainkhere/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/jainkhere" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:kunal.jain001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
+    </div>
   </div>
 </div>
 
