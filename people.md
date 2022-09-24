@@ -122,6 +122,7 @@ permalink: /people
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/jain/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/jain/cv.pdf">CV</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/jainkhere/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
