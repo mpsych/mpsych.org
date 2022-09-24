@@ -6,7 +6,6 @@ permalink: /people
 <span class="teaser" style="left:20%;position:relative">We are an <span class="bluetext">inclusive team</span> and</span>
 <span class="teaser" style="position: relative; float:left; left:40%;margin-top:-20px;">love to <span class="bluetext">collaborate</span>!</span>
 
-
 <br><br><br>
 
 <div class="person">
@@ -29,7 +28,6 @@ permalink: /people
   </div>
   </div>
 </div>
-
 
 <div class="person">
   <img src="/people/franke.jpg">
@@ -64,7 +62,6 @@ permalink: /people
   </div>
   </div>
 </div>
-
 
 <div class="person">
   <img src="/people/goyal.jpg">
@@ -114,6 +111,22 @@ permalink: /people
       <a href="https://www.linkedin.com/in/pablo-bendiksen-11b583127" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/pablobendiksen" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+  </div>
+  </div>
+</div>
+
+<div class="person">
+  <img src="/people/jain.jpg">
+  <div class="caption">
+    Kunal Jain, MS<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/jain/bio.txt">Bio</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/jainkhere/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/jainkhere" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:kunal.jain001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
 </div>
@@ -296,5 +309,3 @@ permalink: /people
     </span>
   </div>
 </div>
-
-
