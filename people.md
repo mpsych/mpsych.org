@@ -66,7 +66,7 @@ permalink: /people
 <div class="person">
   <img src="/people/mgeshvadi.jpg">
   <div class="caption">
-    Mahsa Geshvadi, PhD<br>
+    Mahsa Geshvadi<br>
     <span class="role">PhD Student in Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/mgeshvadi/bio.txt">Bio</a>
@@ -116,25 +116,9 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/bendiksen.jpg">
-  <div class="caption">
-    Pablo Bendiksen, MS<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/bendiksen/bio.txt">Bio</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/pablo-bendiksen-11b583127" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/pablobendiksen" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
   <img src="/people/jain.jpg">
   <div class="caption">
-    Kunal Jain, MS<br>
+    Kunal Jain<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/jain/bio.txt">Bio</a>
@@ -323,6 +307,17 @@ permalink: /people
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/raymond-yang-913b64152/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/bendiksen.jpg">
+  <div class="caption">
+    Pablo Bendiksen<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/pablo-bendiksen-11b583127">Website</a>
     </span>
   </div>
 </div>
