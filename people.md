@@ -33,7 +33,7 @@ permalink: /people
   <img src="/people/franke.jpg">
   <div class="caption">
     Loraine Franke, MS<br>
-    <span class="role">PhD Student in Computer Science</span><br>
+    <span class="role">PhD Candidate in Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/franke/bio.txt">Bio</a>
       <!-- <a class="cleanlink" href="/people/franke/cv.pdf">CV</a> -->
@@ -51,7 +51,7 @@ permalink: /people
   <img src="/people/qi.jpg">
   <div class="caption">
     Kristin Qi<br>
-    <span class="role">PhD student in Computational Sciences</span><br>
+    <span class="role">PhD Student in Computational Sciences</span><br>
   <span class="links">
       <a class="cleanlink" href="/people/qi/bio.txt">Bio</a>
     </span><br>
