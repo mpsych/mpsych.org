@@ -1,0 +1,357 @@
+/*
+
+                                   X
+                                   XX
+                          X        XXX
+                          XX       XXXX
+                          XXX      XXXX
+                          XXXX     XXXX
+                          XXXXX    XXXX
+                           XXXXX   XXXX
+                            XXXXX  XXXX
+                             XXXX  XXXX
+                              XXX  XXX
+                               XX  XX
+                              XXXXXXXXXX
+                             XXXXXXXXOXXXX
+                             XXXXXXXXXXXXXX
+                             XXXXXXXXXXXXXX
+                             XXXXXXXXXXXXX
+                              XXXXXXXXXX
+                              XXXXXXXXX
+                             XXXXXXXXXX
+                           XXXXXXXXXXXX
+                         XXXXXXXXXXXXXX
+                       XXXXXXXXXXXXXXXXX
+                     XXXXXXXXXXXXXXXXXXX
+                   XXXXXXXXXXXXXXXXXXXXX
+                 XXXXXXXXXXXXXXXXXXXXXXX
+               XXXXXXXXXXXXXXXXXXXXXXXXX
+              XXXXXXXXXXXXXXXXXXXXXXXXX
+             XXXXXXXXXXXXXXXXXXXXXXXXX
+            XXXXXXXXXXXXXXXXXXXXXXXXX
+            XXXXXXXXXXXXXXXXXXXXXXXXXX
+   XXXXX    XXXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXX XXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    XXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      XXXXX
+ XXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   XXXXX      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+ https://danielhaehn.com
+ 
+ email me!   d <AT> e y - i . o r g
+
+ PZ.
+
+*/
+
+
+
+/*
+ *
+ * ICONS
+ *
+ */
+
+body {
+    background: black;
+    color: white;
+    font-family: oswald;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+    cursor: hand;
+}
+
+a:hover {
+    color: white;
+}
+
+/*
+ *
+ * LAYOUT
+ *
+ */
+
+#container {
+    margin:0 auto;
+    width: 1000px;
+    max-width: 1000px;
+}
+
+#left {
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    text-align: right;
+    padding: 24px;
+    float: left;
+    color: gray;
+    font-family: oswald;
+}
+
+#right {
+    float: right;
+    right: 0px;
+    top: 0px;
+    width: 650px;
+    /*padding: 30px;*/
+/*    position: absolute;;*/
+    font-size: 1.5em;
+}
+
+/*
+ *
+ * FONTZ
+ *
+ */
+
+.bold {
+    font-family: oswald_medium;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.gray {
+    color: gray;
+}
+
+.lightgray {
+    color: lightgray;
+}
+
+.pink {
+    color: hotpink;
+}
+
+.white {
+    color: white;
+    break-inside: none;
+}
+
+.littlesmaller {
+    font-size: .99em;
+}
+
+.small {
+    font-size: .8em;
+}
+
+.tiny {
+    font-size: .6em;
+}
+
+.supertiny {
+    font-size: .5em;
+}
+
+.margin50 {
+    margin-top: 50px;
+}
+
+.biggerwhite {
+    letter-spacing: -1px; 
+    color: white;
+    font-size: x-large;
+    line-height: 80%;
+
+}
+
+/*
+ *
+ * COOL STUFF
+ *
+ */
+
+/* inspired by https://codepen.io/joshbader/pen/fFLno */
+#me_container {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    /*margin: 20px auto;*/
+    perspective: 1000px;
+}
+
+#me_info {
+    position: relative;
+    margin-top: 60px;
+}
+
+#me_cube {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 250ms;
+    /*transform: translateX(37.5px) rotateX(0) translateX(-37.5px);*/
+}
+
+#me_cube figure {
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 200px;
+    /*margin-bottom: 10px;*/
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+
+
+#me_cube .front { transform: rotateY(0deg) translateZ(75px); }
+#me_cube .back { transform: rotateX(180deg) translateZ(75px); }
+#me_cube .right { transform: rotateY(90deg) translateZ(75px); }
+#me_cube .left { transform: rotateY(-90deg) translateZ(75px); }
+#me_cube .top { transform: rotateX(90deg) translateZ(100px); }
+#me_cube .bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+.blur { animation: blur 250ms; }
+
+@keyframes blur {
+    0% { -webkit-filter: blur(0px); }
+    50% { -webkit-filter: blur(5px); }
+    100% { -webkit-filter: blur(0px); }
+}
+
+#bockwurst {
+    color: black;
+}
+
+#bockwurst:hover {
+    color: hotpink;
+}
+
+.video {
+    border: thin solid white;
+}
+
+/*
+ *
+ * ICONS
+ *
+ */
+.icons {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    letter-spacing: -2px; 
+    padding-right: 6px;
+}
+.icon-left-arrow:before {
+    content: "\ea38"
+}
+.icon-right-arrow:before {
+    content: "\ea34"
+}
+.icon-instagram:before {
+    content: "\ea92"
+}
+.icon-twitter:before {
+    content: "\ea96"
+}
+.icon-email:before {
+    content: "\envelop"
+}
+.icon-linkedin:before {
+    content: "\eac9"
+}
+.icon-linkedin2:before {
+    content: "\eaca"
+}
+.icon-email:before {
+    content: "\e945"
+}
+.icon-github:before {
+    content: "\eab0"
+}
+.icon-cv:before {
+    content: "\e923"
+}
+.icon-book:before {
+    content: "\e921"
+}
+
+/* BIBTEX */
+.danielhaehn {
+    text-decoration: underline;
+}
+
+.thumbnail {
+    border: solid thin gray;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);    
+}
+
+.pubtable {
+    width: 660px;
+    padding-right: 10px;
+    border-right: solid medium black;
+}
+
+.pubtable:hover {
+    border-right: solid medium hotpink;
+    /*background: hotpink;*/
+}
+
+.pubtable:hover .thumbnail {
+    filter: grayscale(0%);
+}
+
+.pubtable a {
+    color: white;
+}
+
+.pubtable:hover a {
+    color: hotpink;
+}
+
+.pubtable:hover a:hover {
+    color: white;
+}
+
+.pubtable:hover .title {
+    color: hotpink;
+}
+
+.bibtexVar[href='undefined'] {
+    display: none;
+}
+
+[data-innerText]::after {
+  content: attr(data-innerText);
+}
+
+.file_icon {
+    filter: grayscale(100%);
+}
+
+.file_icon:hover {
+    filter: grayscale(0%);
+}
+
+/* DOCUMENTS */
+.document {
+  margin-top: 50px;
+}
+
+.document_thumb {
+  margin-left: 20px;
+  border: solid thin hotpink;
+  vertical-align: middle;
+}
+
+.document_title {
+  margin-left: 20px;
+}
