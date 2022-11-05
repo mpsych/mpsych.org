@@ -171,10 +171,12 @@ permalink: /people
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://github.com/Kiransandilya/My/blob/main/bio.txt">Bio</a>
+      <a class="cleanlink" href="https://github.com/Kiransandilya/My/blob/main/CV.pdf">CV</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">   
       <a href="https://github.com/kiransandilya" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:kiran.sandilya001@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="https://www.linkedin.com/in/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="mailto:sandilya@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
 </div>
