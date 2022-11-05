@@ -170,7 +170,7 @@ permalink: /people
     Kiran Sandilya<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
-      <a class="cleanlink" href="/people/kiran/bio.txt">Bio</a>
+      <a class="cleanlink" href="https://github.com/Kiransandilya/My/blob/main/bio.txt">Bio</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">   
       <a href="https://github.com/kiransandilya" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
