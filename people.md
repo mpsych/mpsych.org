@@ -15,7 +15,7 @@ permalink: /people
     <span class="role">Assistant Professor of Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/haehn/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/haehn/cv.pdf">CV</a>
+      <a class="cleanlink" href="https://danielhaehn.com/CV.pdf">CV</a>
       <a class="cleanlink" href="/people/haehn/research.pdf">Research Statement</a>
       <a class="cleanlink" href="/people/haehn/teaching.pdf">Teaching Statement</a>
     </span><br>
