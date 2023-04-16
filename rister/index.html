@@ -2,129 +2,426 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fly Datasets Overview</title>
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/tooltips.css" />
+    <title>  FLY OVERVIEW </title>
+    <style>
+        body, body * {
+            color: #DAE3E1;
+        }
+        /* Define background image */
+        body {
+            background-color: #2d5a56;
+             content: "";
+             display: block;
 
-    <script type='text/javascript' src='js/jquery.js'></script>
-    <script type='text/javascript' src='js/moment.js'></script>
+             top: 0;
+             left: 0;
+             width: 50%;
+             height: 50%;
+             background-image: url('https://fly.cs.umb.edu/fly.png');
+             background-repeat: no-repeat;
+             animation: moveBackground 90s ease-out infinite;
+             background-size: 50%;
+             opacity: 1;
+             z-index: -1;
+        }
+        @keyframes moveBackground {
+            from {
+                background-position: 0% 0%;
+            }
+            to {
+                 background-position: 100% 100%;
+            }
+        }
 
-    <script type='text/javascript' src='js/main.js'></script>
-    <script type='text/javascript' src='js/bibtex.js'></script>
+        /* Set box-sizing to border-box for all elements */
+         * {
+                box-sizing: border-box;
+                }
 
-	<style>
-		h1{text-align: center; "style=color:red" ;}
-	</style>
-      <style>
-		h2{text-align: left-40px; style="color:red" ;}
-	</style>
+         /* Style for the main heading */
+         .main-heading {
+                display: flex;
+                flex-direction: column;
+                align-items: center center;
+                margin: 70px;
+         }
+
+         /* Style for the subheading */
+         .subheading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+            border-top: 2px solid black;
+            padding-top: 20px;
+         }
+
+          /* Style for the sub-subheadings */
+          .sub-subheadings {
+               width: -webkit-fill-available;
+               display: flex;
+               align-items: center;
+               flex-wrap: wrap;
+               justify-content: space-between;
+               margin-top: 70px;
+            }
+
+           /* Style for each sub-subheading */
+          .sub-subheading {
+                width: calc(50% - 20px);
+                height: 300px;
+                margin-bottom: 30px;
+
+                border-radius: 20px;
+                /* padding: 20px; */
+          }
+
+            /* Style for the iframe container */
+          .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 61.25%;
+            height: 0;
+          }
+
+            /* Style for the iframe */
+          .iframe-container iframe {
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+              height: 100%;
+              border: none;
+          }
+        ``
+    </style>
 </head>
 <body>
-<html>
-<head>
-  <title>Fly Datasets Overview</title>
-  <style>
-    html,body {
-      font-family: sans-serif;
-    }
-    div {
-      float: left;
-      margin-left: 10px;
-    }
-  </style>
 
-</head>
-<body>
-
-<div style='width:300%'>
-<h2>WILD TYPE CS1</h2>
-    <div id='WILD TYPE CS1' >
-
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:59.73989170414522%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS1/overview%22%2C%22tab%22:%22source%22%2C%22name%22:%22overview%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22overview%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>Overview</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:59.73989170414522%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS1/overview%22%2C%22tab%22:%22source%22%2C%22name%22:%22overview%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22overview%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<h2></h2>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:47.22861694127476%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS1/tileset1%22%2C%22tab%22:%22source%22%2C%22name%22:%22tileset1%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22tileset1%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>tileset1</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:47.22861694127476%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS1/tileset1%22%2C%22tab%22:%22source%22%2C%22name%22:%22tileset1%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22tileset1%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<h2></h2>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:47.22861694127476%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS1/tileset2%22%2C%22tab%22:%22source%22%2C%22name%22:%22tileset2%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22tileset2%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>tileset2</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:47.22861694127476%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS1/tileset2%22%2C%22tab%22:%22source%22%2C%22name%22:%22tileset2%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22tileset2%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-</div>
-</div>
-</div>
-
-<h2> WILD TYPE CS2</h2>
- <div id='WILD TYPE CS2' >
-     <div style='width:300%'>
-
-    <div id='WILD TYPE CS2' >
-
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:45.45244837997857%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData1Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData1Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData1Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>NewData1Output</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:45.45244837997857%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData1Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData1Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData1Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<h2></h2>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:57.35263279388249%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData2Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData2Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData2Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>NewData2Output</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:57.35263279388249%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData2Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData2Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData2Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<h2></h2>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:44.3879816838141%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData3Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData3Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData3Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>NewData3Output</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:44.3879816838141%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData3Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData3Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData3Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<h2></h2>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B5e-8%2C%22m%22%5D%2C%22y%22:%5B5e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B1181.74267578125%2C819.3961181640625%2C635.5%5D%2C%22crossSectionScale%22:29.61500770792872%2C%22projectionScale%22:4096%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/VSOverviewTileSetOutput%22%2C%22tab%22:%22source%22%2C%22name%22:%22VSOverviewTileSetOutput%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22VSOverviewTileSetOutput%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>VSOverviewTileSetOutput</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B5e-8%2C%22m%22%5D%2C%22y%22:%5B5e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B1181.74267578125%2C819.3961181640625%2C635.5%5D%2C%22crossSectionScale%22:29.61500770792872%2C%22projectionScale%22:4096%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/VSOverviewTileSetOutput%22%2C%22tab%22:%22source%22%2C%22name%22:%22VSOverviewTileSetOutput%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22VSOverviewTileSetOutput%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
+<!--                                                     WILDTYPE CS   1                -->
+ <div class="main-heading">
+        <h1>WILD TYPE CS-1</h1>
+    <div class="subheading">
+        <h2>Overview</h2>
+        <div class="iframe-container">
+            <iframe id="CS1overview"></iframe>
+        </div>
+        <p><a id="CS1overviewlinks" href="">Overview</a></p>
+    </div>
+    <div class="subheading">
+        <h2>Tileset -1 </h2>
+        <div class="iframe-container">
+            <iframe id="CS1ts1"></iframe>
+        </div>
+        <p><a id="CS1ts1links" href="">Tileset -1</a></p>
+    </div>
+     <div class="subheading">
+        <h2>Tileset -2 </h2>
+        <div class="iframe-container">
+            <iframe id="CS1ts2"></iframe>
+        </div>
+        <p><a id="CS1ts2links" href="">Tileset -2</a></p>
+     </div>
  </div>
-</div>
-</div>
-</div>
 
 
-<div class="row">
-<h2>NINA D1 MUTANT</h2>
-    <div id='VSDataTileSet' >
-    <figcaption>VSDataTileSet</figcaption>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2476.382568359375%2C1680.276611328125%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/00%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>00</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2476.382568359375%2C1680.276611328125%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/00%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2634.7490234375%2C1854.4443359375%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/01%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>01</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2634.7490234375%2C1854.4443359375%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/01%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2108.974609375%2C1513.2587890625%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/02%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>02</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2108.974609375%2C1513.2587890625%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/02%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2303.2314453125%2C2073.55712890625%2C0.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/10%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>10</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2303.2314453125%2C2073.55712890625%2C0.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/10%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2384.152587890625%2C1822.84375%2C0.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/11%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>11</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2384.152587890625%2C1822.84375%2C0.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/11%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2825.14892578125%2C1840.482421875%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/12%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>12</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2825.14892578125%2C1840.482421875%2C3.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/12%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-</div>
 
-    <div id='VSDataTileSet2' >
-    <figcaption>VSDataTileSet2</figcaption>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22displayDimensions%22:%5B%22x%22%2C%22y%22%2C%22z%22%5D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:54.598150033144286%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set0%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>set0</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22displayDimensions%22:%5B%22x%22%2C%22y%22%2C%22z%22%5D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:54.598150033144286%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set0%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:54.598150033144286%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set1%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>set1</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:54.598150033144286%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set1%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set2%22%2C%22tab%22:%22source%22%2C%22name%22:%22set2%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set2%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>set2</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2754.42138671875%2C1879.8492431640625%2C634.5%5D%2C%22crossSectionScale%22:54.59815003314426%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set2%22%2C%22tab%22:%22source%22%2C%22name%22:%22set2%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set2%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-</div>
-</div>
-    <div id='VSOverviewTileset' >
 
-<div><a href='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B16206.3544921875%2C11080.8671875%2C634.5%5D%2C%22crossSectionScale%22:148.41315910257674%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSOverviewTileSet%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' target=_blank>VSOverviewTileset</a><br>
-<iframe src='https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B16206.3544921875%2C11080.8671875%2C634.5%5D%2C%22crossSectionScale%22:148.41315910257674%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSOverviewTileSet%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D' style='width:250px'></iframe>
-</div>
-</div>
-</div>
+<!--                                              WILDTYPE CS   2                    -->
+
+
+  <div class="main-heading">
+        <h1>WILD TYPE CS-2</h1>
+    <div class="subheading">
+        <h2>Overview</h2>
+        <div class="iframe-container">
+            <iframe id="CS2overview"></iframe>
+        </div>
+        <p><a id="CS2overviewlinks" href="">Overview</a></p>
+    </div>
+    <div class="subheading">
+        <h2>Tileset -1 </h2>
+        <div class="iframe-container">
+            <iframe id="CS2ts1"></iframe>
+        </div>
+        <p><a id="CS2ts1links" href="">Tileset -1</a></p>
+    </div>
+     <div class="subheading">
+        <h2>Tileset -2 </h2>
+        <div class="iframe-container">
+            <iframe id="CS2ts2"></iframe>
+        </div>
+        <p><a id="CS2ts2links" href="">Tileset -2</a></p>
+     </div>
+     <div class="subheading">
+        <h2>Tileset -3 </h2>
+        <div class="iframe-container">
+            <iframe id="CS2ts3"></iframe>
+        </div>
+        <p><a id="CS2ts3links" href="">Tileset -3</a></p>
+     </div>
+ </div>
+
+<!--                                                        NINA D1                 -->
+
+
+  <div class="main-heading">
+        <h1>NINA D1 MUTANT </h1>
+    <div class="subheading">
+        <h2>Overview</h2>
+        <div class="iframe-container">
+            <iframe id="NinaD1overview"></iframe>
+        </div>
+        <p><a id="NinaD1overviewlinks" href="">Overview</a></p>
+    </div>
+    <div class="subheading">
+        <h2>Tileset -1 </h2>
+        <div class="sub-subheadings">
+          <div class="sub-subheading">
+             <h3>00</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts100"></iframe>
+             </div>
+             <p><a id="NinaD1ts100links" href="">00</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>01</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts101"></iframe>
+             </div>
+             <p><a id="NinaD1ts101links" href="">01</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>02</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts102"></iframe>
+             </div>
+             <p><a id="NinaD1ts102links" href="">02</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>10</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts110"></iframe>
+             </div>
+             <p><a id="NinaD1ts110links" href="">10</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>11</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts111"></iframe>
+             </div>
+             <p><a id="NinaD1ts111links" href="">11</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>12</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts112"></iframe>
+             </div>
+             <p><a id="NinaD1ts112links" href="">12</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="subheading">
+        <h2>Tileset -2 </h2>
+        <div class="sub-subheadings">
+          <div class="sub-subheading">
+             <h3>S0</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts2s0"></iframe>
+             </div>
+             <p><a id="NinaD1ts2s0links" href="">S0</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>S1</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts2s1"></iframe>
+             </div>
+             <p><a id="NinaD1ts2s1links" href="">S1</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>S2</h3>
+             <div class="iframe-container">
+               <iframe id="NinaD1ts2s2"></iframe>
+             </div>
+             <p><a id="NinaD1ts2s2links" href="">S2</a></p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<!--                                                        MPSDel                -->
+  <div class="main-heading">
+        <h1>MPSDel </h1>
+    <div class="subheading">
+        <h2>Overview</h2>
+        <div class="iframe-container">
+            <iframe id="MPSoverview"></iframe>
+        </div>
+        <p><a id="MPSoverviewlinks" href="">Overview</a></p>
+    </div>
+    <div class="subheading">
+        <h2>Tileset  </h2>
+        <div class="sub-subheadings">
+          <div class="sub-subheading">
+             <h3>00</h3>
+             <div class="iframe-container">
+               <iframe id="MPSts00"></iframe>
+             </div>
+             <p><a id="MPSts00links" href="">00</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>01</h3>
+             <div class="iframe-container">
+               <iframe id="MPSts01"></iframe>
+             </div>
+             <p><a id="MPSts01links" href="">01</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>10</h3>
+             <div class="iframe-container">
+               <iframe id="MPSts10"></iframe>
+             </div>
+             <p><a id="MPSts10links" href="">10</a></p>
+          </div>
+          <div class="sub-subheading">
+             <h3>11</h3>
+             <div class="iframe-container">
+               <iframe id="MPSts11"></iframe>
+             </div>
+             <p><a id="MPSts11links" href="">11</a></p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="links.js"></script>
+  <script>
+
+
+
+    document.getElementById("CS1overview").src = CS1overview;
+    document.getElementById("CS1overviewlinks").href = CS1overview;
+    document.getElementById("CS1ts1").src = CS1ts1;
+    document.getElementById("CS1ts1links").href = CS1ts1;
+    document.getElementById("CS1ts2").src = CS1ts2;
+    document.getElementById("CS1ts2").href = CS1ts2;
+
+    document.getElementById("CS2overview").src = CS2overview;                            <!--                                               WILDTYPE CS 2                          -->
+    document.getElementById("CS2overviewlinks").href = CS2overview;                                                                       <!-- Overview  -->
+
+    document.getElementById("CS2ts1").src = CS2ts1;                                                                                        <!-- tileset1  -->
+    document.getElementById("CS2ts1links").href = CS2ts1;
+
+<!--tileset2  -->
+
+    document.getElementById("CS2ts2").src = CS2ts2;
+    document.getElementById("CS2ts2links").href = CS2ts2;
+<!--tileset3  -->
+    document.getElementById("CS2ts3").src = CS2ts3;
+    document.getElementById("CS2ts3links").href = CS2ts3;
+
+<!--                                               NINA D1 MUTANT                          -->
+<!-- Overview  -->
+
+    document.getElementById("NinaD1overview").src = NinaD1overview;
+    document.getElementById("NinaD1overviewlinks").href = NinaD1overview;
+
+<!-- tileset1  -->
+<!-- 00  -->
+    document.getElementById("NinaD1ts100").src = NinaD1ts100;
+    document.getElementById("NinaD1ts100links").href = NinaD1ts100;
+<!-- 01  -->
+    document.getElementById("NinaD1ts101").src = NinaD1ts101;
+    document.getElementById("NinaD1ts101links").href = NinaD1ts101;
+<!-- 02  -->
+    document.getElementById("NinaD1ts102").src = NinaD1ts102;
+    document.getElementById("NinaD1ts102links").href = NinaD1ts102;
+<!-- 10  -->
+    document.getElementById("NinaD1ts110").src = NinaD1ts110;
+    document.getElementById("NinaD1ts110links").href = NinaD1ts110;
+<!-- 11  -->
+    document.getElementById("NinaD1ts111").src = NinaD1ts111;
+    document.getElementById("NinaD1ts111links").href = NinaD1ts111;
+<!-- 12  -->
+    document.getElementById("NinaD1ts112").src = NinaD1ts112;
+    document.getElementById("NinaD1ts112links").href = NinaD1ts112;
+
+
+<!-- tileset2  -->
+<!-- S0  -->
+    document.getElementById("NinaD1ts2s0").src = NinaD1ts2s0;
+    document.getElementById("NinaD1ts2s0").href = NinaD1ts2s0;
+<!-- S1  -->
+    document.getElementById("NinaD1ts2s1").src = NinaD1ts2s1;
+    document.getElementById("NinaD1ts2s1links").href = NinaD1ts2s1;
+<!-- S2  -->
+    document.getElementById("NinaD1ts2s2").src = NinaD1ts2s2;
+    document.getElementById("NinaD1ts2s2links").href = NinaD1ts2s2;
+
+
+
+<!--                                               MPSDel                          -->
+<!-- Overview  -->
+
+    document.getElementById("MPSoverview").src = MPSoverview;
+    document.getElementById("MPSoverviewlinks").href = MPSoverview;
+
+<!-- tileset  -->
+<!-- 00  -->
+    document.getElementById("MPSts00").src = MPSts00;
+    document.getElementById("MPSts00links").href = MPSts00;
+<!-- 01  -->
+    document.getElementById("MPSts01").src = MPSts01;
+    document.getElementById("MPSts01links").href = MPSts01;
+
+<!-- 10  -->
+    document.getElementById("MPSts10").src = MPSts10;
+    document.getElementById("MPSts10links").src = MPSts10;
+<!-- 11  -->
+    document.getElementById("MPSts11").src = MPSts11;
+    document.getElementById("MPSts11links").href = MPSts11;
+
+  </script>
+ <script src="links.js"></script>
+  <script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+ <script src="links.js"></script>
+  <script>
+  </script>
+
+ <script src="links.js"></script>
+  <script>
+  </script>
+
 </body>
 </html>
