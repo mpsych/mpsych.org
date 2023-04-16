@@ -171,7 +171,8 @@ permalink: /people
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/kiran/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/kiran/kiran_sandilya_SDE.pdf">CV</a>
+       <a class="cleanlink" href="https://github.com/Kiransandilya/testfiles/main/bio.txt">Bio2</a>
+      <a class="cleanlink" href="https://github.com/Kiransandilya/testfiles/blob/main/resume.pdf">CV</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">   
       <a href="https://github.com/kiransandilya" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
