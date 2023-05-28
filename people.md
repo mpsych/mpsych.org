@@ -95,20 +95,21 @@ permalink: /people
   </div>
 </div>
 
+
 <div class="person">
-  <img src="/people/goyal.jpg">
+  <img src="/people/kiran.jpg">
   <div class="caption">
-    Neha Goyal, MS<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/neha/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/neha/cv.pdf">CV</a>
+    Kiran Sandilya<br>
+    <span class="role">PhD Student in Computer Science</span><br>
+    <span class="links">      
+      <a class="cleanlink" href="https://github.com/Kiransandilya/testfiles/blob/main/bio.txt">Bio</a>
+      <a class="cleanlink" href="https://github.com/Kiransandilya/testfiles/blob/main/resume.pdf">CV</a>
     </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/neha-goyal-696a30107/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/nehagoyal1994" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">   
+      <a href="https://github.com/kiransandilya" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="https://www.linkedin.com/in/kiran--sandilya" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="mailto:sandilya@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
   </div>
 </div>
 
@@ -131,22 +132,7 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
-  <img src="/people/jain.jpg">
-  <div class="caption">
-    Kunal Jain<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/jain/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/jain/cv.pdf">CV</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/jainkhere/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/jainkhere" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:kunal.jain001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-    </div>
-  </div>
-</div>
+
 
 <div class="person">
   <img src="/people/kotler.jpg">
@@ -164,22 +150,6 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
-  <img src="/people/kiran.jpg">
-  <div class="caption">
-    Kiran Sandilya<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">      
-      <a class="cleanlink" href="https://github.com/Kiransandilya/testfiles/blob/main/bio.txt">Bio</a>
-      <a class="cleanlink" href="https://github.com/Kiransandilya/testfiles/blob/main/resume.pdf">CV</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">   
-      <a href="https://github.com/kiransandilya" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="https://www.linkedin.com/in/kiran--sandilya" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="mailto:sandilya@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
-    </div>
-  </div>
-</div>
 
 <div class="person">
   <img src="/gfx/team.png">
@@ -231,7 +201,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/manish.jpg">
   <div class="caption">
-    Manish Mourya, MS<br>
+    Manish Mourya<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://mouryamanish.github.io">Website</a>
@@ -242,7 +212,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/barkha.jpg">
   <div class="caption">
-    Barkha Java, MS<br>
+    Barkha Java<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/barkha-java">Website</a>
@@ -253,7 +223,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/yang.jpg">
   <div class="caption">
-    Gianna Yang, BE<br>
+    Gianna Yang<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/guangyang98/">Website</a>
@@ -264,7 +234,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/yeleswarapu.jpg">
   <div class="caption">
-    Nandinii Yeleswarapu, BS<br>
+    Nandinii Yeleswarapu<br>
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/nandiniiys">Website</a>
@@ -275,7 +245,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/oh.jpg">
   <div class="caption">
-    Hayoun Oh, MS<br>
+    Hayoun Oh<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/hayoun-oh-49a688205/">Website</a>
@@ -286,7 +256,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/freeman.jpg">
   <div class="caption">
-    Jesse Freeman, BS<br>
+    Jesse Freeman<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/jesse-freeman-40018350/">Website</a>
@@ -297,7 +267,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/hussain.jpg">
   <div class="caption">
-    Yahiya Hussain, BS<br>
+    Yahiya Hussain<br>
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/yahiyahussain">Website</a>
@@ -330,7 +300,7 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/vasudevan.jpg">
   <div class="caption">
-    Aswin Vasudevan, MS<br>
+    Aswin Vasudevan<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/aswinvasudevan21/">Website</a>
@@ -370,3 +340,26 @@ permalink: /people
     </span>
   </div>
 </div>
+
+<div class="alumni">
+  <img src="/people/alumni/goyal.jpg">
+  <div class="caption">
+    Neha Goyal<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/neha-goyal-696a30107/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/jain.jpg">
+  <div class="caption">
+    Kunal Jain<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/jainkhere/">Website</a>
+    </span>
+  </div>
+</div>
+
