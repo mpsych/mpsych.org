@@ -1,427 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html onclick="window.open('data/docs/paper.pdf')">
 <head>
-    <meta charset="UTF-8">
-    <title>  FLY OVERVIEW </title>
-    <style>
-        body, body * {
-            color: #DAE3E1;
-        }
-        /* Define background image */
-        body {
-            background-color: #2d5a56;
-             content: "";
-             display: block;
+ <title>Fly Overview</title>
+ <style>
+ body, body * {
+ color: #DAE3E1;
+ }
+ /* Define background image */
+ body {
+ background-color: #2d5a56;
+ content: "";
+ display: block;
+ top: 0;
+ left: 0;
+ width: 50%;
+ height: 50%;
+ background-image: url('https://fly.cs.umb.edu/fly.png');
+ background-repeat: no-repeat;
+ animation: moveBackground 20s ease-out infinite, changeColor 10s ease-in-out infinite alternate;
+ background-size: 50%;
+ opacity: 1;
+ z-index: -1;
+ }
+ .container {
+ display: flex; /* use flexbox */
+ flex-wrap: wrap; /* allow wrapping */
+ margin: 0 auto; /* center the container horizontally */
+ }
+ .column {
+ width: calc(50% - 20px); /* set the width to half of the available width minus 20px */
+ margin-bottom: 20px; /* add some margin to the bottom */
+ padding: 0 10px; /* add some padding to the left and right */
+ box-sizing: border-box; /* include padding in the width calculation */
+ }
+ .main-heading {
+ text-align:center;
+ }
+ #cs1-image {
+ width: 300px; /* set the width of the image */
+ height: auto; /* set the height of the image */
+ border: 2px solid black; /* add a border around the image */
+ }
+ #cs2-image {
+ width: 300px; /* set the width of the image */
+ height: auto; /* set the height of the image */
+ border: 2px solid black; /* add a border around the image */
+ }
+ #d1-image {
+ width: 300px; /* set the width of the image */
+ height: auto; /* set the height of the image */
+ border: 2px solid black; /* add a border around the image */
+ }
+ #mps-image {
+ width: 300px; /* set the width of the image */
+ height: auto; /* set the height of the image */
+ border: 2px solid black; /* add a border around the image */
+ }
+ @keyframes changeColor {
+ from {
+ background-color:#2d5a56;
+ }
+ to {
+ background-color:black;
+ }
+ }
 
-             top: 0;
-             left: 0;
-             width: 50%;
-             height: 50%;
-             background-image: url('https://fly.cs.umb.edu/fly.png');
-             background-repeat: no-repeat;
-             animation: moveBackground 90s ease-out infinite;
-             background-size: 50%;
-             opacity: 1;
-             z-index: -1;
-        }
-        @keyframes moveBackground {
-            from {
-                background-position: 0% 0%;
-            }
-            to {
-                 background-position: 100% 100%;
-            }
-        }
-
-        /* Set box-sizing to border-box for all elements */
-         * {
-                box-sizing: border-box;
-                }
-
-         /* Style for the main heading */
-         .main-heading {
-                display: flex;
-                flex-direction: column;
-                align-items: center center;
-                margin: 70px;
-         }
-
-         /* Style for the subheading */
-         .subheading {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 30px;
-            border-top: 2px solid black;
-            padding-top: 20px;
-         }
-
-          /* Style for the sub-subheadings */
-          .sub-subheadings {
-               width: -webkit-fill-available;
-               display: flex;
-               align-items: center;
-               flex-wrap: wrap;
-               justify-content: space-between;
-               margin-top: 70px;
-            }
-
-           /* Style for each sub-subheading */
-          .sub-subheading {
-                width: calc(50% - 20px);
-                height: 300px;
-                margin-bottom: 30px;
-
-                border-radius: 20px;
-                /* padding: 20px; */
-          }
-
-            /* Style for the iframe container */
-          .iframe-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 61.25%;
-            height: 0;
-          }
-
-            /* Style for the iframe */
-          .iframe-container iframe {
-             position: absolute;
-             top: 0;
-             left: 0;
-             width: 100%;
-              height: 100%;
-              border: none;
-          }
-        ``
-    </style>
+ @media (max-width:600px) {
+ .column {
+ width:100%;
+ }
+}
+ </style>
 </head>
 <body>
-
-<!--                                                     WILDTYPE CS   1                -->
- <div class="main-heading">
-        <h1>WILD TYPE CS-1</h1>
-    <div class="subheading">
-        <h2>Overview</h2>
-        <div class="iframe-container">
-            <iframe id="CS1overview"></iframe>
-        </div>
-        <p><a id="CS1overviewlinks" href="">Overview</a></p>
-    </div>
-    <div class="subheading">
-        <h2>Tileset -1 </h2>
-        <div class="iframe-container">
-            <iframe id="CS1ts1"></iframe>
-        </div>
-        <p><a id="CS1ts1links" href="">Tileset -1</a></p>
-    </div>
-     <div class="subheading">
-        <h2>Tileset -2 </h2>
-        <div class="iframe-container">
-            <iframe id="CS1ts2"></iframe>
-        </div>
-        <p><a id="CS1ts2links" href="">Tileset -2</a></p>
-     </div>
+<div class="main-heading">
+ <h1>Fly Overview</h1>
+ <div class="container">
+ <div class="column">
+ <h2><a class="link" href="data/links/CS1/index.html">WildType CS-1</a></h2> <!-- changed id to class -->
+ <img id="cs1-image" src="data/images/CS1/image.png" alt="An image">
  </div>
-
-
-
-
-<!--                                              WILDTYPE CS   2                    -->
-
-
-  <div class="main-heading">
-        <h1>WILD TYPE CS-2</h1>
-    <div class="subheading">
-        <h2>Overview</h2>
-        <div class="iframe-container">
-            <iframe id="CS2overview"></iframe>
-        </div>
-        <p><a id="CS2overviewlinks" href="">Overview</a></p>
-    </div>
-    <div class="subheading">
-        <h2>Tileset -1 </h2>
-        <div class="iframe-container">
-            <iframe id="CS2ts1"></iframe>
-        </div>
-        <p><a id="CS2ts1links" href="">Tileset -1</a></p>
-    </div>
-     <div class="subheading">
-        <h2>Tileset -2 </h2>
-        <div class="iframe-container">
-            <iframe id="CS2ts2"></iframe>
-        </div>
-        <p><a id="CS2ts2links" href="">Tileset -2</a></p>
-     </div>
-     <div class="subheading">
-        <h2>Tileset -3 </h2>
-        <div class="iframe-container">
-            <iframe id="CS2ts3"></iframe>
-        </div>
-        <p><a id="CS2ts3links" href="">Tileset -3</a></p>
-     </div>
+ <div class="column">
+ <h2><a class="link" href="data/links/CS2/index.html">WildType CS-2</a></h2> <!-- changed id to class -->
+ <img id="cs2-image" src="data/images/CS2/image.png" alt="An image"> <!-- updated src attribute and added id attribute -->
  </div>
+ <div class="column">
+ <h2><a class="link" href="data/links/D1/index.html">Nina D1</a></h2> <!-- changed id to class -->
+ <img id="d1-image" src="data/images/D1/image.png" alt="An image">
+ </div>
+ <div class="column">
+ <h2><a class="link" href="data/links/MPS/index.html">MPS</a></h2> <!-- changed id to class -->
+ <img id="mps-image" src="data/images/MPS/image.png" alt="An image">
+ </div>
+ </div>
+ </div>
+ <script>
+ setInterval(() => {
+ const x = Math.random() * 200 - 50;
+ const y = Math.random() * 200 - 50;
+ document.body.style.backgroundPosition = `${x}% ${y}%`;
+ }, 1000);
 
-<!--                                                        NINA D1                 -->
-
-
-  <div class="main-heading">
-        <h1>NINA D1 MUTANT </h1>
-    <div class="subheading">
-        <h2>Overview</h2>
-        <div class="iframe-container">
-            <iframe id="NinaD1overview"></iframe>
-        </div>
-        <p><a id="NinaD1overviewlinks" href="">Overview</a></p>
-    </div>
-    <div class="subheading">
-        <h2>Tileset -1 </h2>
-        <div class="sub-subheadings">
-          <div class="sub-subheading">
-             <h3>00</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts100"></iframe>
-             </div>
-             <p><a id="NinaD1ts100links" href="">00</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>01</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts101"></iframe>
-             </div>
-             <p><a id="NinaD1ts101links" href="">01</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>02</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts102"></iframe>
-             </div>
-             <p><a id="NinaD1ts102links" href="">02</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>10</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts110"></iframe>
-             </div>
-             <p><a id="NinaD1ts110links" href="">10</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>11</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts111"></iframe>
-             </div>
-             <p><a id="NinaD1ts111links" href="">11</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>12</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts112"></iframe>
-             </div>
-             <p><a id="NinaD1ts112links" href="">12</a></p>
-          </div>
-        </div>
-    </div>
-    <div class="subheading">
-        <h2>Tileset -2 </h2>
-        <div class="sub-subheadings">
-          <div class="sub-subheading">
-             <h3>S0</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts2s0"></iframe>
-             </div>
-             <p><a id="NinaD1ts2s0links" href="">S0</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>S1</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts2s1"></iframe>
-             </div>
-             <p><a id="NinaD1ts2s1links" href="">S1</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>S2</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts2s2"></iframe>
-             </div>
-             <p><a id="NinaD1ts2s2links" href="">S2</a></p>
-          </div>
-        </div>
-    </div>
-  </div>
-
-<!--                                                        MPSDel                -->
-  <div class="main-heading">
-        <h1>MPSDel </h1>
-    <div class="subheading">
-        <h2>Overview</h2>
-        <div class="iframe-container">
-            <iframe id="MPSoverview"></iframe>
-        </div>
-        <p><a id="MPSoverviewlinks" href="">Overview</a></p>
-    </div>
-    <div class="subheading">
-        <h2>Tileset  </h2>
-        <div class="sub-subheadings">
-          <div class="sub-subheading">
-             <h3>00</h3>
-             <div class="iframe-container">
-               <iframe id="MPSts00"></iframe>
-             </div>
-             <p><a id="MPSts00links" href="">00</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>01</h3>
-             <div class="iframe-container">
-               <iframe id="MPSts01"></iframe>
-             </div>
-             <p><a id="MPSts01links" href="">01</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>10</h3>
-             <div class="iframe-container">
-               <iframe id="MPSts10"></iframe>
-             </div>
-             <p><a id="MPSts10links" href="">10</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>11</h3>
-             <div class="iframe-container">
-               <iframe id="MPSts11"></iframe>
-             </div>
-             <p><a id="MPSts11links" href="">11</a></p>
-          </div>
-        </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <script src="links.js"></script>
-  <script>
-
-
-
-    document.getElementById("CS1overview").src = CS1overview;
-    document.getElementById("CS1overviewlinks").href = CS1overview;
-    document.getElementById("CS1ts1").src = CS1ts1;
-    document.getElementById("CS1ts1links").href = CS1ts1;
-    document.getElementById("CS1ts2").src = CS1ts2;
-    document.getElementById("CS1ts2").href = CS1ts2;
-
-    document.getElementById("CS2overview").src = CS2overview;                            <!--                                               WILDTYPE CS 2                          -->
-    document.getElementById("CS2overviewlinks").href = CS2overview;                                                                       <!-- Overview  -->
-
-    document.getElementById("CS2ts1").src = CS2ts1;                                                                                        <!-- tileset1  -->
-    document.getElementById("CS2ts1links").href = CS2ts1;
-
-<!--tileset2  -->
-
-    document.getElementById("CS2ts2").src = CS2ts2;
-    document.getElementById("CS2ts2links").href = CS2ts2;
-<!--tileset3  -->
-    document.getElementById("CS2ts3").src = CS2ts3;
-    document.getElementById("CS2ts3links").href = CS2ts3;
-
-<!--                                               NINA D1 MUTANT                          -->
-<!-- Overview  -->
-
-    document.getElementById("NinaD1overview").src = NinaD1overview;
-    document.getElementById("NinaD1overviewlinks").href = NinaD1overview;
-
-<!-- tileset1  -->
-<!-- 00  -->
-    document.getElementById("NinaD1ts100").src = NinaD1ts100;
-    document.getElementById("NinaD1ts100links").href = NinaD1ts100;
-<!-- 01  -->
-    document.getElementById("NinaD1ts101").src = NinaD1ts101;
-    document.getElementById("NinaD1ts101links").href = NinaD1ts101;
-<!-- 02  -->
-    document.getElementById("NinaD1ts102").src = NinaD1ts102;
-    document.getElementById("NinaD1ts102links").href = NinaD1ts102;
-<!-- 10  -->
-    document.getElementById("NinaD1ts110").src = NinaD1ts110;
-    document.getElementById("NinaD1ts110links").href = NinaD1ts110;
-<!-- 11  -->
-    document.getElementById("NinaD1ts111").src = NinaD1ts111;
-    document.getElementById("NinaD1ts111links").href = NinaD1ts111;
-<!-- 12  -->
-    document.getElementById("NinaD1ts112").src = NinaD1ts112;
-    document.getElementById("NinaD1ts112links").href = NinaD1ts112;
-
-
-<!-- tileset2  -->
-<!-- S0  -->
-    document.getElementById("NinaD1ts2s0").src = NinaD1ts2s0;
-    document.getElementById("NinaD1ts2s0").href = NinaD1ts2s0;
-<!-- S1  -->
-    document.getElementById("NinaD1ts2s1").src = NinaD1ts2s1;
-    document.getElementById("NinaD1ts2s1links").href = NinaD1ts2s1;
-<!-- S2  -->
-    document.getElementById("NinaD1ts2s2").src = NinaD1ts2s2;
-    document.getElementById("NinaD1ts2s2links").href = NinaD1ts2s2;
-
-
-
-<!--                                               MPSDel                          -->
-<!-- Overview  -->
-
-    document.getElementById("MPSoverview").src = MPSoverview;
-    document.getElementById("MPSoverviewlinks").href = MPSoverview;
-
-<!-- tileset  -->
-<!-- 00  -->
-    document.getElementById("MPSts00").src = MPSts00;
-    document.getElementById("MPSts00links").href = MPSts00;
-<!-- 01  -->
-    document.getElementById("MPSts01").src = MPSts01;
-    document.getElementById("MPSts01links").href = MPSts01;
-
-<!-- 10  -->
-    document.getElementById("MPSts10").src = MPSts10;
-    document.getElementById("MPSts10links").src = MPSts10;
-<!-- 11  -->
-    document.getElementById("MPSts11").src = MPSts11;
-    document.getElementById("MPSts11links").href = MPSts11;
-
-  </script>
- <script src="links.js"></script>
-  <script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </script>
-
- <script src="links.js"></script>
-  <script>
-  </script>
-
- <script src="links.js"></script>
-  <script>
-  </script>
-
+ const links = document.querySelectorAll('.link'); // select all elements with the "link" class
+ links.forEach(link => {
+ link.addEventListener('click', (event) => {
+ event.stopPropagation();
+ });
+ });
+ </script>
 </body>
 </html>
