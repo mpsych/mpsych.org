@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>  FLY OVERVIEW </title>
+    <style>
+        body, body * {
+            color: #DAE3E1;
+        }
+        /* Define background image */
+        body {
+            background-color: #2d5a56;
+             content: "";
+             display: block;
+
+             top: 0;
+             left: 0;
+             width: 50%;
+             height: 50%;
+             background-image: url('https://fly.cs.umb.edu/fly.png');
+             background-repeat: no-repeat;
+             animation: moveBackground 90s ease-out infinite;
+             background-size: 50%;
+             opacity: 1;
+             z-index: -1;
+        }
+        @keyframes moveBackground {
+            from {
+                background-position: 0% 0%;
+            }
+            to {
+                 background-position: 100% 100%;
+            }
+        }
+
+        /* Set box-sizing to border-box for all elements */
+         * {
+                box-sizing: border-box;
+                }
+
+         /* Style for the main heading */
+         .main-heading {
+                display: flex;
+                flex-direction: column;
+                align-items: center center;
+                margin: 70px;
+         }
+
+         /* Style for the subheading */
+         .subheading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+            border-top: 2px solid black;
+            padding-top: 20px;
+         }
+
+          /* Style for the sub-subheadings */
+          .sub-subheadings {
+               width: -webkit-fill-available;
+               display: flex;
+               align-items: center;
+               flex-wrap: wrap;
+               justify-content: space-between;
+               margin-top: 70px;
+            }
+
+           /* Style for each sub-subheading */
+          .sub-subheading {
+                width: calc(50% - 20px);
+                height: 300px;
+                margin-bottom: 30px;
+
+                border-radius: 20px;
+                /* padding: 20px; */
+          }
+
+            /* Style for the iframe container */
+          .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 61.25%;
+            height: 0;
+          }
+
+            /* Style for the iframe */
+          .iframe-container iframe {
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+              height: 100%;
+              border: none;
+          }
+        ``
+    </style>
+</head>
+<body>
+
+<!--                                                     WILDTYPE CS   1                -->
+ <div class="main-heading">
+        <h1>WILD TYPE CS-1</h1>
+    <div class="subheading">
+        <h2>Overview</h2>
+        <div class="iframe-container">
+            <iframe id="CS1overview"></iframe>
+        </div>
+        <p><a id="CS1overviewlinks" href="">Overview</a></p>
+    </div>
+    <div class="subheading">
+        <h2>Tileset -1 </h2>
+        <div class="iframe-container">
+            <iframe id="CS1ts1"></iframe>
+        </div>
+        <p><a id="CS1ts1links" href="">Tileset -1</a></p>
+    </div>
+     <div class="subheading">
+        <h2>Tileset -2 </h2>
+        <div class="iframe-container">
+            <iframe id="CS1ts2"></iframe>
+        </div>
+        <p><a id="CS1ts2links" href="">Tileset -2</a></p>
+     </div>
+ </div>
+
+ <script src="links.js"></script>
+  <script>
+
+
+
+    document.getElementById("CS1overview").src = CS1overview;
+    document.getElementById("CS1overviewlinks").href = CS1overview;
+    document.getElementById("CS1ts1").src = CS1ts1;
+    document.getElementById("CS1ts1links").href = CS1ts1;
+    document.getElementById("CS1ts2").src = CS1ts2;
+    document.getElementById("CS1ts2").href = CS1ts2;
+
+    
+
+  </script>
+ <script src="links.js"></script>
+  <script>
+
+  </script>
+
+ <script src="links.js"></script>
+  <script>
+  </script>
+
+ <script src="links.js"></script>
+  <script>
+  </script>
+
+</body>
+</html>
