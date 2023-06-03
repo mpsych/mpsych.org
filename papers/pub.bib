@@ -1,4 +1,52 @@
 %
+% 2023
+%
+@inproceedings{zurrin2023outlier,
+title={Outlier Detection for Mammograms},
+author={Ryan Zurrin and Neha Goyal and Pablo Bendiksen and Muskaan Manocha and Dan Simovici and Nurit Haspel and Marc Pomplun and Daniel Haehn},
+abstract={Mammograms are vital for detecting breast cancer, the most common cancer among women in the US. However, low-quality scans and imaging artifacts can compromise their efficacy. We introduce an automated pipeline to filter low-quality mammograms from large datasets. Our initial dataset of 176,492 mammograms contained an estimated 5.5% lower quality scans with issues like metal coil frames, wire clamps, and breast implants. Manually removing these images is tedious and error-prone. Our two-stage process first uses threshold-based 5-bin histogram filtering to eliminate undesirable images, followed by a variational autoencoder to remove remaining low-quality scans. Our method detects such scans with an F1 Score of 0.8862 and preserves 163,568 high-quality mammograms. We provide results and tools publicly available as open-source software.},
+booktitle={International Conference on Medical Imaging with Deep Learning},
+year={2023},
+url={https://openreview.net/forum?id=4E93Xdg98u},
+shortvenue={MIDL 2023}
+}
+
+@inproceedings{dehghanpoor2023classifying,
+  title={Classifying Protein Families with Learned Compressed Representations},
+  author={Dehghanpoor, Ramin and Afrasiabi, Fatemeh and Fogel, Charles and Dao, Tung and Gautam, Suman and Nehela, Aanab and Nehela, Ahmad and Haehn, Daniel and Haspel, Nurit},
+  booktitle={Proceedings of International Conference on Bioinformatics},
+  abstract={Classifying proteins into families is an important task when studying newly discovered proteins. If we can identify the family a protein belongs to, we can predict features without knowing the exact structure of such a protein. However, this grouping process is challenging. We propose a two-stage algorithm that classifies proteins into families by combining a dimensionality reduction technique using a variational autoencoder with learned fingerprint representations using a Convolutional Neural Network (CNN). Our models use fewer parameters than existing methods but perform better, with our variational autoencoder achieving 94% accuracy in reconstructing the most common amino acid in a sequence alignment, and the neural network provides 98-100% accuracy in classifying protein families. We developed a software framework to access our algorithms. All code and data are publicly available at https://github.com/ramindehghanpoor/CLI.},
+  volume={92},
+  pages={47--57},
+  year={2023},
+  code={https://github.com/ramindehghanpoor/CLI},
+  data={https://github.com/ramindehghanpoor/CLI},
+  bestpaper={yes},
+  shortvenue={BICOB 2023 (Best Paper Award)}
+}
+
+@inproceedings{weidele2023autodoviz,
+author = {Weidele, Daniel Karl I. and Afzal, Shazia and Valente, Abel N. and Makuch, Cole and Cornec, Owen and Vu, Long and Subramanian, Dharmashankar and Geyer, Werner and Nair, Rahul and Vejsbjerg, Inge and Marinescu, Radu and Palmes, Paulito and Daly, Elizabeth M. and Franke, Loraine and Haehn, Daniel},
+title = {AutoDOViz: Human-Centered Automation for Decision Optimization},
+year = {2023},
+isbn = {9798400701061},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3581641.3584094},
+doi = {10.1145/3581641.3584094},
+abstract = {We present AutoDOViz, an interactive user interface for automated decision optimization (AutoDO) using reinforcement learning (RL). Decision optimization (DO) has classically being practiced by dedicated DO researchers [43] where experts need to spend long periods of time fine tuning a solution through trial-and-error. AutoML pipeline search has sought to make it easier for a data scientist to find the best machine learning pipeline by leveraging automation to search and tune the solution. More recently, these advances have been applied to the domain of AutoDO [36], with a similar goal to find the best reinforcement learning pipeline through algorithm selection and parameter tuning. However, Decision Optimization requires significantly more complex problem specification when compared to an ML problem. AutoDOViz seeks to lower the barrier of entry for data scientists in problem specification for reinforcement learning problems, leverage the benefits of AutoDO algorithms for RL pipeline search and finally, create visualizations and policy insights in order to facilitate the typical interactive nature when communicating problem formulation and solution proposals between DO experts and domain experts. In this paper, we report our findings from semi-structured expert interviews with DO practitioners as well as business consultants, leading to design requirements for human-centered automation for DO with RL. We evaluate a system implementation with data scientists and find that they are significantly more open to engage in DO after using our proposed solution. AutoDOViz further increases trust in RL agent models and makes the automated training and evaluation process more comprehensible. As shown for other automation in ML tasks [33, 59], we also conclude automation of RL for DO can benefit from user and vice-versa when the interface promotes human-in-the-loop.},
+booktitle = {Proceedings of the 28th International Conference on Intelligent User Interfaces},
+pages = {664–680},
+numpages = {17},
+keywords = {automation, reinforcement learning, decision optimization},
+location = {Sydney, NSW, Australia},
+series = {IUI '23},
+website={https://dl.acm.org/doi/abs/10.1145/3581641.3584094},
+shortvenue={IUI 2023}
+}
+
+
+%
 % 2022
 %
 @InProceedings{goyal2022realtime,
