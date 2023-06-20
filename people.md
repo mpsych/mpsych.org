@@ -9,7 +9,7 @@ permalink: /people
 <br><br><br>
 
 <div class="person">
-  <img src="/people/haehn.jpg">
+  <img src="/people/haehn.png">
   <div class="caption">
     Daniel Haehn, PhD<br>
     <span class="role">Assistant Professor of Computer Science</span><br>
@@ -48,22 +48,6 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/qi.jpg">
-  <div class="caption">
-    Kristin Qi<br>
-    <span class="role">PhD Student in Computational Sciences</span><br>
-  <span class="links">
-      <a class="cleanlink" href="/people/qi/bio.txt">Bio</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/kristinqi/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/kristinyanah" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
-  </div>
-</div>
-
-<div class="person">
   <img src="/people/mgeshvadi.jpg">
   <div class="caption">
     Mahsa Geshvadi<br>
@@ -90,7 +74,7 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/jenna-kim-931985106/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/jiehyunjkim" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:JieHyun.Kim001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
     </div>
   </div>
 </div>
@@ -108,7 +92,7 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">   
       <a href="https://github.com/kiransandilya" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="https://www.linkedin.com/in/kiran--sandilya" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="mailto:sandilya@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
 </div>
@@ -145,7 +129,7 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/josh-kotler/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/fib" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:kotler@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
     </div>
   </div>
 </div>
@@ -163,7 +147,7 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/edwardgaibor/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/gaiborjosue" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:gaibor@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
     </div>
   </div>
 </div>
@@ -380,4 +364,16 @@ permalink: /people
     </span>
   </div>
 </div>
+
+<div class="alumni">
+  <img src="/people/alumni/qi.jpg">
+  <div class="caption">
+    Kristin Qi<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/kristinqi/">Website</a>
+    </span>
+  </div>
+</div>
+
 
