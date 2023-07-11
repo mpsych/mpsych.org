@@ -2,249 +2,176 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>  FLY OVERVIEW </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLY OVERVIEW</title>
     <style>
         body, body * {
-            color: #DAE3E1;
+            color: #FFFFFF;
         }
-        /* Define background image */
+
         body {
-            background-color: #2d5a56;
-             content: "";
-             display: block;
-
-             top: 0;
-             left: 0;
-             width: 50%;
-             height: 50%;
-             background-image: url('https://fly.cs.umb.edu/fly.png');
-             background-repeat: no-repeat;
-             animation: moveBackground 90s ease-out infinite;
-             background-size: 50%;
-             opacity: 1;
-             z-index: -1;
-        }
-        @keyframes moveBackground {
-            from {
-                background-position: 0% 0%;
-            }
-            to {
-                 background-position: 100% 100%;
-            }
+        
+            margin: 0;
+            padding: 0;
+            background-image: url('background/image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
 
-        /* Set box-sizing to border-box for all elements */
-         * {
-                box-sizing: border-box;
-                }
+        * {
+            box-sizing: border-box;
+        }
 
-         /* Style for the main heading */
-         .main-heading {
-                display: flex;
-                flex-direction: column;
-                align-items: center center;
-                margin: 70px;
-         }
+        .main-heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px;
+        }
 
-         /* Style for the subheading */
-         .subheading {
+        .subheading {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin: 30px;
             border-top: 2px solid black;
             padding-top: 20px;
-         }
+        }
 
-          /* Style for the sub-subheadings */
-          .sub-subheadings {
-               width: -webkit-fill-available;
-               display: flex;
-               align-items: center;
-               flex-wrap: wrap;
-               justify-content: space-between;
-               margin-top: 70px;
-            }
+        .sub-subheadings {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 70px;
+        }
 
-           /* Style for each sub-subheading */
-          .sub-subheading {
-                width: calc(50% - 20px);
-                height: 300px;
-                margin-bottom: 30px;
+        .sub-subheading {
+            flex-basis: calc(50% - 20px);
+            height: 300px;
+            margin-bottom: 30px;
+            border-radius: 0px;
+            overflow: hidden;
+            text-align: center;
+        }
 
-                border-radius: 20px;
-                /* padding: 20px; */
-          }
-
-            /* Style for the iframe container */
-          .iframe-container {
+        .iframe-container {
             position: relative;
             width: 100%;
-            padding-bottom: 61.25%;
-            height: 0;
-          }
+            height: 100%;
+        }
 
-            /* Style for the iframe */
-          .iframe-container iframe {
-             position: absolute;
-             top: 0;
-             left: 0;
-             width: 100%;
-              height: 100%;
-              border: none;
-          }
-        ``
+        .iframe-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+        .sub-subheading h3 {
+  
+          margin: 0 auto;
+        }
+        .subheading p {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .subheading a {
+            color: #FFFFFF;
+            
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .sub-subheading {
+                flex-basis: 100%;
+            }
+        }
     </style>
 </head>
 <body>
-
-
-<!--                                                        NINA D1                 -->
-
-
-  <div class="main-heading">
-        <h1>NINA D1 MUTANT </h1>
-    <div class="subheading">
-        <h2>Overview</h2>
-        <div class="iframe-container">
-            <iframe id="NinaD1overview"></iframe>
+    <div class="main-heading">
+        <h1>NINA D1 MUTANT</h1>
+        <div class="subheading">
+            <h2>Overview</h2>
+            <div class="iframe-container">
+                <img src="images/NINA DI MUTANT overview.png" alt="An Image">
+            </div>
+            <p><a id="NinaD1overviewlinks" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B17557.466796875%2C13405.19921875%2C634.5%5D%2C%22crossSectionScale%22:33.11545195869234%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSOverviewTileSet%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">Overview</a></p>
         </div>
-        <p><a id="NinaD1overviewlinks" href="">Overview</a></p>
-    </div>
-    <div class="subheading">
-        <h2>Tileset -1 </h2>
-        <div class="sub-subheadings">
-          <div class="sub-subheading">
-             <h3>00</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts100"></iframe>
-             </div>
-             <p><a id="NinaD1ts100links" href="">00</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>01</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts101"></iframe>
-             </div>
-             <p><a id="NinaD1ts101links" href="">01</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>02</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts102"></iframe>
-             </div>
-             <p><a id="NinaD1ts102links" href="">02</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>10</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts110"></iframe>
-             </div>
-             <p><a id="NinaD1ts110links" href="">10</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>11</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts111"></iframe>
-             </div>
-             <p><a id="NinaD1ts111links" href="">11</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>12</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts112"></iframe>
-             </div>
-             <p><a id="NinaD1ts112links" href="">12</a></p>
-          </div>
+        <div class="subheading">
+            <h2>Tileset -1</h2>
+            <div class="sub-subheadings">
+                <div class="sub-subheading">
+                    <h3><a  style="margin-left: 20px;"id="NinaD1ts100links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B3047.174072265625%2C1962.25927734375%2C3.5%5D%2C%22crossSectionScale%22:12.182493960703475%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/00%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">00</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset 1 00.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts100links" href="">00</a></p>
+                </div>
+                <div class="sub-subheading">
+                    <h3><a style="margin-left: 20px;"id="NinaD1ts101links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2883.445068359375%2C2273.8330078125%2C3.5%5D%2C%22crossSectionScale%22:12.182493960703477%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/01%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">01</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset 1 01.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts101links" href="">01</a></p>
+                </div>
+                <div class="sub-subheading">
+                    <h3><a style="margin-left: 20px;"id="NinaD1ts102links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2922.97021484375%2C2217.611328125%2C3.5%5D%2C%22crossSectionScale%22:12.182493960703475%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/02%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">02</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset 1 02.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts102links" href="">02</a></p>
+                </div>
+                <div class="sub-subheading">
+                    <h3><a style="margin-left: 20px;"id="NinaD1ts110links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2827.59326171875%2C2510.103271484375%2C0.5%5D%2C%22crossSectionScale%22:12.182493960703477%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/10%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">10</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset 1 10.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts110links" href="">10</a></p>
+                </div>
+                <div class="sub-subheading">
+                    <h3><a style="margin-left: 20px;"id="NinaD1ts111links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2682.09619140625%2C2106.54150390625%2C0.5%5D%2C%22crossSectionScale%22:12.182493960703477%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/11%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">11</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset 1 11.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts111links" href="">11</a></p>
+                </div>
+                <div class="sub-subheading">
+                    <h3><a style="margin-left: 20px;"id="NinaD1ts112links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2837.40185546875%2C2351.840576171875%2C3.5%5D%2C%22crossSectionScale%22:12.182493960703477%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet/12%22%2C%22tab%22:%22source%22%2C%22name%22:%2200%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%2200%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">12</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset 1 12.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts112links" href="">12</a></p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="subheading">
-        <h2>Tileset -2 </h2>
-        <div class="sub-subheadings">
-          <div class="sub-subheading">
-             <h3>S0</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts2s0"></iframe>
-             </div>
-             <p><a id="NinaD1ts2s0links" href="">S0</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>S1</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts2s1"></iframe>
-             </div>
-             <p><a id="NinaD1ts2s1links" href="">S1</a></p>
-          </div>
-          <div class="sub-subheading">
-             <h3>S2</h3>
-             <div class="iframe-container">
-               <iframe id="NinaD1ts2s2"></iframe>
-             </div>
-             <p><a id="NinaD1ts2s2links" href="">S2</a></p>
-          </div>
+        <div class="subheading">
+            <h2>Tileset -2</h2>
+            <div class="sub-subheadings">
+                <div class="sub-subheading">
+                    <h3><a  style="margin-left: 25px;" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22displayDimensions%22:%5B%22x%22%2C%22y%22%2C%22z%22%5D%2C%22position%22:%5B2892.514404296875%2C2118.216796875%2C634.5%5D%2C%22crossSectionScale%22:12.182493960703482%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set0%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">S0</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset S0.png" alt="An Image">
+                    </div>
+                    <p><a  href="">S0</a></p>
+                </div>
+                <div class="sub-subheading">
+                    <h3><a style="margin-left: 25px;"id="NinaD1ts2s1links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B3014.86083984375%2C2129.994384765625%2C634.5%5D%2C%22crossSectionScale%22:12.18249396070348%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set1%22%2C%22tab%22:%22source%22%2C%22name%22:%22set01%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set01%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">S1</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset S1.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts2s1links" href="">S1</a></p>
+                </div>
+                <div class="sub-subheading">
+                    <h3><a style="margin-left: 25px;"id="NinaD1ts2s2links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B4e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2691.34814453125%2C2285.85595703125%2C634.5%5D%2C%22crossSectionScale%22:12.182493960703477%2C%22projectionScale%22:16384%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/NINA_D1_MUTANT/output/VSDataTileSet2/set2%22%2C%22tab%22:%22source%22%2C%22name%22:%22set2%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22set2%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">S2</a></h3>
+                    <div class="iframe-container">
+                        <img src="images/NINA DI MUTANT Tileset S2.png" alt="An Image">
+                    </div>
+                    <p><a id="NinaD1ts2s2links" href="">S2</a></p>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
-
-
- <script src="links.js"></script>
-  <script>
-
-
-
-   
-
-<!--                                               NINA D1 MUTANT                          -->
-<!-- Overview  -->
-
-    document.getElementById("NinaD1overview").src = NinaD1overview;
-    document.getElementById("NinaD1overviewlinks").href = NinaD1overview;
-
-<!-- tileset1  -->
-<!-- 00  -->
-    document.getElementById("NinaD1ts100").src = NinaD1ts100;
-    document.getElementById("NinaD1ts100links").href = NinaD1ts100;
-<!-- 01  -->
-    document.getElementById("NinaD1ts101").src = NinaD1ts101;
-    document.getElementById("NinaD1ts101links").href = NinaD1ts101;
-<!-- 02  -->
-    document.getElementById("NinaD1ts102").src = NinaD1ts102;
-    document.getElementById("NinaD1ts102links").href = NinaD1ts102;
-<!-- 10  -->
-    document.getElementById("NinaD1ts110").src = NinaD1ts110;
-    document.getElementById("NinaD1ts110links").href = NinaD1ts110;
-<!-- 11  -->
-    document.getElementById("NinaD1ts111").src = NinaD1ts111;
-    document.getElementById("NinaD1ts111links").href = NinaD1ts111;
-<!-- 12  -->
-    document.getElementById("NinaD1ts112").src = NinaD1ts112;
-    document.getElementById("NinaD1ts112links").href = NinaD1ts112;
-
-
-<!-- tileset2  -->
-<!-- S0  -->
-    document.getElementById("NinaD1ts2s0").src = NinaD1ts2s0;
-    document.getElementById("NinaD1ts2s0").href = NinaD1ts2s0;
-<!-- S1  -->
-    document.getElementById("NinaD1ts2s1").src = NinaD1ts2s1;
-    document.getElementById("NinaD1ts2s1links").href = NinaD1ts2s1;
-<!-- S2  -->
-    document.getElementById("NinaD1ts2s2").src = NinaD1ts2s2;
-    document.getElementById("NinaD1ts2s2links").href = NinaD1ts2s2;
-
-  </script>
- <script src="links.js"></script>
-  <script>
-
-  </script>
-
- <script src="links.js"></script>
-  <script>
-  </script>
-
- <script src="links.js"></script>
-  <script>
-  </script>
-
 </body>
 </html>

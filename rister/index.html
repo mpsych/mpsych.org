@@ -1,112 +1,117 @@
 <!DOCTYPE html>
-<html onclick="window.open('data/docs/paper.pdf')">
+<html>
 <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Fly Overview</title>
  <style>
  body, body * {
- color: #DAE3E1;
+ color: #FFFFFF;
  }
- /* Define background image */
  body {
- background-color: #2d5a56;
  content: "";
  display: block;
  top: 0;
  left: 0;
  width: 50%;
  height: 50%;
- background-image: url('https://fly.cs.umb.edu/fly.png');
+margin-left: 300px;
  background-repeat: no-repeat;
- animation: moveBackground 20s ease-out infinite, changeColor 10s ease-in-out infinite alternate;
  background-size: 50%;
  opacity: 1;
  z-index: -1;
+ background-image: url('background/image.jpg');
+ background-size: cover;
  }
  .container {
- display: flex; /* use flexbox */
- flex-wrap: wrap; /* allow wrapping */
- margin: 0 auto; /* center the container horizontally */
+ display: flex;
+ flex-wrap: wrap;
+ margin: 0 auto;
  }
  .column {
- width: calc(50% - 20px); /* set the width to half of the available width minus 20px */
- margin-bottom: 20px; /* add some margin to the bottom */
- padding: 0 10px; /* add some padding to the left and right */
- box-sizing: border-box; /* include padding in the width calculation */
+ width: calc(50% - 20px);
+ margin-bottom: 20px;
+ padding: 0 10px;
+ box-sizing: border-box;
  }
  .main-heading {
- text-align:center;
+ text-align: center;
  }
- #cs1-image {
- width: 300px; /* set the width of the image */
- height: auto; /* set the height of the image */
- border: 2px solid black; /* add a border around the image */
- }
- #cs2-image {
- width: 300px; /* set the width of the image */
- height: auto; /* set the height of the image */
- border: 2px solid black; /* add a border around the image */
- }
- #d1-image {
- width: 300px; /* set the width of the image */
- height: auto; /* set the height of the image */
- border: 2px solid black; /* add a border around the image */
- }
- #mps-image {
- width: 300px; /* set the width of the image */
- height: auto; /* set the height of the image */
- border: 2px solid black; /* add a border around the image */
- }
- @keyframes changeColor {
- from {
- background-color:#2d5a56;
- }
- to {
- background-color:black;
- }
- }
-
- @media (max-width:600px) {
- .column {
- width:100%;
- }
+ #cs1-image,
+#cs2-image,
+#d1-image,
+#mps-image {
+  width: 100%; /* Set a fixed width */
+  height: auto; /* Preserve the aspect ratio */
+  border: 2px solid black;
 }
+ @media (max-width: 1200px) {
+ .column {
+ width: calc(50% - 10px);
+ }
+ }
+ .highlighted-link {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+ .highlighted-link a {
+      animation: flash 1s infinite;
+      color: white;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+  @keyframes flash {
+      0% {
+        color: white;
+      }
+      50% {
+        color: red;
+      }
+      100% {
+        color: white;
+      }
+    }
+
+ @media (max-width: 768px) {
+ .column {
+ width: 100%;
+ }
+ }
+ @media (max-width: 480px) {
+ body {
+ background-size: cover;
+ }
+ .main-heading {
+ font-size: 24px;
+ }
+ }
  </style>
 </head>
 <body>
 <div class="main-heading">
- <h1>Fly Overview</h1>
+ <h1 style="font-family: sans-serif;font-size:60px;color: black;">Fly Overview</h1>
  <div class="container">
  <div class="column">
- <h2><a class="link" href="data/links/CS1/index.html">WildType CS-1</a></h2> <!-- changed id to class -->
+ <h2 style="font-family: sans-serif;"><a class="link" href="data/links/CS1/index.html">WildType CS-1</a></h2>
  <img id="cs1-image" src="data/images/CS1/image.png" alt="An image">
  </div>
  <div class="column">
- <h2><a class="link" href="data/links/CS2/index.html">WildType CS-2</a></h2> <!-- changed id to class -->
- <img id="cs2-image" src="data/images/CS2/image.png" alt="An image"> <!-- updated src attribute and added id attribute -->
+ <h2 style="font-family: sans-serif;"><a class="link" href="data/links/CS2/index.html">WildType CS-2</a></h2>
+ <img id="cs2-image" src="data/images/CS2/image.png" alt="An image">
  </div>
  <div class="column">
- <h2><a class="link" href="data/links/D1/index.html">Nina D1</a></h2> <!-- changed id to class -->
- <img id="d1-image" src="data/images/D1/image.png" alt="An image">
+ <h2 style="font-family: sans-serif;"><a class="link" href="data/links/D1/index.html">Nina D1</a></h2>
+ <img id="d1-image" src="data/images/D1/image.png" href="" alt="An image">
  </div>
  <div class="column">
- <h2><a class="link" href="data/links/MPS/index.html">MPS</a></h2> <!-- changed id to class -->
- <img id="mps-image" src="data/images/MPS/image.png" alt="An image">
+ <h2 style="font-family: sans-serif;"><a class="link" href="data/links/MPS/index.html">MPS</a></h2>
+ <img id="mps-image" src="data/images/MPS/image.png"  alt="An image">
  </div>
  </div>
  </div>
- <script>
- setInterval(() => {
- const x = Math.random() * 200 - 50;
- const y = Math.random() * 200 - 50;
- document.body.style.backgroundPosition = `${x}% ${y}%`;
- }, 1000);
-
- const links = document.querySelectorAll('.link'); // select all elements with the "link" class
- links.forEach(link => {
- link.addEventListener('click', (event) => {
- event.stopPropagation();
- });
- });
- </script>
+<div class="highlighted-link">
+  <a href="data/docs/paper.pdf" style="color:white;">To Know More Click Here</a>
+</div>
 </body>
 </html>

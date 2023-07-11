@@ -2,172 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>  FLY OVERVIEW </title>
+    
+    <title>FLY OVERVIEW</title>
     <style>
-        body, body * {
-            color: #DAE3E1;
+         body, body * {
+            color: #FFFFFF;
         }
-        /* Define background image */
+
         body {
-            background-color: #2d5a56;
-             content: "";
-             display: block;
-
-             top: 0;
-             left: 0;
-             width: 50%;
-             height: 50%;
-             background-image: url('https://fly.cs.umb.edu/fly.png');
-             background-repeat: no-repeat;
-             animation: moveBackground 90s ease-out infinite;
-             background-size: 50%;
-             opacity: 1;
-             z-index: -1;
-        }
-        @keyframes moveBackground {
-            from {
-                background-position: 0% 0%;
-            }
-            to {
-                 background-position: 100% 100%;
-            }
+        
+            margin: 0;
+            padding: 0;
+            background-image: url('background/image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-image: url('background/image.jpg');
         }
 
-        /* Set box-sizing to border-box for all elements */
-         * {
-                box-sizing: border-box;
-                }
+        * {
+            box-sizing: border-box;
+        }
 
-         /* Style for the main heading */
-         .main-heading {
-                display: flex;
-                flex-direction: column;
-                align-items: center center;
-                margin: 70px;
-         }
+        .main-heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px;
+        }
 
-         /* Style for the subheading */
-         .subheading {
+        .subheading {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin: 30px;
             border-top: 2px solid black;
             padding-top: 20px;
-         }
+        }
 
-          /* Style for the sub-subheadings */
-          .sub-subheadings {
-               width: -webkit-fill-available;
-               display: flex;
-               align-items: center;
-               flex-wrap: wrap;
-               justify-content: space-between;
-               margin-top: 70px;
-            }
+        .sub-subheadings {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 70px;
+        }
 
-           /* Style for each sub-subheading */
-          .sub-subheading {
-                width: calc(50% - 20px);
-                height: 300px;
-                margin-bottom: 30px;
+        .sub-subheading {
+            flex-basis: calc(50% - 20px);
+            height: 300px;
+            margin-bottom: 30px;
+            border-radius: 0px;
+            overflow: hidden;
+        }
 
-                border-radius: 20px;
-                /* padding: 20px; */
-          }
-
-            /* Style for the iframe container */
-          .iframe-container {
+        .iframe-container {
             position: relative;
             width: 100%;
-            padding-bottom: 61.25%;
-            height: 0;
-          }
+            height: 100%;
+        }
 
-            /* Style for the iframe */
-          .iframe-container iframe {
-             position: absolute;
-             top: 0;
-             left: 0;
-             width: 100%;
-              height: 100%;
-              border: none;
-          }
-        ``
+        .iframe-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        .subheading p {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .subheading a {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .sub-subheading {
+                flex-basis: 100%;
+            }
+        }
     </style>
 </head>
 <body>
-
-
-<!--                                              WILDTYPE CS   2                    -->
-
-
-  <div class="main-heading">
+    <div class="main-heading">
         <h1>WILD TYPE CS-2</h1>
-    <div class="subheading">
-        <h2>Overview</h2>
-        <div class="iframe-container">
-            <iframe id="CS2overview"></iframe>
+        <div class="subheading">
+            <h2>Overview</h2>
+            <div class="iframe-container">
+                <img src="images\Wild Type cs2 overview.png" alt="An Image" style="max-height: 500px;max-width: 500px;">
+            </div>
+            <p><a id="CS2overviewlinks" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B5e-8%2C%22m%22%5D%2C%22y%22:%5B5e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B1397.582763671875%2C1117.664306640625%2C635.5%5D%2C%22crossSectionScale%22:6.608001412667117%2C%22projectionScale%22:4096%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/VSOverviewTileSetOutput%22%2C%22tab%22:%22source%22%2C%22name%22:%22VSOverviewTileSetOutput%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22VSOverviewTileSetOutput%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">Overview</a></p>
         </div>
-        <p><a id="CS2overviewlinks" href="">Overview</a></p>
+        <div class="subheading">
+            <h2>Tileset -1 </h2>
+            <div class="iframe-container">
+                <img src="images\Wild Type cs2 tileset 1.png" alt="An Image"style="max-height: 500px;max-width: 500px;">
+            </div>
+            <p><a id="CS2ts1links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2828.985595703125%2C2246.18212890625%2C634.5%5D%2C%22crossSectionScale%22:10.141812086162858%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData1Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData1Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData1Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">Tileset -1</a></p>
+        </div>
+        <div class="subheading">
+            <h2>Tileset -2 </h2>
+            <div class="iframe-container">
+                <img src= "images/Wild Type cs2 tileset 2.png" alt="An Image"style="max-height: 500px;max-width: 500px;">
+            </div>
+            <p><a id="CS2ts2links" href="https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2813.833984375%2C2252.5%2C469.5%5D%2C%22crossSectionScale%22:12.797102140233072%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData2Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData2Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData2Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">Tileset -2</a></p>
+        </div>
+        <div class="subheading">
+            <h2>Tileset -3 </h2>
+            <div class="iframe-container">
+                <img src="images\Wild Type cs2 tileset 3.png" alt="An Image"style="max-height: 500px;max-width: 500px;">
+            </div>
+            <p><a id="CS2ts3links" href= "https://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B1e-8%2C%22m%22%5D%2C%22y%22:%5B1e-8%2C%22m%22%5D%2C%22z%22:%5B5e-8%2C%22m%22%5D%7D%2C%22position%22:%5B2934.623046875%2C2154.630126953125%2C678.5%5D%2C%22crossSectionScale%22:9.904297461775005%2C%22projectionScale%22:8192%2C%22layers%22:%5B%7B%22type%22:%22image%22%2C%22source%22:%22precomputed://https://fly.cs.umb.edu/data/WILD_TYPE_CS2/NewData3Output%22%2C%22tab%22:%22source%22%2C%22name%22:%22NewData3Output%22%7D%5D%2C%22selectedLayer%22:%7B%22layer%22:%22NewData3Output%22%7D%2C%22crossSectionBackgroundColor%22:%22#000000%22%2C%22layout%22:%22xy%22%7D">Tileset -3</a></p>
+        </div>
     </div>
-    <div class="subheading">
-        <h2>Tileset -1 </h2>
-        <div class="iframe-container">
-            <iframe id="CS2ts1"></iframe>
-        </div>
-        <p><a id="CS2ts1links" href="">Tileset -1</a></p>
-    </div>
-     <div class="subheading">
-        <h2>Tileset -2 </h2>
-        <div class="iframe-container">
-            <iframe id="CS2ts2"></iframe>
-        </div>
-        <p><a id="CS2ts2links" href="">Tileset -2</a></p>
-     </div>
-     <div class="subheading">
-        <h2>Tileset -3 </h2>
-        <div class="iframe-container">
-            <iframe id="CS2ts3"></iframe>
-        </div>
-        <p><a id="CS2ts3links" href="">Tileset -3</a></p>
-     </div>
- </div>
-
- <script src="links.js"></script>
-  <script>
-
-
-
-    
-
-    document.getElementById("CS2overview").src = CS2overview;                            <!--                                               WILDTYPE CS 2                          -->
-    document.getElementById("CS2overviewlinks").href = CS2overview;                                                                       <!-- Overview  -->
-
-    document.getElementById("CS2ts1").src = CS2ts1;                                                                                        <!-- tileset1  -->
-    document.getElementById("CS2ts1links").href = CS2ts1;
-
-<!--tileset2  -->
-
-    document.getElementById("CS2ts2").src = CS2ts2;
-    document.getElementById("CS2ts2links").href = CS2ts2;
-<!--tileset3  -->
-    document.getElementById("CS2ts3").src = CS2ts3;
-    document.getElementById("CS2ts3links").href = CS2ts3;
-
-
-  </script>
- <script src="links.js"></script>
-  <script>
-  </script>
-
- <script src="links.js"></script>
-  <script>
-  </script>
-
- <script src="links.js"></script>
-  <script>
-  </script>
-
 </body>
 </html>
