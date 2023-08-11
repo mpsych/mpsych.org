@@ -1,6 +1,6 @@
 # mpsych.org
 
-```
+
 sudo apt-get update
 ### Install dependencies
 sudo apt install build-essential checkinstall zlib1g-dev
@@ -47,4 +47,3 @@ bundle install
 bundle exec jekyll serve
 
 *reference: https://askubuntu.com/questions/1399788/ruby-installation-build-failed-ubuntu-20-04-using-ruby-build-20220324, https://www.fosslinux.com/107486/the-guide-to-installing-and-using-ruby-on-ubuntu.htm*
-```
