@@ -97,6 +97,23 @@ permalink: /people
   </div>
 </div>
 
+
+<div class="person">
+  <img src="/people/sanghyuk_size.jpg">
+  <div class="caption">
+    SangHyuk Kim<br>
+    <span class="role">PhD Student in Computer Science</span><br>
+    <span class="links">      
+      <a class="cleanlink" href="https://raw.githubusercontent.com/shkimmie-umb/my_mpsych/main/bio.txt">Bio</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">   
+      <a href="https://github.com/shkimmie-umb" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="https://www.linkedin.com/in/sang-hyuk-kim-469687182/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="mailto:SangHyuk.Kim001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
+
 <div class="person">
   <img src="/people/zurrin.jpg">
   <div class="caption">
