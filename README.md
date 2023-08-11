@@ -2,7 +2,7 @@
 
 ```
 sudo apt-get update
-**Install dependencies**
+### Install dependencies
 sudo apt install build-essential checkinstall zlib1g-dev
 **Download OpenSSL 1.1.1:**
 cd ~/Downloads
