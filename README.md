@@ -2,8 +2,8 @@
 
 
 ### Install dependencies
-sudo apt-get update
-sudo apt install build-essential checkinstall zlib1g-dev
+<td>sudo apt-get update</td>
+<td>sudo apt install build-essential checkinstall zlib1g-dev</td>
 
 **Download OpenSSL 1.1.1:**
 cd ~/Downloads
