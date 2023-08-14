@@ -43,7 +43,7 @@ RUBY_CONFIGURE_OPTS=--with-openssl-dir=/opt/openssl-1.1.1n rbenv install 2.7.0<b
 rbenv global 2.7.0<br />
 rbenv local 2.7.0<br />
 
-**Check ruby version (should show you "ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]")**<br />
+**Check if your ruby version is >=2.7 <3.0 (you should see "ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux]" if you run the below)**<br />
 ruby -v<br />
 
 **Do not run this (replaced by the above commands)**<br />
