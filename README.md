@@ -53,6 +53,10 @@ gem install github-pages -v '198' --source 'https://rubygems.org/'<br />
 
 bundle install<br />
 
+**Run the server**<br />
 bundle exec jekyll serve<br />
+
+**Connect to localhost**
+http://127.0.0.1:4000/<br />
 
 ***reference: https://askubuntu.com/questions/1399788/ruby-installation-build-failed-ubuntu-20-04-using-ruby-build-20220324, https://www.fosslinux.com/107486/the-guide-to-installing-and-using-ruby-on-ubuntu.htm***<br />
