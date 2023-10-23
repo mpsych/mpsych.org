@@ -13,6 +13,9 @@ The OMAMA-DB contains thousands of breast cancer images with labels generated th
 
 ## The data will be released in 2024.
 
+Supported by 
+
+<a href='https://www.masslifesciences.com/' target='_blank'><img src='images/mlsc.jpg' style='width:200px'></a> 
 
 # Outlier Detection for Mammograms (MIDL 2023)
 
