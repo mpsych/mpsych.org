@@ -115,6 +115,42 @@ permalink: /people
 </div>
 
 <div class="person">
+  <img src="/people/shruti.png">
+  <div class="caption">
+    Shruti Shailendra Varade<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+<!--       <a class="cleanlink" href="/people/edward/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/edward/Resume_Edward_Gaibor.pdf">CV</a>
+      <a class="cleanlink" href="https://edwardgaibor.me">Website</a> -->
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+<!--       <a href="https://www.linkedin.com/in/edwardgaibor/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/gaiborjosue" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a> -->
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+    </div>
+  </div>
+</div>
+
+<div class="person">
+  <img src="/people/vidhya.png">
+  <div class="caption">
+    Vidhya Sree Narayanappa<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+<!--       <a class="cleanlink" href="/people/edward/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/edward/Resume_Edward_Gaibor.pdf">CV</a>
+      <a class="cleanlink" href="https://edwardgaibor.me">Website</a> -->
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+<!--       <a href="https://www.linkedin.com/in/edwardgaibor/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/gaiborjosue" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a> -->
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+    </div>
+  </div>
+</div>
+
+<div class="person">
   <img src="/people/zurrin.jpg">
   <div class="caption">
     Ryan Zurrin<br>
@@ -135,21 +171,7 @@ permalink: /people
 
 
 
-<div class="person">
-  <img src="/people/kotler.jpg">
-  <div class="caption">
-    Josh Kotler<br>
-    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/kotler/bio.txt">Bio</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/josh-kotler/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/fib" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-    </div>
-  </div>
-</div>
+
 
 <div class="person">
   <img src="/people/edwardgaibor.png">
@@ -393,4 +415,25 @@ permalink: /people
   </div>
 </div>
 
+<div class="alumni">
+  <img src="/people/alumni/kotler.jpg">
+  <div class="caption">
+    Kristin Qi<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/kristinqi/">Website</a>
+    </span>
+  </div>
+</div>
+
+
+<div class="person">
+  <img src="/people/kotler.jpg">
+  <div class="caption">
+    Josh Kotler<br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/josh-kotler/">Website</a>
+    </span>
+  </div>
+</div>
 
