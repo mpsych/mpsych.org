@@ -418,18 +418,6 @@ permalink: /people
 <div class="alumni">
   <img src="/people/alumni/kotler.jpg">
   <div class="caption">
-    Kristin Qi<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="https://www.linkedin.com/in/kristinqi/">Website</a>
-    </span>
-  </div>
-</div>
-
-
-<div class="person">
-  <img src="/people/kotler.jpg">
-  <div class="caption">
     Josh Kotler<br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/josh-kotler/">Website</a>
