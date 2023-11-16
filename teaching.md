@@ -12,10 +12,10 @@ We strongly support <span class="bluetext">open science</span> and fully commit 
 </p>
 
 <div style='margin-left:50px;margin-top:50px;background-color:black;width:500px;color:white;padding:20px;border:2px solid #29ABE2;'>
-<img src='gfx/CS480.png' style='width:180px'><br>
+<img src='gfx/CS666.png' style='width:180px'><br>
 Reconstruct, visualize, and analyze biomedical datasets! After completion, you will be ready to work at hospitals, life science institutions, and in biotech!
 <br><br>
-Check out <a href="https://CS480.org" class="bluetext" target="_blank">CS480.org</a> !
+Check out <a href="https://CS666.org" class="bluetext" target="_blank">CS666.org</a> !
 </div>
 
 <div style='margin-left:50px;margin-top:20px;background-color:black;width:500px;color:white;padding:20px;border:2px solid #29ABE2;'>
