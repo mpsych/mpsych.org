@@ -1,6 +1,33 @@
 %
 % 2023
 %
+
+@Article{makaram2023deeplearning,
+AUTHOR = {Makaram, Navaneethakrishna and Gupta, Sarvagya and Pesce, Matthew and Bolton, Jeffrey and Stone, Scellig and Haehn, Daniel and Pomplun, Marc and Papadelis, Christos and Pearl, Phillip and Rotenberg, Alexander and Grant, Patricia Ellen and Tamilia, Eleonora},
+TITLE = {Deep Learning-Based Visual Complexity Analysis of Electroencephalography Time-Frequency Images: Can It Localize the Epileptogenic Zone in the Brain?},
+JOURNAL = {MDPI Algorithms},
+VOLUME = {16},
+YEAR = {2023},
+NUMBER = {12},
+ARTICLE-NUMBER = {567},
+URL = {https://www.mdpi.com/1999-4893/16/12/567},
+ISSN = {1999-4893},
+ABSTRACT = {In drug-resistant epilepsy, a visual inspection of intracranial electroencephalography (iEEG) signals is often needed to localize the epileptogenic zone (EZ) and guide neurosurgery. The visual assessment of iEEG time-frequency (TF) images is an alternative to signal inspection, but subtle variations may escape the human eye. Here, we propose a deep learning-based metric of visual complexity to interpret TF images extracted from iEEG data and aim to assess its ability to identify the EZ in the brain. We analyzed interictal iEEG data from 1928 contacts recorded from 20 children with drug-resistant epilepsy who became seizure-free after neurosurgery. We localized each iEEG contact in the MRI, created TF images (1–70 Hz) for each contact, and used a pre-trained VGG16 network to measure their visual complexity by extracting unsupervised activation energy (UAE) from 13 convolutional layers. We identified points of interest in the brain using the UAE values via patient- and layer-specific thresholds (based on extreme value distribution) and using a support vector machine classifier. Results show that contacts inside the seizure onset zone exhibit lower UAE than outside, with larger differences in deep layers (L10, L12, and L13: p < 0.001). Furthermore, the points of interest identified using the support vector machine, localized the EZ with 7 mm accuracy. In conclusion, we presented a pre-surgical computerized tool that facilitates the EZ localization in the patient’s MRI without requiring long-term iEEG inspection.},
+DOI = {10.3390/a16120567},
+shortvenue={MDPI Algorithms}
+}
+
+@article{qi2023lesion,
+  title={Lesion Search with Self-supervised Learning},
+  author={Qi, Kristin and Cheng, Jiali and Haehn, Daniel},
+  journal={International Conference on Learning Representations (ICLR), Tiny Paper},
+  abstract={Content-based image retrieval (CBIR) with self-supervised learning (SSL) accelerates clinicians’ interpretation of similar images without manual annotations. We develop a CBIR from the contrastive learning SimCLR and incorporate a generalized-mean (GeM) pooling followed by L2 normalization to classify lesion types and retrieve similar images before clinicians' analysis. Results have shown improved performance. We additionally build an open-source application for image analysis and retrieval. The application is easy to integrate, relieving manual efforts and suggesting the potential to support clinicians’ everyday activities.},
+  code={https://github.com/openhcimed/flask_search},
+  year={2023},
+  shortvenue={ICLR 2023}
+}
+
+
 @inproceedings{zurrin2023outlier,
 title={Outlier Detection for Mammograms},
 author={Ryan Zurrin and Neha Goyal and Pablo Bendiksen and Muskaan Manocha and Dan Simovici and Nurit Haspel and Marc Pomplun and Daniel Haehn},
