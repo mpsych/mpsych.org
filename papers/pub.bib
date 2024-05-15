@@ -1,4 +1,72 @@
 %
+% 2024
+%
+
+@inproceedings{franke2024slicertms,
+  title={SlicerTMS: Real-Time Visualization of Transcranial Magnetic Stimulation for Mental Health Treatment},
+  author={Franke, Loraine and Park, Tae Young and Luo, Jie and Rathi, Yogesh and Pieper, Steve and Ning, Lipeng and \myname{Haehn, Daniel}},
+  abstract={We present a real-time visualization system for Transcranial Magnetic Stimulation (TMS), a non-invasive neuromodulation technique for treating various brain disorders and mental health diseases. Our solution targets the current challenges of slow and labor-intensive practices in treatment planning. Integrating Deep Learning (DL), our system rapidly predicts electric field (E-field) distributions in 0.2 seconds for precise and effective brain stimulation. The core advancement lies in our tool’s real-time neuronavigation visualization capabilities, which support clinicians in making more informed decisions quickly and effectively. We assess our system’s performance through three studies: First, a real-world use case scenario in a clinical setting, providing concrete feedback on applicability and usability in a practical environment. Second, a comparative analysis with another TMS tool focusing on computational efficiency across various hardware platforms. Lastly, we conducted an expert user study to measure usability and influence in optimizing TMS treatment planning. The system is openly available for community use and further development on GitHub: https://github.com/lorifranke/SlicerTMS.},
+  booktitle={Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages={XXX--XXX},
+  year={2024},
+  organization={Springer, Cham},
+  code={https://github.com/lorifranke/slicertms},
+  data={https://github.com/lorifranke/slicertms},
+  website={https://github.com/lorifranke/slicertms},
+  shortvenue={MICCAI 2024}
+}
+
+@article{franke2024autorlx,
+author = {Franke, Loraine and Weidele, Daniel Karl I. and Dehmamy, Nima and Ning, Lipeng and \myname{Haehn, Daniel}},
+title = {AutoRL X: Automated Reinforcement Learning on the Web},
+year = {2024},
+issue_date = {TBA},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {TBA},
+number = {TBA},
+issn = {2160-6455},
+url = {TBA},
+doi = {TBA},
+abstract = {Reinforcement Learning (RL) is crucial in decision optimization, but its inherent complexity often presents challenges in interpretation and communication. Building upon AutoDOViz — an interface that pushed the boundaries of Automated RL for Decision Optimization — this paper unveils an open-source expansion with a web-based platform for RL. Our work introduces a taxonomy of RL visualizations and launches a dynamic web platform, leveraging backend flexibility for AutoRL frameworks like ARLO and Svelte.js for a smooth interactive user experience in the front end. Since AutoDOViz is not open-source, we present AutoRL X, a new interface designed to visualize RL processes. AutoRL X is shaped by the extensive user feedback and expert interviews from AutoDOViz studies, and it brings forth an intelligent interface with real-time, intuitive visualization capabilities that enhance understanding, collaborative efforts, and personalization of RL agents. Addressing the gap in accurately representing complex real-world challenges within standard RL environments, we demonstrate our tool's application in healthcare, explicitly optimizing brain stimulation trajectories. A user study contrasts the performance of human users optimizing electric fields via a 2D interface with RL agents' behavior that we visually analyze in AutoRL X, assessing the practicality of automated RL. All our data and code is available online at: https://github.com/lorifranke/autorlx},
+journal = {ACM Transactions Interactive Intelligent Systems},
+month = {TBA},
+articleno = {TBA},
+numpages = {TBA},
+code={https://github.com/lorifranke/autorlx},
+data={https://github.com/lorifranke/autorlx},
+shortvenue={ACM TIIS Journal}
+}
+
+@article{tiwari2024noninvasive,
+title={Non-invasive Stress Monitoring from Video},
+  author={Tiwari, Akshata and Matejek, Brian and \myname{Haehn, Daniel}},
+  abstract={Identifying stress is crucial for maintaining a healthy lifestyle.
+Current stress-detection methods are relatively slow and subjective and often take place through invasive measurements via medical devices. We instead propose end-to-end, non-invasive detection of stress through video. We incorporate several modalities to perform holistic detection of a user’s stress level. Our framework employs an emotion recognition model to detect expressions through facial recordings. Then, we evaluate a user's heart rate by amplifying changes in skin coloration through Eulerian Video Magnification. Finally, we analyze differentials in eyebrow and lip movements. We combine these three measurements to output a final stress score per unit of time. Our chosen emotion recognition model achieves an accuracy of 96.46%, and our remote heart rate detection module has a mean absolute error of 5.79 BPM. We provide a web-based application that allows for rapid, contactless stress detection through a webcam. We achieve over 84% accuracy on a dataset of video clips with individuals labeled as undergoing low, moderate, or high-stress levels. All code and data are openly available.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2024},
+  organization={IEEE},
+  code={https://github.com/mpsych/stress},
+  data={https://github.com/mpsych/stress},
+  shortvenue={ISBI 2024}
+}
+
+
+@article{park2024review,
+  title={A review of algorithms and software for real-time electric field modeling techniques for transcranial magnetic stimulation},
+  author={Park, Tae Young and Franke, Loraine and Pieper, Steve and \myname{Haehn, Daniel} and Ning, Lipeng},
+  journal={Biomedical Engineering Letters},
+  pages={1--13},
+  year={2024},
+  publisher={Springer},
+  abstract={Transcranial magnetic stimulation (TMS) is a device-based neuromodulation technique increasingly used to treat brain diseases. Electric field (E-field) modeling is an important technique in several TMS clinical applications, including the precision stimulation of brain targets with accurate stimulation density for the treatment of mental disorders and the localization of brain function areas for neurosurgical planning. Classical methods for E-field modeling usually take a long computation time. Fast algorithms are usually developed with significantly lower spatial resolutions that reduce the prediction accuracy and limit their usage in real-time or near real-time TMS applications. This review paper discusses several modern algorithms for real-time or near real-time TMS E-field modeling and their advantages and limitations. The reviewed methods include techniques such as basis representation techniques and deep neural-network-based methods. This paper also provides a review of software tools that can integrate E-field modeling with navigated TMS, including a recent software for real-time navigated E-field mapping based on deep neural-network models.},
+  DOI={10.1007/s13534-024-00373-4},
+  url={https://link.springer.com/article/10.1007/s13534-024-00373-4},
+  shortvenue={Biomed. Engin. Letters}
+}
+
+%
 % 2023
 %
 
@@ -19,7 +87,7 @@ shortvenue={MDPI Algorithms}
 
 @article{qi2023lesion,
   title={Lesion Search with Self-supervised Learning},
-  author={Qi, Kristin and Cheng, Jiali and Haehn, Daniel},
+  author={Qi, Kristin and Cheng, Jiali and \myname{Haehn, Daniel}},
   journal={International Conference on Learning Representations (ICLR)},
   abstract={Content-based image retrieval (CBIR) with self-supervised learning (SSL) accelerates clinicians’ interpretation of similar images without manual annotations. We develop a CBIR from the contrastive learning SimCLR and incorporate a generalized-mean (GeM) pooling followed by L2 normalization to classify lesion types and retrieve similar images before clinicians' analysis. Results have shown improved performance. We additionally build an open-source application for image analysis and retrieval. The application is easy to integrate, relieving manual efforts and suggesting the potential to support clinicians’ everyday activities.},
   code={https://github.com/openhcimed/flask_search},
@@ -30,7 +98,7 @@ shortvenue={MDPI Algorithms}
 
 @inproceedings{zurrin2023outlier,
 title={Outlier Detection for Mammograms},
-author={Ryan Zurrin and Neha Goyal and Pablo Bendiksen and Muskaan Manocha and Dan Simovici and Nurit Haspel and Marc Pomplun and Daniel Haehn},
+author={Ryan Zurrin and Neha Goyal and Pablo Bendiksen and Muskaan Manocha and Dan Simovici and Nurit Haspel and Marc Pomplun and \myname{Daniel Haehn}},
 abstract={Mammograms are vital for detecting breast cancer, the most common cancer among women in the US. However, low-quality scans and imaging artifacts can compromise their efficacy. We introduce an automated pipeline to filter low-quality mammograms from large datasets. Our initial dataset of 176,492 mammograms contained an estimated 5.5% lower quality scans with issues like metal coil frames, wire clamps, and breast implants. Manually removing these images is tedious and error-prone. Our two-stage process first uses threshold-based 5-bin histogram filtering to eliminate undesirable images, followed by a variational autoencoder to remove remaining low-quality scans. Our method detects such scans with an F1 Score of 0.8862 and preserves 163,568 high-quality mammograms. We provide results and tools publicly available as open-source software.},
 booktitle={International Conference on Medical Imaging with Deep Learning (MIDL)},
 year={2023},
