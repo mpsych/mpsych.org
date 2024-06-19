@@ -29,14 +29,13 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
+<!-- <div class="person">
   <img src="/people/franke.jpg">
   <div class="caption">
     Loraine Franke, MS<br>
     <span class="role">PhD Candidate in Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/franke/bio.txt">Bio</a>
-      <!-- <a class="cleanlink" href="/people/franke/cv.pdf">CV</a> -->
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://scholar.google.com/citations?user=byotQh4AAAAJ&hl" target="_blank"><span class="icon-book tooltip"><span class="tooltiptext">Google Scholar</span></span></a>
@@ -45,7 +44,7 @@ permalink: /people
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
-</div>
+</div> -->
 
 <div class="person">
   <img src="/people/mgeshvadi.jpg">
@@ -80,7 +79,7 @@ permalink: /people
 </div>
 
 
-<div class="person">
+<!-- <div class="person">
   <img src="/people/kiran.jpg">
   <div class="caption">
     Kiran Sandilya<br>
@@ -95,7 +94,7 @@ permalink: /people
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <div class="person">
@@ -114,7 +113,7 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
+<!-- <div class="person">
   <img src="/people/shah.jpg">
   <div class="caption">
     Dhruv Shah<br>
@@ -129,25 +128,20 @@ permalink: /people
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="person">
+<!-- <div class="person">
   <img src="/people/shruti.png">
   <div class="caption">
     Shruti Shailendra Varade<br>
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
-<!--       <a class="cleanlink" href="/people/edward/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/edward/Resume_Edward_Gaibor.pdf">CV</a>
-      <a class="cleanlink" href="https://edwardgaibor.me">Website</a> -->
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
-<!--       <a href="https://www.linkedin.com/in/edwardgaibor/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/gaiborjosue" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a> -->
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="person">
   <img src="/people/vidhya.png">
@@ -167,7 +161,7 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
+<!-- <div class="person">
   <img src="/people/zurrin.jpg">
   <div class="caption">
     Ryan Zurrin<br>
@@ -184,7 +178,7 @@ permalink: /people
       <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
   </div>
   </div>
-</div>
+</div> -->
 
 
 
@@ -255,6 +249,60 @@ permalink: /people
 </div>
 
 <p style="margin-left:14%;margin-top:50px;">Alumni</p>
+
+<div class="alumni">
+  <img src="/people/alumni/franke.jpg">
+  <div class="caption">
+    Loraine Franke<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://linkedin.com/in/loraine-franke/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/kiran.jpg">
+  <div class="caption">
+    Kiran Sandilya<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/kiran--sandilya">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/shah.jpg">
+  <div class="caption">
+    Dhruv Shah<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/dhruv-shah-01/">Website</a>
+    </span>
+  </div>
+</div>
+
+
+<div class="alumni">
+  <img src="/people/alumni/shruti.png">
+  <div class="caption">
+    Shruti Shailendra Varade<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+  </div>
+</div>
+
+
+<div class="alumni">
+  <img src="/people/alumni/zurrin.jpg">
+  <div class="caption">
+    Ryan Zurrin<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/ryan-zurrin">Website</a>
+    </span>
+  </div>
+</div>
 
 <div class="alumni">
   <img src="/people/alumni/manish.jpg">
