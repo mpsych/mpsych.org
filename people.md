@@ -250,60 +250,7 @@ permalink: /people
 
 <p style="margin-left:14%;margin-top:50px;">Alumni</p>
 
-<div class="alumni">
-  <img src="/people/alumni/zurrin.jpg">
-  <div class="caption">
-    Ryan Zurrin<br>
-    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="https://www.linkedin.com/in/ryan-zurrin">Website</a>
-    </span>
-  </div>
-</div>
 
-<div class="alumni">
-  <img src="/people/alumni/kiran.jpg">
-  <div class="caption">
-    Kiran Sandilya<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="https://www.linkedin.com/in/kiran--sandilya">Website</a>
-    </span>
-  </div>
-</div>
-
-<div class="alumni">
-  <img src="/people/alumni/shah.jpg">
-  <div class="caption">
-    Dhruv Shah<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="https://www.linkedin.com/in/dhruv-shah-01/">Website</a>
-    </span>
-  </div>
-</div>
-
-<div class="alumni">
-  <img src="/people/alumni/shruti.png">
-  <div class="caption">
-    Shruti Shailendra Varade<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="https://www.linkedin.com/in/shruti-varade">Website</a>
-    </span>
-  </div>
-</div>
-
-<div class="alumni">
-  <img src="/people/alumni/franke.jpg">
-  <div class="caption">
-    Loraine Franke<br>
-    <span class="role">PhD in Computer Science</span><br>
-    <span class="links">
-      <a class="cleanlink" href="https://linkedin.com/in/loraine-franke/">Website</a>
-    </span>
-  </div>
-</div>
 
 
 
@@ -494,3 +441,57 @@ permalink: /people
   </div>
 </div>
 
+<div class="alumni">
+  <img src="/people/alumni/zurrin.jpg">
+  <div class="caption">
+    Ryan Zurrin<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/ryan-zurrin">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/kiran.jpg">
+  <div class="caption">
+    Kiran Sandilya<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/kiran--sandilya">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/shah.jpg">
+  <div class="caption">
+    Dhruv Shah<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/dhruv-shah-01/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/shruti.png">
+  <div class="caption">
+    Shruti Shailendra Varade<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/shruti-varade">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/franke.jpg">
+  <div class="caption">
+    Loraine Franke<br>
+    <span class="role">PhD Candidate in Computer Science</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://linkedin.com/in/loraine-franke/">Website</a>
+    </span>
+  </div>
+</div>
