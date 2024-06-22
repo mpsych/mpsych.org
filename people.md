@@ -255,12 +255,9 @@ permalink: /people
   <div class="caption">
     Loraine Franke<br>
     <span class="role">PhD in Computer Science</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://scholar.google.com/citations?user=byotQh4AAAAJ&hl" target="_blank"><span class="icon-book tooltip"><span class="tooltiptext">Google Scholar</span></span></a>
-      <a href="https://linkedin.com/in/loraine-franke/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/lorifranke" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
+    <span class="links">
+      <a class="cleanlink" href="https://linkedin.com/in/loraine-franke/">Website</a>
+    </span>
   </div>
 </div>
 
@@ -269,11 +266,9 @@ permalink: /people
   <div class="caption">
     Kiran Sandilya<br>
     <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">   
-      <a href="https://github.com/kiransandilya" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="https://www.linkedin.com/in/kiran--sandilya" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
-    </div>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/kiran--sandilya">Website</a>
+    </span>
   </div>
 </div>
 
@@ -282,11 +277,9 @@ permalink: /people
   <div class="caption">
     Dhruv Shah<br>
     <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">   
-      <a href="https://github.com/dhruvshah01" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="https://www.linkedin.com/in/dhruv-shah-01/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
-    </div>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/dhruv-shah-01/">Website</a>
+    </span>
   </div>
 </div>
 
@@ -296,9 +289,9 @@ permalink: /people
   <div class="caption">
     Shruti Shailendra Varade<br>
     <span class="role">Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-    </div>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/shruti-varade">Website</a>
+    </span>
   </div>
 </div>
 
@@ -308,12 +301,9 @@ permalink: /people
   <div class="caption">
     Ryan Zurrin<br>
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://twitter.com/ryan_zurrin" target="_blank"><span class="icon-twitter tooltip"><span class="tooltiptext">Twitter</span></span></a>
-      <a href="https://www.linkedin.com/in/ryan-zurrin" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/RyanZurrin" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
-  </div>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/ryan-zurrin">Website</a>
+    </span>
   </div>
 </div>
 
