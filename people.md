@@ -104,7 +104,7 @@ permalink: /people
   <img src="/people/edwardgaibor.png">
   <div class="caption">
     Edward Gaibor<br>
-    <span class="role">Sloan Student Fellow</span><br>
+    <span class="role">IDS Student Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/edward/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/edward/Resume_Edward_Gaibor.pdf">CV</a>
