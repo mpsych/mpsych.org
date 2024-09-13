@@ -24,7 +24,7 @@ permalink: /people
       <a href="https://scholar.google.com/citations?user=HGvsO6oAAAAJ&amp;hl=en" target="_blank"><span class="icon-book tooltip"><span class="tooltiptext">Google Scholar</span></span></a>
       <a href="https://www.linkedin.com/in/haehn" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/haehn" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
   </div>
   </div>
 </div>
@@ -41,7 +41,7 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/jenna-kim-931985106/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/jiehyunjkim" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
 </div>
@@ -52,10 +52,10 @@ permalink: /people
   <div class="caption">
     SangHyuk Kim<br>
     <span class="role">PhD Student in Computer Science</span><br>
-    <span class="links">      
+    <span class="links">
       <a class="cleanlink" href="https://raw.githubusercontent.com/shkimmie-umb/my_mpsych/main/bio.txt">Bio</a>
     </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">   
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://github.com/shkimmie-umb" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
       <a href="https://www.linkedin.com/in/sang-hyuk-kim-469687182/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="mailto:SangHyuk.Kim001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
@@ -71,7 +71,7 @@ permalink: /people
     <span class="links">
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
 </div>
@@ -93,11 +93,28 @@ permalink: /people
     <div class="icons gray" style="font-size:14px;margin-left:10px">
       <a href="https://www.linkedin.com/in/edwardgaibor/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
       <a href="https://github.com/gaiborjosue" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a> 
+      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
 </div>
 
+<div class="person">
+  <img src="https://www.moody.mx/profile-cropped-square.jpg">
+  <div class="caption">
+    Blake Moody<br>
+    <span class="role">Undergraduate in Computer Science</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/blake/bio.txt">Bio</a>
+      <a class="cleanlink" href="https://www.moody.mx/api/files/resume">CV</a>
+      <a class="cleanlink" href="https://www.moody.mx">Website</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/blake-moody-2626ba11b/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/gg-blake" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:blake@moody.mx" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
 
 <div class="person">
   <img src="/gfx/team.png">
