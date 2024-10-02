@@ -102,7 +102,7 @@ permalink: /people
   <img src="https://www.moody.mx/profile-cropped-square.jpg">
   <div class="caption">
     Blake Moody<br>
-    <span class="role">Undergraduate in Computer Science</span><br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/blake/bio.txt">Bio</a>
       <a class="cleanlink" href="https://www.moody.mx/api/files/resume">CV</a>
@@ -132,7 +132,7 @@ permalink: /people
   <img src="/people/collaborators/tompkin.png">
   <div class="caption">
     James Tompkin, PhD<br>
-    <span class="role">Assistant Professor at Brown CS</span><br>
+    <span class="role">Associate Professor at Brown CS</span><br>
     <span class="links">
       <a class="cleanlink" href="http://jamestompkin.com" target="_blank">Website</a>
     </span>
