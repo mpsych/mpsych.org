@@ -117,6 +117,23 @@ permalink: /people
 </div>
 
 <div class="person">
+  <img src="/people/gross/daniel_gross.jpg">
+  <div class="caption">
+    Daniel Gross<br>
+    <span class="role">IDS Student Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/gross/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/gross/resume_daniel_gross.pdf">CV</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/daniel-gross-b8b295300/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/dgross16" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:daniel.gross001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
+
+<div class="person">
   <img src="/gfx/team.png">
   <div class="caption">
     This could be your spot!<br>
