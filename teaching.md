@@ -19,6 +19,13 @@ Check out <a href="https://CS666.org" class="bluetext" target="_blank">CS666.org
 </div>
 
 <div style='margin-left:50px;margin-top:20px;background-color:black;width:500px;color:white;padding:20px;border:2px solid #29ABE2;'>
+<img src='gfx/CS617.png' style='width:180px'><br>
+Explore the art of data visualization and storytelling using open data sources from Massachusetts and Boston! You will create interactive charts using design best practices, and learn about the fundamentals and future of infovis!
+<br><br>
+Check out <a href="https://CS617.org" class="bluetext" target="_blank">CS617.org</a> !
+</div>
+
+<div style='margin-left:50px;margin-top:20px;background-color:black;width:500px;color:white;padding:20px;border:2px solid #29ABE2;'>
 <img src='gfx/CS460.png' style='width:250px'><br>
 Create interactive web-based 3D visualizations for computers, smartphones, and tablets! This is a hands-on course that explains the fundamental concepts of 3D computer graphics by teaching WebGL.
 <br><br>
