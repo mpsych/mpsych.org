@@ -78,8 +78,6 @@ permalink: /people
 
 
 
-
-
 <div class="person">
   <img src="/people/edwardgaibor.png">
   <div class="caption">
@@ -150,6 +148,23 @@ permalink: /people
 </div>
 
 <div class="person">
+  <img src="/people/rami/rami.png">
+  <div class="caption">
+    Rami Huu Nguyen <br>
+    <span class="role">AI Researcher</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/rami/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/rami/RamiResume.pdf">CV</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/rami-huu-nguyen/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/raminguyen" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:rami@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
+
+<div class="person">
   <img src="/gfx/team.png">
   <div class="caption">
     This could be your spot!<br>
@@ -159,6 +174,21 @@ permalink: /people
     </span>
   </div>
 </div>
+
+
+
+<div class="person">
+  <img src="/gfx/team.png">
+  <div class="caption">
+    This could be your spot!<br>
+    <span class="role" style="color:#cd00cd">Scholarships available for full-time and part-time PhD students.</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/join/">Join us!</a>
+    </span>
+  </div>
+</div>
+
+
 
 <p style="margin-left:14%;margin-top:50px;">Collaborators</p>
 <div class="collaborator">
