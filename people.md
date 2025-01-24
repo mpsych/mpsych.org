@@ -9,7 +9,7 @@ permalink: /people
 <br><br><br>
 
 <div class="person">
-  <img src="/people/haehn.jpg">
+  <img src="/people/haehn3.jpg">
   <div class="caption">
     Daniel Haehn, PhD<br>
     <span class="role">Assistant Professor of Computer Science</span><br>
@@ -151,7 +151,7 @@ permalink: /people
   <img src="/people/rami/rami.png">
   <div class="caption">
     Rami Huu Nguyen <br>
-    <span class="role">AI Researcher</span><br>
+    <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/rami/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/rami/RamiResume.pdf">CV</a>
@@ -168,25 +168,13 @@ permalink: /people
   <img src="/gfx/team.png">
   <div class="caption">
     This could be your spot!<br>
-    <span class="role" style="color:#cd00cd">Scholarships available for full-time and part-time PhD students.</span><br>
+    <span class="role" style="color:#cd00cd">Opportunities available!</span><br>
     <span class="links">
       <a class="cleanlink" href="/join/">Join us!</a>
     </span>
   </div>
 </div>
 
-
-
-<div class="person">
-  <img src="/gfx/team.png">
-  <div class="caption">
-    This could be your spot!<br>
-    <span class="role" style="color:#cd00cd">Scholarships available for full-time and part-time PhD students.</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/join/">Join us!</a>
-    </span>
-  </div>
-</div>
 
 
 
