@@ -148,7 +148,7 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/avanith/avanith.jpg">
+  <img src="/people/avanith/avanith.png">
   <div class="caption">
     Avanith Kanamarlapudi<br>
     <span class="role">Machine Psychology Fellow</span><br>
