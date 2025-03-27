@@ -1,4 +1,64 @@
 %
+% 2025
+%
+@article {nguyen2025evaluating,
+    title={Evaluating 'Graphical Perception' with Multimodal LLMs},
+  author={Nguyen, Rami Huu and Maeda, Kenichi and Geshvadi, Mahsa and \myname{Haehn, Daniel}},
+    abstract={Multimodal Large Language Models (MLLMs) have remarkably progressed in analyzing and understanding images. Despite these advancements, accurately regressing values in charts remains an underexplored area for MLLMs. For visualization, how do MLLMs perform when applied to graphical perception tasks? Our paper investigates this question by reproducing Cleveland and McGill's seminal 1984 experiment and comparing it against human task performance. Our study primarily evaluates fine-tuned and pretrained models and zero-shot prompting to determine if they closely match human graphical perception. Our findings highlight that MLLMs outperform human task performance in some cases but not in others. We highlight the results of all experiments to foster an understanding of where MLLMs succeed and fail when applied to data visualization.},
+    journal={IEEE Pacific Visualization (PacificVis)},
+    year={2025},
+    code={https://github.com/raminguyen/LLMP2},
+    data={https://github.com/raminguyen/LLMP2},
+    supplemental={https://mpsych.org/papers/nguyen2025_supplemental.pdf},
+    shortvenue={PacificVis 2025}
+}
+
+
+@article{kim2025melanoma,
+title={Melanoma Detection with Uncertainty Quantification},
+  author={Kim, SangHyuk and Gaibor, Edward and Matejek, Brian and \myname{Haehn, Daniel}},
+  abstract={  Early detection of melanoma is crucial for improving survival rates. Current detection tools often utilize data-driven machine learning methods but often overlook the full integration of multiple datasets. We combine publicly available datasets to enhance data diversity, allowing numerous experiments to train and evaluate various classifiers. We then calibrate them to minimize misdiagnoses by incorporating uncertainty quantification. Our experiments on benchmark datasets show accuracies of up to 93.2% before and 97.8% after applying uncertainty-based rejection, leading to a reduction in misdiagnoses by over 40.5%. Our code and data are publicly available, and a web-based interface for quick melanoma detection of user-supplied images is also provided.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2025},
+  organization={IEEE},
+  code={https://mpsych.org/melanoma/},
+  data={https://mpsych.org/melanoma/},
+  website={https://mpsych.github.io/melanoma/},
+  shortvenue={ISBI 2025}
+}
+
+@article{gaibor2025boostlet,
+title={Boostlet.js: Medical Image Processing Plugins for the Web via JavaScript Injection},
+  author={Gaibor, Edward and Varade, Shruti and Deshmukh, Rohini and Meyer, Tim and Geshvadi, Mahsa and Kim, SangHyuk and Narayanappa, Vidhya Sree and \myname{Haehn, Daniel}},
+  abstract={Can web-based image processing and visualization tools easily integrate into existing websites without significant time and effort? Our Boostlet.js library addresses this challenge by providing an open-source, JavaScript-based web framework to enable additional image processing functionalities. Boostlet examples include kernel filtering, image captioning, data visualization, segmentation, and web-optimized machine-learning models. To achieve this, Boostlet.js uses a browser bookmark to inject a user-friendly plugin selection tool called PowerBoost into any host website. Boostlet provides on-site access to a standard API independent of any visualization framework for pixel data and scene manipulation. Boostlet is natively integrated into SliceDrop, a web-based, interactive viewer for medical imaging data. Boostlets provide a modular architecture and client-side processing capabilities to apply advanced image-processing techniques using consumer-level hardware. The code is open-source and available.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2025},
+  organization={IEEE},
+  code={https://github.com/mpsych/boostlet/},
+  data={https://github.com/mpsych/boostlet/},
+  website={https://boostlet.org},
+  shortvenue={ISBI 2025}
+}
+
+
+@article{kim2025automatic,
+title={Automatic Segmentation of Calcified Plaque in Carotid Arteries},
+  author={Kim, Jiehyun and Wang, Kevin and Sakai, Yu and Zhu, Youxiang and Hu, Andrew C. and Phi, Huy Q. and Arnett, Nathan and Wang, Grace J. and Cicchiara, Brett L. and Song, Jae W. and \myname{Haehn, Daniel}},
+  abstract={Stroke remains a leading cause of death globally, with calcified plaque in the carotid artery being a significant risk factor. Evaluating the impact of calcified carotid plaque, particularly in patients with embolic stroke of undetermined source (ESUS), is critical yet challenging. Manual segmentation, essential for assessing stroke risk, is time-consuming, and conventional methods like 2D and 3D UNet often struggle with the small size of calcified plaques. 
+Therefore, this paper introduces a two-step segmentation process. First, segments the carotid artery to narrow the search space and focus on the region of interest around the artery. Then, it segments the calcified plaque within that targeted region. This approach achieves an intersection over union (IoU) of 0.9412 for the 2D model and 0.8095 for the 3D model, outperforming the baseline methods that directly segment plaques. All developments are open source and publicly accessible on our GitHub: https://github.com/mpsych/CACTAS-AI.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2025},
+  organization={IEEE},
+  code={https://github.com/jiehyunjkim/CACTAS-AI},
+  data={https://github.com/jiehyunjkim/CACTAS-AI},
+  shortvenue={ISBI 2025}
+}
+
+
+%
 % 2024
 %
 
@@ -324,7 +384,7 @@ shortvenue={MDPI Sustainability}
   booktitle={Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
   pages={XXX--XXX},
   year={2020},
-  supplemental={http://danielhaehn.com/papers/haehn2020trako_supplemental.pdf},
+  supplemental={https://mpsych.org/papers/haehn2020trako_supplemental.pdf},
   organization={Springer, Cham},
   code={https://github.com/bostongfx/TRAKO/},
   data={https://github.com/bostongfx/TRAKO/},
@@ -339,7 +399,7 @@ shortvenue={MDPI Sustainability}
   booktitle = {European Conference on Computer Vision (ECCV)},
   month = {August},
   year = {2020},
-  supplemental={http://danielhaehn.com/papers/lin2020twostream_supplemental.pdf},
+  supplemental={https://mpsych.org/papers/lin2020twostream_supplemental.pdf},
   code={https://github.com/zudi-lin/pytorch_connectomics/},
   data={https://zudi-lin.github.io/projects/},
   website={https://zudi-lin.github.io/projects/#two_stream_active},
