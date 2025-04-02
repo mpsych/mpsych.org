@@ -11,8 +11,7 @@ title: The Oregon-Massachusetts Mammography Database
 
 The OMAMA-DB contains thousands of breast cancer images with labels generated through a partnership with <a href='https://deep.health'>deep.health</a>.
 
-## The dataset is now available at the Harvard Dataverse!
-## https://dataverse.harvard.edu/dataverse/omama
+## The dataset is now available at the <a href='https://dataverse.harvard.edu/dataverse/omama'>Harvard Dataverse</a>!
 
 Supported by 
 
