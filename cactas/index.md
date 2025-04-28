@@ -14,7 +14,7 @@ CACTAS-Tool is a web-based single-click annotation tool that is 2.89 times faste
 <a href='images/SCCT.pdf' target='_blank'><img src='images/SCCT.png' style='border:solid thin black;width:500px'></a>
 
 
-## CACTAS_AI: Automatic Segmentation of Calcified Plaque in Carotid Arteries (ISBI 2025)
+## CACTAS-AI: Automatic Segmentation of Calcified Plaque in Carotid Arteries (ISBI 2025)
 Manual segmentation of calcified plaque, essential for assessing stroke risk, is time-consuming, and conventional methods like 2D and 3D UNet often struggle with the small size. We developed CACTAS-AI, a two-step segmentation process. This approach outperforms baseline methods in plaque segmentation, as shown in the table. The paper of CACTAS-AI is accepted by the IEEE International Symposium on Biomedical Imaging (ISBI), 2025. 
 
 <a href='images/ISBI25_paper_192.pdf' target='_blank'><img src='images/ISBI_Poster.png' style='border:solid thin black;width:500px'></a>
