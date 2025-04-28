@@ -19,7 +19,7 @@ permalink: /paper
 
         <br>
 
-        <div style='width:700px; text-align:justify;font-size:12pt;' data-innerText='+ABSTRACT+' class=' bib_optional bibtexVar' extra='ABSTRACT'><img class='bibtexVar thumbnail' src='/papers/+BIBTEXKEY+.png' width="150" height="150" extra="BIBTEXKEY" style='margin-top:10px;float:left; margin-right:12px;filter: grayscale(0%);'></div>
+        <div style='width:700px; text-align:justify;font-size:12pt;' data-innerText='+ABSTRACT+' class=' bib_optional bibtexVar' extra='ABSTRACT'><img class='bibtexVar thumbnail' src='/papers/+BIBTEXKEY+.png' width="150" height="150" extra="BIBTEXKEY" style='margin-top:10px;float:left; margin-right:12px;filter: grayscale(0%);border:solid #666 1px;'></div>
 
         <br>
 

@@ -1,4 +1,335 @@
 %
+% 2025
+%
+@INPROCEEDINGS{fernandez2025ctrlempower,
+  author={Fernandez, Arianna and de Oliveira, Sophia and Spencer, Chaya and Hernandez, Kalysha Melendez and Piam, Samatrai and \myname{Haehn, Daniel} and Potasznik, Amanda},
+  booktitle={IEEE International Symposium on Ethics in Science, Technology and Engineering (ETHICS)}, 
+  title={CTRL + Empower: Lived Experiences of Black Women and Latinas in
+Computer Science at an Urban Public University}, 
+  abstract={Among public universities in the New England
+region of the United States, the University of Massachusetts
+Boston (UMB) is the most ethnically diverse. Enrollment data in
+the Computer Science (CS) department there closely aligns with
+the broader demographic composition of the university, with over
+half of CS majors identifying as students of color, a trend that
+deviates from national patterns. However, the department
+demographics exhibit a gender disparity, with male students
+outnumbering female students at a ratio of five to one, consistent
+with both national and global trends in CS. The disparity is even
+higher when an intersectional lens is applied: attracting and
+retaining Black and Indigenous Women of Color (BIWOC)
+students, especially Black and Latina women, in the CS program
+remains a significant challenge. Here, an exploratory
+phenomenological case study utilizing participatory action
+research was conducted to examine the lived experiences of female
+Black and Latina students in the CS department. A preliminary
+survey informed focus group topics of discussion. Thematic coding
+of focus group discussions was undertaken to achieve two
+objectives: (1) to develop actionable recommendations for
+improving the recruitment and retention of students of color and
+women, and (2) establish research experience for the female
+participants so they may benefit tangibly from their contribution.
+Key themes identified included resistance to BIWOC students,
+mostly in the form of questioning capabilities and other
+microaggressions, background mental labor in responding to or
+actively ignoring that resistance, navigating the world as it is
+versus trying to change it for the better, the need for counterspaces to share experiences of microaggressions and develop
+success strategies, and potential benefits of a BIWOC research
+hub, open to all students but with a focus on BIWOC students.},
+  year={2025},
+  volume={},
+  number={},
+  pages={},
+  doi={},    
+  shortvenue={IEEE ETHICS 2025},
+  entrysubtype = {fromUMB}
+}
+
+@article {nguyen2025evaluating,
+    title={Evaluating 'Graphical Perception' with Multimodal LLMs},
+  author={Nguyen, Rami Huu and Maeda, Kenichi and Geshvadi, Mahsa and \myname{Haehn, Daniel}},
+    abstract={Multimodal Large Language Models (MLLMs) have remarkably progressed in analyzing and understanding images. Despite these advancements, accurately regressing values in charts remains an underexplored area for MLLMs. For visualization, how do MLLMs perform when applied to graphical perception tasks? Our paper investigates this question by reproducing Cleveland and McGill's seminal 1984 experiment and comparing it against human task performance. Our study primarily evaluates fine-tuned and pretrained models and zero-shot prompting to determine if they closely match human graphical perception. Our findings highlight that MLLMs outperform human task performance in some cases but not in others. We highlight the results of all experiments to foster an understanding of where MLLMs succeed and fail when applied to data visualization.},
+    journal={IEEE Pacific Visualization (PacificVis)},
+    year={2025},
+    code={https://github.com/raminguyen/LLMP2},
+    data={https://github.com/raminguyen/LLMP2},
+    supplemental={https://mpsych.org/papers/nguyen2025_supplemental.pdf},
+    shortvenue={PacificVis 2025}
+}
+
+
+@article{kim2025melanoma,
+title={Melanoma Detection with Uncertainty Quantification},
+  author={Kim, SangHyuk and Gaibor, Edward and Matejek, Brian and \myname{Haehn, Daniel}},
+  abstract={  Early detection of melanoma is crucial for improving survival rates. Current detection tools often utilize data-driven machine learning methods but often overlook the full integration of multiple datasets. We combine publicly available datasets to enhance data diversity, allowing numerous experiments to train and evaluate various classifiers. We then calibrate them to minimize misdiagnoses by incorporating uncertainty quantification. Our experiments on benchmark datasets show accuracies of up to 93.2% before and 97.8% after applying uncertainty-based rejection, leading to a reduction in misdiagnoses by over 40.5%. Our code and data are publicly available, and a web-based interface for quick melanoma detection of user-supplied images is also provided.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2025},
+  organization={IEEE},
+  code={https://mpsych.org/melanoma/},
+  data={https://mpsych.org/melanoma/},
+  website={https://mpsych.github.io/melanoma/},
+  shortvenue={ISBI 2025}
+}
+
+@article{gaibor2025boostlet,
+title={Boostlet.js: Medical Image Processing Plugins for the Web via JavaScript Injection},
+  author={Gaibor, Edward and Varade, Shruti and Deshmukh, Rohini and Meyer, Tim and Geshvadi, Mahsa and Kim, SangHyuk and Narayanappa, Vidhya Sree and \myname{Haehn, Daniel}},
+  abstract={Can web-based image processing and visualization tools easily integrate into existing websites without significant time and effort? Our Boostlet.js library addresses this challenge by providing an open-source, JavaScript-based web framework to enable additional image processing functionalities. Boostlet examples include kernel filtering, image captioning, data visualization, segmentation, and web-optimized machine-learning models. To achieve this, Boostlet.js uses a browser bookmark to inject a user-friendly plugin selection tool called PowerBoost into any host website. Boostlet provides on-site access to a standard API independent of any visualization framework for pixel data and scene manipulation. Boostlet is natively integrated into SliceDrop, a web-based, interactive viewer for medical imaging data. Boostlets provide a modular architecture and client-side processing capabilities to apply advanced image-processing techniques using consumer-level hardware. The code is open-source and available.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2025},
+  organization={IEEE},
+  code={https://github.com/mpsych/boostlet/},
+  data={https://github.com/mpsych/boostlet/},
+  website={https://boostlet.org},
+  shortvenue={ISBI 2025}
+}
+
+
+@article{kim2025automatic,
+title={Automatic Segmentation of Calcified Plaque in Carotid Arteries},
+  author={Kim, Jiehyun and Wang, Kevin and Sakai, Yu and Zhu, Youxiang and Hu, Andrew C. and Phi, Huy Q. and Arnett, Nathan and Wang, Grace J. and Cicchiara, Brett L. and Song, Jae W. and \myname{Haehn, Daniel}},
+  abstract={Stroke remains a leading cause of death globally, with calcified plaque in the carotid artery being a significant risk factor. Evaluating the impact of calcified carotid plaque, particularly in patients with embolic stroke of undetermined source (ESUS), is critical yet challenging. Manual segmentation, essential for assessing stroke risk, is time-consuming, and conventional methods like 2D and 3D UNet often struggle with the small size of calcified plaques. 
+Therefore, this paper introduces a two-step segmentation process. First, segments the carotid artery to narrow the search space and focus on the region of interest around the artery. Then, it segments the calcified plaque within that targeted region. This approach achieves an intersection over union (IoU) of 0.9412 for the 2D model and 0.8095 for the 3D model, outperforming the baseline methods that directly segment plaques. All developments are open source and publicly accessible on our GitHub: https://github.com/mpsych/CACTAS-AI.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2025},
+  organization={IEEE},
+  code={https://github.com/jiehyunjkim/CACTAS-AI},
+  data={https://github.com/jiehyunjkim/CACTAS-AI},
+  shortvenue={ISBI 2025}
+}
+
+
+%
+% 2024
+%
+@inproceedings{zhu2024adversarial,
+    title = "Adversarial Text Generation using Large Language Models for Dementia Detection",
+    author = "Zhu, Youxiang  and
+      Lin, Nana  and
+      Balivada, Kiran Sandilya  and
+      Haehn, Daniel  and
+      Liang, Xiaohui",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.1222/",
+    doi = "10.18653/v1/2024.emnlp-main.1222",
+    pages = "21918--21933",
+    abstract = "Although large language models (LLMs) excel in various text classification tasks, regular prompting strategies (e.g., few-shot prompting) do not work well with dementia detection via picture description. The challenge lies in the language marks for dementia are unclear, and LLM may struggle with relating its internal knowledge to dementia detection. In this paper, we present an accurate and interpretable classification approach by Adversarial Text Generation (ATG), a novel decoding strategy that could relate dementia detection with other tasks. We further develop a comprehensive set of instructions corresponding to various tasks and use them to guide ATG, achieving the best accuracy of 85{\%}, {\ensuremath{>}}10{\%} improvement compared to the regular prompting strategies. In addition, we introduce feature context, a human-understandable text that reveals the underlying features of LLM used for classifying dementia. From feature contexts, we found that dementia detection can be related to tasks such as assessing attention to detail, language, and clarity with specific features of the environment, character, and other picture content or language-related features. Future work includes incorporating multi-modal LLMs to interpret speech and picture information.",
+  entrysubtype = {fromUMB}
+}
+
+@inproceedings{meyer2024webgl,
+  title={WebGL-based Image Processing through JavaScript Injection},
+  author={Meyer, Tim and Dreo Rodosek, Gabi and \myname{Haehn, Daniel}},
+  abstract={Can we modify existing web-based computer graphics content through JavaScript injection? We study how to hijack the WebGL context of any external website to perform GPU-accelerated image processing and scene modification. This allows client-side modification of 2D and 3D content without access to the web server. We demonstrate how JavaScript can overload an existing WebGL context and present examples such as color replacement, edge detection, image filtering, and complete visual transformations of external websites, as well as vertex and geometry processing and manipulation. We discuss the potential of such an approach and present open-source software for real-time processing using a bookmarklet implementation.},
+  booktitle={ACM Conference on 3D Web Technology},
+  pages={1--5},
+  year={2024},
+  website={https://meyerstim.github.io/WebGL-Image-Processor/},
+  code={https://github.com/meyerstim/WebGL-Image-Processor},
+  shortvenue={ACM Web3D 2024},
+  entrysubtype = {fromUMB}
+}
+
+@article{cui2024generalization,
+  title={Generalization of CNNs on Relational Reasoning With Bar Charts},
+  author={Cui, Zhenxing and Chen, Lu and Wang, Yunhai and \myname{Haehn, Daniel} and Wang, Yong and Pfister, Hanspeter},
+  abstract={This paper presents a systematic study of the generalization of convolutional neural networks (CNNs) and humans on relational reasoning tasks with bar charts. We first revisit previous experiments on graphical perception and update the benchmark performance of CNNs. We then test the generalization performance of CNNs on a classic relational reasoning task: estimating bar length ratios in a bar chart, by progressively perturbing the standard visualizations. We further conduct a user study to compare the performance of CNNs and humans. Our results show that CNNs outperform humans only when the training and test data have the same visual encodings. Otherwise, they may perform worse. We also find that CNNs are sensitive to perturbations in various visual encodings, regardless of their relevance to the target bars. Yet, humans are mainly influenced by bar lengths. Our study suggests that robust relational reasoning with visualizations is challenging for CNNs. Improving CNNs' generalization performance may require training them to better recognize task-related visual properties.},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2024},
+  publisher={IEEE},
+  website={https://ieeexplore.ieee.org/document/10684131},
+  entrysubtype = {fromUMB},
+  shortvenue={IEEE TVCG Journal}
+}
+
+@inproceedings{potasznik2024just,
+  title={'Just let me': Experiences of Historically Marginalized Students in the CS Department},
+  author={Potasznik, Amanda R. and Durupinar, Funda and \myname{Haehn, Daniel}},
+  abstract={The University of Massachusetts in Boston (UMB) is the most ethnically diverse public university campus in the New England region of the United States. Student enrollment in the Computer Science (CS) department closely mirrors the ethnicity-related demographic statistics of the university as a whole, with more than half of CS majors identifying as students of color, bucking national trends. Students who identify as male in our department outweigh those who identify as female five to one, however: a ratio that is in line with national and global trends. These two phenomena place our department in an interesting place for diversity, equity, and inclusion research: we boast extremely strong inclusion rates for students of color in CS, but still struggle to recruit and retain women in our programs. An exploratory phenomenological case study of participatory action research was used to investigate the lived experiences of students from various backgrounds and gender identities within our department. Salient thematic codes were analyzed with dual purposes: 1) informing suggested improvements for the department for recruiting and retaining students of color and women, and 2) ensuring student participation and inclusion in the creation of new course evaluation questions that aim to gather more data about students' experiences across the entire department. Salient themes from the focus group included gender-neutral and ethnicity-neutral based experiences, the importance of female advocates and mentors, and international status concerns.},
+  booktitle={IEEE Black Issues in Comp. Education (BICE)},
+  pages={33--39},
+  year={2024},
+  organization={Springer, Cham},
+  website={https://ieeexplore.ieee.org/document/10605866},
+  shortvenue={IEEE BICE 2024},
+  entrysubtype = {fromUMB}
+}
+
+@inproceedings{franke2024slicertms,
+  title={SlicerTMS: Real-Time Visualization of Transcranial Magnetic Stimulation for Mental Health Treatment},
+  author={Franke, Loraine and Park, Tae Young and Luo, Jie and Rathi, Yogesh and Pieper, Steve and Ning, Lipeng and \myname{Haehn, Daniel}},
+  abstract={We present a real-time visualization system for Transcranial Magnetic Stimulation (TMS), a non-invasive neuromodulation technique for treating various brain disorders and mental health diseases. Our solution targets the current challenges of slow and labor-intensive practices in treatment planning. Integrating Deep Learning (DL), our system rapidly predicts electric field (E-field) distributions in 0.2 seconds for precise and effective brain stimulation. The core advancement lies in our tool’s real-time neuronavigation visualization capabilities, which support clinicians in making more informed decisions quickly and effectively. We assess our system’s performance through three studies: First, a real-world use case scenario in a clinical setting, providing concrete feedback on applicability and usability in a practical environment. Second, a comparative analysis with another TMS tool focusing on computational efficiency across various hardware platforms. Lastly, we conducted an expert user study to measure usability and influence in optimizing TMS treatment planning. The system is openly available for community use and further development on GitHub: https://github.com/lorifranke/SlicerTMS.},
+  booktitle={Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages={XXX--XXX},
+  year={2024},
+  organization={Springer, Cham},
+  code={https://github.com/lorifranke/slicertms},
+  data={https://github.com/lorifranke/slicertms},
+  website={https://github.com/lorifranke/slicertms},
+  spotlight={yes},
+  shortvenue={MICCAI 2024}
+}
+
+@article{kyeremah2024single,
+  title={Single-beam digital holographic reconstruction: a phase-support enhanced complex wavefront on phase-only function for twin-image elimination},
+  author={Kyeremah, Charlotte and Weiss, Matthew and Kandel, Dila and \myname{Haehn, Daniel} and Yelleswarapu, Chandra},
+  abstract={Significance: In in-line digital holographic microscopy (DHM), twin-image artifacts pose a significant challenge, and reduction or complete elimination is essential for object reconstruction.
+
+Aim: To facilitate object reconstruction using a single hologram, significantly reduce inaccuracies, and avoid iterative processing, a digital holographic reconstruction algorithm called phase-support constraint on phase-only function (PCOF) is presented.
+
+Approach: In-line DHM simulations and tabletop experiments employing the sliding-window approach are used to compute the arithmetic mean and variance of the phase values in the reconstructed image. A support constraint mask, through variance thresholding, effectively enabled twin-image artifacts.
+
+Results: Quantitative evaluations using metrics such as mean squared error, peak signal-to-noise ratio, and mean structural similarity index show PCOF's superior capability in eliminating twin-image artifacts and achieving high-fidelity reconstructions compared with conventional methods such as angular spectrum and iterative phase retrieval methods.
+
+Conclusions: PCOF stands as a promising approach to in-line digital holographic reconstruction, offering a robust solution to mitigate twin-image artifacts and enhance the fidelity of reconstructed objects.},
+  journal={Journal of Biomedical Optics},
+  volume={29},
+  number={7},
+  pages={076502--076502},
+  year={2024},
+  publisher={Society of Photo-Optical Instrumentation Engineers},
+  website={https://doi.org/10.1117/1.JBO.29.7.076502},
+  code={https://github.com/Charly-KD/Ph.D-Work/tree/main},
+  entrysubtype = {fromUMB}
+}
+
+@article{franke2024autorlx,
+author = {Franke, Loraine and Weidele, Daniel Karl I. and Dehmamy, Nima and Ning, Lipeng and \myname{Haehn, Daniel}},
+title = {AutoRL X: Automated Reinforcement Learning on the Web},
+year = {2024},
+issue_date = {TBA},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {TBA},
+number = {TBA},
+issn = {2160-6455},
+url = {TBA},
+doi = {TBA},
+abstract = {Reinforcement Learning (RL) is crucial in decision optimization, but its inherent complexity often presents challenges in interpretation and communication. Building upon AutoDOViz — an interface that pushed the boundaries of Automated RL for Decision Optimization — this paper unveils an open-source expansion with a web-based platform for RL. Our work introduces a taxonomy of RL visualizations and launches a dynamic web platform, leveraging backend flexibility for AutoRL frameworks like ARLO and Svelte.js for a smooth interactive user experience in the front end. Since AutoDOViz is not open-source, we present AutoRL X, a new interface designed to visualize RL processes. AutoRL X is shaped by the extensive user feedback and expert interviews from AutoDOViz studies, and it brings forth an intelligent interface with real-time, intuitive visualization capabilities that enhance understanding, collaborative efforts, and personalization of RL agents. Addressing the gap in accurately representing complex real-world challenges within standard RL environments, we demonstrate our tool's application in healthcare, explicitly optimizing brain stimulation trajectories. A user study contrasts the performance of human users optimizing electric fields via a 2D interface with RL agents' behavior that we visually analyze in AutoRL X, assessing the practicality of automated RL. All our data and code is available online at: https://github.com/lorifranke/autorlx},
+journal = {ACM Transactions Interactive Intelligent Systems},
+month = {TBA},
+articleno = {TBA},
+numpages = {TBA},
+code={https://github.com/lorifranke/autorlx},
+data={https://github.com/lorifranke/autorlx},
+shortvenue={ACM TIIS Journal}
+}
+
+@article{tiwari2024noninvasive,
+title={Non-invasive Stress Monitoring from Video},
+  author={Tiwari, Akshata and Matejek, Brian and \myname{Haehn, Daniel}},
+  abstract={Identifying stress is crucial for maintaining a healthy lifestyle.
+Current stress-detection methods are relatively slow and subjective and often take place through invasive measurements via medical devices. We instead propose end-to-end, non-invasive detection of stress through video. We incorporate several modalities to perform holistic detection of a user’s stress level. Our framework employs an emotion recognition model to detect expressions through facial recordings. Then, we evaluate a user's heart rate by amplifying changes in skin coloration through Eulerian Video Magnification. Finally, we analyze differentials in eyebrow and lip movements. We combine these three measurements to output a final stress score per unit of time. Our chosen emotion recognition model achieves an accuracy of 96.46%, and our remote heart rate detection module has a mean absolute error of 5.79 BPM. We provide a web-based application that allows for rapid, contactless stress detection through a webcam. We achieve over 84% accuracy on a dataset of video clips with individuals labeled as undergoing low, moderate, or high-stress levels. All code and data are openly available.},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={TBA},
+  year={2024},
+  organization={IEEE},
+  code={https://github.com/mpsych/stress},
+  data={https://github.com/mpsych/stress},
+  shortvenue={ISBI 2024}
+}
+
+
+@article{park2024review,
+  title={A review of algorithms and software for real-time electric field modeling techniques for transcranial magnetic stimulation},
+  author={Park, Tae Young and Franke, Loraine and Pieper, Steve and \myname{Haehn, Daniel} and Ning, Lipeng},
+  journal={Biomedical Engineering Letters},
+  pages={1--13},
+  year={2024},
+  publisher={Springer},
+  abstract={Transcranial magnetic stimulation (TMS) is a device-based neuromodulation technique increasingly used to treat brain diseases. Electric field (E-field) modeling is an important technique in several TMS clinical applications, including the precision stimulation of brain targets with accurate stimulation density for the treatment of mental disorders and the localization of brain function areas for neurosurgical planning. Classical methods for E-field modeling usually take a long computation time. Fast algorithms are usually developed with significantly lower spatial resolutions that reduce the prediction accuracy and limit their usage in real-time or near real-time TMS applications. This review paper discusses several modern algorithms for real-time or near real-time TMS E-field modeling and their advantages and limitations. The reviewed methods include techniques such as basis representation techniques and deep neural-network-based methods. This paper also provides a review of software tools that can integrate E-field modeling with navigated TMS, including a recent software for real-time navigated E-field mapping based on deep neural-network models.},
+  DOI={10.1007/s13534-024-00373-4},
+  url={https://link.springer.com/article/10.1007/s13534-024-00373-4},
+  shortvenue={Biomed. Engin. Letters}
+}
+
+%
+% 2023
+%
+
+@Article{makaram2023deeplearning,
+AUTHOR = {Makaram, Navaneethakrishna and Gupta, Sarvagya and Pesce, Matthew and Bolton, Jeffrey and Stone, Scellig and Haehn, Daniel and Pomplun, Marc and Papadelis, Christos and Pearl, Phillip and Rotenberg, Alexander and Grant, Patricia Ellen and Tamilia, Eleonora},
+TITLE = {Deep Learning-Based Visual Complexity Analysis of Electroencephalography Time-Frequency Images: Can It Localize the Epileptogenic Zone in the Brain?},
+JOURNAL = {MDPI Algorithms},
+VOLUME = {16},
+YEAR = {2023},
+NUMBER = {12},
+ARTICLE-NUMBER = {567},
+URL = {https://www.mdpi.com/1999-4893/16/12/567},
+ISSN = {1999-4893},
+ABSTRACT = {In drug-resistant epilepsy, a visual inspection of intracranial electroencephalography (iEEG) signals is often needed to localize the epileptogenic zone (EZ) and guide neurosurgery. The visual assessment of iEEG time-frequency (TF) images is an alternative to signal inspection, but subtle variations may escape the human eye. Here, we propose a deep learning-based metric of visual complexity to interpret TF images extracted from iEEG data and aim to assess its ability to identify the EZ in the brain. We analyzed interictal iEEG data from 1928 contacts recorded from 20 children with drug-resistant epilepsy who became seizure-free after neurosurgery. We localized each iEEG contact in the MRI, created TF images (1–70 Hz) for each contact, and used a pre-trained VGG16 network to measure their visual complexity by extracting unsupervised activation energy (UAE) from 13 convolutional layers. We identified points of interest in the brain using the UAE values via patient- and layer-specific thresholds (based on extreme value distribution) and using a support vector machine classifier. Results show that contacts inside the seizure onset zone exhibit lower UAE than outside, with larger differences in deep layers (L10, L12, and L13: p < 0.001). Furthermore, the points of interest identified using the support vector machine, localized the EZ with 7 mm accuracy. In conclusion, we presented a pre-surgical computerized tool that facilitates the EZ localization in the patient’s MRI without requiring long-term iEEG inspection.},
+DOI = {10.3390/a16120567},
+shortvenue={MDPI Algorithms}
+}
+
+@article{qi2023lesion,
+  title={Lesion Search with Self-supervised Learning},
+  author={Qi, Kristin and Cheng, Jiali and \myname{Haehn, Daniel}},
+  journal={International Conference on Learning Representations (ICLR)},
+  abstract={Content-based image retrieval (CBIR) with self-supervised learning (SSL) accelerates clinicians’ interpretation of similar images without manual annotations. We develop a CBIR from the contrastive learning SimCLR and incorporate a generalized-mean (GeM) pooling followed by L2 normalization to classify lesion types and retrieve similar images before clinicians' analysis. Results have shown improved performance. We additionally build an open-source application for image analysis and retrieval. The application is easy to integrate, relieving manual efforts and suggesting the potential to support clinicians’ everyday activities.},
+  code={https://github.com/openhcimed/flask_search},
+  year={2023},
+  shortvenue={ICLR 2023}
+}
+
+
+@inproceedings{zurrin2023outlier,
+title={Outlier Detection for Mammograms},
+author={Ryan Zurrin and Neha Goyal and Pablo Bendiksen and Muskaan Manocha and Dan Simovici and Nurit Haspel and Marc Pomplun and \myname{Daniel Haehn}},
+abstract={Mammograms are vital for detecting breast cancer, the most common cancer among women in the US. However, low-quality scans and imaging artifacts can compromise their efficacy. We introduce an automated pipeline to filter low-quality mammograms from large datasets. Our initial dataset of 176,492 mammograms contained an estimated 5.5% lower quality scans with issues like metal coil frames, wire clamps, and breast implants. Manually removing these images is tedious and error-prone. Our two-stage process first uses threshold-based 5-bin histogram filtering to eliminate undesirable images, followed by a variational autoencoder to remove remaining low-quality scans. Our method detects such scans with an F1 Score of 0.8862 and preserves 163,568 high-quality mammograms. We provide results and tools publicly available as open-source software.},
+booktitle={International Conference on Medical Imaging with Deep Learning (MIDL)},
+year={2023},
+url={https://openreview.net/forum?id=4E93Xdg98u},
+code={https://github.com/mpsych/ODM},
+shortvenue={MIDL 2023}
+}
+
+@inproceedings{dehghanpoor2023classifying,
+  title={Classifying Protein Families with Learned Compressed Representations},
+  author={Dehghanpoor, Ramin and Afrasiabi, Fatemeh and Fogel, Charles and Dao, Tung and Gautam, Suman and Nehela, Aanab and Nehela, Ahmad and Haehn, Daniel and Haspel, Nurit},
+  booktitle={International Conference on Bioinformatics},
+  abstract={Classifying proteins into families is an important task when studying newly discovered proteins. If we can identify the family a protein belongs to, we can predict features without knowing the exact structure of such a protein. However, this grouping process is challenging. We propose a two-stage algorithm that classifies proteins into families by combining a dimensionality reduction technique using a variational autoencoder with learned fingerprint representations using a Convolutional Neural Network (CNN). Our models use fewer parameters than existing methods but perform better, with our variational autoencoder achieving 94% accuracy in reconstructing the most common amino acid in a sequence alignment, and the neural network provides 98-100% accuracy in classifying protein families. We developed a software framework to access our algorithms. All code and data are publicly available at https://github.com/ramindehghanpoor/CLI.},
+  volume={92},
+  pages={47--57},
+  year={2023},
+  code={https://github.com/ramindehghanpoor/CLI},
+  data={https://github.com/ramindehghanpoor/CLI},
+  bestpaper={yes},
+  shortvenue={BICOB 2023 (Best Paper Award)}
+}
+
+@inproceedings{weidele2023autodoviz,
+author = {Weidele, Daniel Karl I. and Afzal, Shazia and Valente, Abel N. and Makuch, Cole and Cornec, Owen and Vu, Long and Subramanian, Dharmashankar and Geyer, Werner and Nair, Rahul and Vejsbjerg, Inge and Marinescu, Radu and Palmes, Paulito and Daly, Elizabeth M. and Franke, Loraine and Haehn, Daniel},
+title = {AutoDOViz: Human-Centered Automation for Decision Optimization},
+year = {2023},
+isbn = {9798400701061},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3581641.3584094},
+doi = {10.1145/3581641.3584094},
+abstract = {We present AutoDOViz, an interactive user interface for automated decision optimization (AutoDO) using reinforcement learning (RL). Decision optimization (DO) has classically being practiced by dedicated DO researchers [43] where experts need to spend long periods of time fine tuning a solution through trial-and-error. AutoML pipeline search has sought to make it easier for a data scientist to find the best machine learning pipeline by leveraging automation to search and tune the solution. More recently, these advances have been applied to the domain of AutoDO [36], with a similar goal to find the best reinforcement learning pipeline through algorithm selection and parameter tuning. However, Decision Optimization requires significantly more complex problem specification when compared to an ML problem. AutoDOViz seeks to lower the barrier of entry for data scientists in problem specification for reinforcement learning problems, leverage the benefits of AutoDO algorithms for RL pipeline search and finally, create visualizations and policy insights in order to facilitate the typical interactive nature when communicating problem formulation and solution proposals between DO experts and domain experts. In this paper, we report our findings from semi-structured expert interviews with DO practitioners as well as business consultants, leading to design requirements for human-centered automation for DO with RL. We evaluate a system implementation with data scientists and find that they are significantly more open to engage in DO after using our proposed solution. AutoDOViz further increases trust in RL agent models and makes the automated training and evaluation process more comprehensible. As shown for other automation in ML tasks [33, 59], we also conclude automation of RL for DO can benefit from user and vice-versa when the interface promotes human-in-the-loop.},
+booktitle = {International Conference on Intelligent User Interfaces},
+pages = {664–680},
+numpages = {17},
+keywords = {automation, reinforcement learning, decision optimization},
+location = {Sydney, NSW, Australia},
+series = {IUI '23},
+website={https://dl.acm.org/doi/abs/10.1145/3581641.3584094},
+shortvenue={IUI 2023}
+}
+
+
+%
 % 2022
 %
 @InProceedings{goyal2022realtime,
@@ -118,7 +449,7 @@ shortvenue={MDPI Sustainability}
   booktitle={Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
   pages={XXX--XXX},
   year={2020},
-  supplemental={http://danielhaehn.com/papers/haehn2020trako_supplemental.pdf},
+  supplemental={https://mpsych.org/papers/haehn2020trako_supplemental.pdf},
   organization={Springer, Cham},
   code={https://github.com/bostongfx/TRAKO/},
   data={https://github.com/bostongfx/TRAKO/},
@@ -133,7 +464,7 @@ shortvenue={MDPI Sustainability}
   booktitle = {European Conference on Computer Vision (ECCV)},
   month = {August},
   year = {2020},
-  supplemental={http://danielhaehn.com/papers/lin2020twostream_supplemental.pdf},
+  supplemental={https://mpsych.org/papers/lin2020twostream_supplemental.pdf},
   code={https://github.com/zudi-lin/pytorch_connectomics/},
   data={https://zudi-lin.github.io/projects/},
   website={https://zudi-lin.github.io/projects/#two_stream_active},

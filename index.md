@@ -21,12 +21,13 @@ Machine learning methods are inspired by neuroscientific discoveries&mdash;but c
 <br>
 <div class="twocolumn">
 <h2 style='text-align:center'><a href="{{ site.baseurl }}/research" class="cleanlink">RECENT PAPERS</a></h2>
-<div id="bibtex_display" bibtexkeys="goyal2022realtime|burkhardt2022ntools|paulick2022promoting|singh2022how|baidak2021cellprofiler"></div>
+<div id="bibtex_display" bibtexkeys="fernandez2025ctrlempower|nguyen2025evaluating|kim2025melanoma|gaibor2025boostlet|kim2025automatic"></div>
 </div>
 
 <div class="twocolumn" style="overflow:hidden;height:500px;border-left:solid thin lightgray;">
 <h2 style='text-align:center'><a href="https://twitter.com/mpsychUMB" target="_blank" class="cleanlink">NEWS</a></h2>
-<a class="twitter-timeline" data-width="390" data-height="500" data-theme="light" data-link-color="#29ABE2" data-show-replies="false" data-show-retweets="false" data-tweet-limit="3" data-dnt="true" data-cards="hidden" data-chrome="nofooter noheader noscrollbar noborders" href="https://twitter.com/mpsychUMB?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe src='https://www.juicer.io/api/feeds/haehn/iframe?truncate=100&gutter=0&columns=1&' frameborder='0' width='392' height='1000' style='display:block;margin:0 auto;'></iframe>
+<!-- <a class="twitter-timeline" data-width="390" data-height="500" data-theme="light" data-link-color="#29ABE2" data-show-replies="false" data-show-retweets="false" data-tweet-limit="3" data-dnt="true" data-cards="hidden" data-chrome="nofooter noheader noscrollbar noborders" href="https://twitter.com/mpsychUMB?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 </div>
 
 <div class="bibtex_template">
