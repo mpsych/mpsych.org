@@ -24,7 +24,7 @@ You can check out the paper here:
 
 [Code available on github!](https://github.com/mpsych/CACTAS-AI)
 
-This is presented at the 2024 CSM Showcase Research Presentation Proposal at University of Massachusetts Boston.
+This was presented at the 2024 CSM Showcase Research Presentation at the University of Massachusetts Boston.
 
 <a href='https://docs.google.com/presentation/d/1wu5ZombyQxnALcrOUZXO9rbnkxdN5usVQFVEphEe1CE/edit?usp=sharing' target='_blank'><img src='images/symp.png' style='border:solid thin black;width:400px'></a>&nbsp;&nbsp;&nbsp;
 
