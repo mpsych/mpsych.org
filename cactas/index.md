@@ -19,7 +19,7 @@ Manual segmentation of calcified plaque, essential for assessing stroke risk, is
 
 <a href='images/ISBI25_paper_192.pdf' target='_blank'><img src='images/ISBI_Poster.png' style='border:solid thin black;width:500px'></a>
 
-Youcan check out the paper here:</br>
+You can check out the paper here:  
 <a href='https://mpsych.org/papers/kim2025automatic.pdf' target='_blank'><img src='images/ISBI_Paper.png' style='border:solid thin black;width:300px'></a>
 
 [Code available on github!](https://github.com/mpsych/CACTAS-AI)
