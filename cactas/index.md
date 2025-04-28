@@ -8,13 +8,13 @@ title: Carotid Artery Computed Tomography Angiography Scoring (CACTAS)
 
 CACTAS(Carotid Artery Computed Tomographic Angiography Scoring) project is an open-source project that can assist radiologists to diagnose an embolic stroke of undetermined source (ESUS).
 
-# CACTAS-Tool
+## CACTAS-Tool
 CACTAS-Tool is a web-based single-click annotation tool that is 2.89 times faster than manual segmentation. The abstract of the CACTAS-Tool is accepted by The Society of Cardiovascular Computed Tomography(SCCT).
 
 <a href='images/SCCT.pdf' target='_blank'><img src='images/SCCT.png' style='border:solid thin black;width:500px'></a>
 
 
-# CACTAS_AI: Automatic Segmentation of Calcified Plaque in Carotid Arteries (ISBI 2025)
+## CACTAS_AI: Automatic Segmentation of Calcified Plaque in Carotid Arteries (ISBI 2025)
 Manual segmentation of calcified plaque, essential for assessing stroke risk, is time-consuming, and conventional methods like 2D and 3D UNet often struggle with the small size. We developed CACTAS-AI, a two-step segmentation process. This approach outperforms baseline methods in plaque segmentation, as shown in the table. The paper of CACTAS-AI is accepted by the IEEE International Symposium on Biomedical Imaging (ISBI), 2025. 
 
 <a href='images/ISBI25_paper_192.pdf' target='_blank'><img src='images/ISBI_Poster.png' style='border:solid thin black;width:500px'></a>
@@ -44,6 +44,6 @@ BibTex
 }</span></pre>
 
 
-# Contact Us
+## Contact Us
 
 For any inquiries, please email us at [kim@mpsych.org](mailto:kim@mpsych.org) or [team@mpsych.org](mailto:team@mpsych.org).
