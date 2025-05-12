@@ -1,15 +1,105 @@
-<html>
- <head>
-  <title>AI Core @ UMB</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Evaluating “Graphical Perception” with Multimodal Large Language Models</title>
   <style>
     body {
-      margin: 0px;
-      padding: 0px;
+      font-family: Arial, sans-serif;
+      max-width: 960px;
+      margin: 10;
+      padding: 20;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #000;
+      font-weight: bold;
+    }
+    .highlight {
+      color: #005A8B;
+      font-weight: bold;
+    }
+    video, img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      margin: 20px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      overflow-x: auto;
+      font-size: 0.9em;
+      font-family: Courier, monospace;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    #container {
+      margin: 40px;
     }
   </style>
- </head>
- <body>
-  <iframe src="https://liveumb-my.sharepoint.com/personal/daniel_haehn_umb_edu/_layouts/15/Doc.aspx?sourcedoc={0d09f47f-2389-47c2-8fb8-d28eec4b6bbd}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="100%" height="100%" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
- </body>
-</html>
+</head>
+<body>
 
+  <h1>Evaluating “Graphical Perception” with Multimodal Large Language Models</h1>
+
+  <p><strong>Rami Huu Nguyen | Kenichi Maeda | Mahsa Geshvadi | Daniel Haehn</strong></p>
+
+  <p class="highlight">
+    This project investigates whether Multimodal Large Language Models (MLLMs) can model human graphical perception 
+    by evaluating their performance on visual tasks like angles, bars, pies, and point clouds—comparing pretrained 
+    and fine-tuned models to human baselines.
+  </p>
+
+  <p>
+    Our study builds on the graphical perception work by Cleveland and McGill (1984) and extends 
+    <em>“Evaluating ‘Graphical Perception’ with CNNs”</em> by Haehn et al. (2018).
+  </p>
+
+  <h2>View Our Fast Forward Video</h2>
+  <video width="1000" controls>
+    <source src="images/Fast_forward_video.mp4" type="video/mp4">
+  </video>
+
+  <h2><h2>View a quick snapshot of our project</h2>
+
+ 
+  <img src="images/Poster.png" alt="IEEE 2025 Poster" style="border:solid thin black;width:1000px">
+
+  <h2>Key Findings</h2>
+
+  <p class="highlight">
+    While humans still excel at certain tasks, MLLMs outperformed them in the majority of experiments. 
+    MLLMs have promising potential for graphical perception.
+  </p>
+
+  <h2>View Our Code, Data & Slides</h2>
+  <ul>
+    <li><a href="https://github.com/yourusername/your-repo" target="_blank">GitHub Repository</a></li>
+    <li><a href="https://your-data-link.com" target="_blank">Dataset and Results</a></li>
+    <li><a href="https://docs.google.com/presentation/d/YOUR_ID" target="_blank">Presentation Slides</a></li>
+  </ul>
+
+  <h2>Contact Us</h2>
+  <p>Connect with us, we are open to collaboration:<br>
+  <a href="mailto:rami@mpsych.org">rami@mpsych.org</a></p>
+
+  <h2> Citation</h2>
+  <pre>
+@inproceedings{nguyen2025graphical,
+  title={Evaluating Graphical Perception with Multimodal Large Language Models},
+  author={Nguyen, Rami Huu and Maeda, Kenichi and Geshvadi, Mahsa and Haehn, Daniel},
+  booktitle={IEEE Pacific Visualization Symposium (PacificVis)},
+  year={2025}
+}
+  </pre>
+
+</body>
+</html>
