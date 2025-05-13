@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Evaluating “Graphical Perception” with Multimodal Large Language Models</title>
+
+  
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,11 +15,12 @@
     }
     h1, h2 {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      color: #1672d1;
+      color: #29ABE2;
       font-weight: bold;
+      text-align: center;
     }
     .highlight {
-      color: #1672d1;
+      color: #29ABE2;
       font-weight: itatalic;
     }
     video, img {
@@ -38,24 +40,69 @@
       font-family: Courier, monospace;
     }
     a {
-      color: #007BFF;
+      color: #29ABE2;
       text-decoration: none;
     }
     #container {
       margin: 40px;
     }
+
+
+
+    .autoscroll-container {
+  overflow: hidden;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.autoscroll-track {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  animation: bounce-slide 10s ease-in-out infinite alternate;
+  min-width: 1200px; /* make sure it's scrollable */
+}
+
+.img-original {
+  height: auto;
+  max-height: 300px;
+  border: 2px solid #29ABE2;
+}
+
+.img-square {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid #29ABE2;
+}
+
+@keyframes bounce-slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px); /* Slide left */
+  }
+  100% {
+    transform: translateX(100px);  /* Bounce right */
+  }
+}
+
+
+
   </style>
 </head>
 <body>
+  
+  <h1 style="text-align: center; font-size: 1.5em">Evaluating “Graphical Perception” with Multimodal Large Language Models</h1>
 
-  <h1>Evaluating “Graphical Perception” with Multimodal Large Language Models</h1>
 
-  <p style="font-size: 1.3em; font-style: italic; color: gray;">
+  <p style="text-align:center; font-size: 1.2em; font-style: italic; color: gray;">
     <strong>Rami Huu Nguyen | Kenichi Maeda | Mahsa Geshvadi | Daniel Haehn</strong>
   </p>
   
 
-  <p><em> Presented at IEEE Pacific Visualization Symposium (PacificVis) 2025</em> |
+  <p style="text-align:center";><em> Presented at IEEE Pacific Visualization Symposium (PacificVis) 2025</em> |
     <a  href="https://your-paper-link.com" target="_blank"><em> 👉 View our Paper </em></a></p>
 
   <h2>Abstract</h2>
@@ -77,26 +124,70 @@
 
   <h2>Fast Forward Video</h2>
 
-  <video width="1000" controls>
-    <source src="images/Fast_forward_video.mp4" type="video/mp4">
+  <video  style="border: 1px solid #29ABE2 width=1000px" controls>
+    <source src="images/Fast_forward_video.mp4" type="video/mp4" >
   </video>
 
   <h2>Poster</h2>
 
 
-  <img src="images/Poster.png" alt="IEEE 2025 Poster" style="border:solid thin black;width:1000px">
+  <img src="images/Poster.png" alt="IEEE 2025 Poster" style="border: 1px solid #29ABE2;width:1000px">
 
-  <h2>View our overview through slides</h2>
+  <h2>Presentation Slides</h2>
   <div style="text-align: center;">
-    <iframe src="images/Slides.pdf" width="100%" height="600px" style="border: 1px solid #ccc;" scrolling="yes"></iframe>
+    <iframe src="images/Slides.pdf" width="100%" height="600px" style="border: 1px solid #007BFF;" scrolling="yes"></iframe>
   </div>
 
+  <h2 style="color: gray;"> View more our experiments</h2>
 
   <div style="text-align: center; margin: 20px 0;">
-    <a href="https://github.com/raminguyen/LLMP2" target="_blank" style="margin: 0 15px; font-size: 1.5rem;"> View Our GitHub |</a> 
-    <a href="https://your-data-link.com" target="_blank" style="margin: 0 15px; font-size: 1.5rem;"> Dataset and Results |</a> 
-    <a href="https://docs.google.com/presentation/d/YOUR_ID" target="_blank" style="margin: 0 15px; font-size: 1.5rem"> Presentation Slides |</a>
+    <a href="https://github.com/raminguyen/LLMP2" target="_blank" style="margin: 0 15px; font-size: 1.5rem;"> GitHub</a> 🔵
+    
+   <a href="https://github.com/raminguyen/LLMP2/tree/main/Allresults" target="_blank" style="margin: 0 15px; font-size: 1.5rem;"> Results</a> 🔵
+
+   <a href="images/Supplemental.pdf" target="_blank" style="margin: 0 15px; font-size: 1.5rem;">Supplemental</a> 🔵
+
+   <a href="https://www.dropbox.com/scl/fo/785yzdfowdsp676r45sb8/AFLYiQyKvJ46PQOgiP0f1hY/USERSTUDY?dl=0&rlkey=y53d35aztwvakpprstz04s4hj&subfolder_nav_tracking=1" target="_blank" style="margin: 0 15px; font-size: 1.5rem;">User Study</a> 
+  
   </div>
+
+  <h2 style="color: gray; text-align: center;">Our Snapshots</h2>
+
+  <div class="autoscroll-container">
+    <div class="autoscroll-track">
+  
+      <div style="text-align: center;">
+        <a href="https://ieeevis.tw/" target="_blank">
+          <img src="images/Kenichi_Maeda_IEEE PacificVis 2025 Taipei City, Taiwan.jpg" alt="IEEE PacificVis 2025 Taipei City, Taiwan" class="img-original">
+        </a>
+        <p style="color:#29ABE2; font-size: 1rem; margin-top: 10px;">
+          <a href="https://ieeevis.tw/" target="_blank" style="color: #29ABE2; text-decoration: none;">IEEE PacificVis 2025, Taiwan, Apr 24th, 2025</a>
+        </p>
+      </div>
+  
+      <div style="text-align: center;">
+        <a href="https://www.aifrontiers.org/" target="_blank">
+          <img src="images/Rami_Huu_Nguyen_AI Frontier Symposium.jpg" alt="AI Frontier Symposium May 9th, 2025" class="img-square">
+        </a>
+        <p style="color: #007BFF; font-size: 1rem; margin-top: 10px;">
+          <a href="https://www.aifrontiers.org/" target="_blank" style="color: #29ABE2; text-decoration: none;">AI Frontier Symposium, May 9, 2025</a>
+        </p>
+      </div>
+  
+      <div style="text-align: center;">
+        <a href="https://csmshowcase2025.org/" target="_blank">
+          <img src="images/pic3.jpg" alt="CSM Showcase May 16th, 2025" class="img-square">
+        </a>
+        <p style="color: #007BFF; font-size: 1rem; margin-top: 10px;">
+          <a href="https://csmshowcase2025.org/" target="_blank" style="color: #29ABE2; text-decoration: none;">CSM Showcase - May 16, 2025</a>
+        </p>
+      </div>
+  
+    </div>
+  </div>
+  
+  
+  
   
 
 <h2 style="color: gray;">Authors and Acknowledgement</h2>
@@ -105,6 +196,8 @@
   Connect with us, we are open to collaboration at:
   <a href="mailto:rami@mpsych.org">rami@mpsych.org</a>
 </p>
+
+
 
 <p>
   We would like to thank:
@@ -117,17 +210,20 @@
 
 <p>
   We have also learned a great deal from this project, spanning
-  <em>#programming, #datavisualization, #imageprocessing, #machinelearning, and #computergraphics</em>,
+  <em> #artificalintelligent #programming, #datavisualization, #imageprocessing, #machinelearning, and #computergraphics #machinepsychology</em>,
   and applied these insights to our study.
 </p>
 
 <p>
-  Most importantly, we all contributed to this <strong>CS460 - Computer Graphics</strong> project at the University of Massachusetts Boston.
-  Here's the link to the course website: <a href="https://CS460.org" target="_blank">CS460.org</a>
+  Most importantly, we all contributed to this <strong>CS460 - Computer Graphics</strong> project and our lab's group (Machine Psychology) at the University of Massachusetts Boston.
+  Here's the link to the course website: 
+  <a href="https://CS460.org" target="_blank">CS460.org</a> and our lab's group 
+  <a href="https://mpsych.org/" target="_blank">Machine Psychology</a>.
 </p>
 
 
-  <h2> Citation</h2>
+
+  <h2 style="color: gray;"> Citation</h2>
 
   <pre>
     @article {nguyen2025evaluating,
@@ -142,6 +238,27 @@
       shortvenue={PacificVis 2025}
   }
   </pre>
+
+  <h2 style="color: gray;"> With the tremedous support of </h2>
+
+  <p style="text-align: center; font-size: 1.2rem; margin-top: 50px; color: gray;">
+
+  <div style="display: flex; justify-content: center; gap: 40px; align-items: center; margin-top: 20px;">
+  
+    <a href="https://mpsych.org/" target="_blank">
+      <img src="images/machinepsychology.svg" alt="Machine Psychology" style="width: 150px; height: auto; border: none; box-shadow: none;">
+    </a>
+  
+    <a href="https://www.aicore.ai" target="_blank">
+      <img src="images/aicore.png" alt="AI Core" style="width: 150px; height: auto; border: none; box-shadow: none;">
+    </a>
+  
+    <a href="https://www.umb.edu" target="_blank">
+      <img src="images/umblogo.png" alt="UMass Boston" style="width: 150px; height: auto; border: none; box-shadow: none;">
+    </a>
+  
+  </div>
+      
 
 </body>
 </html>
