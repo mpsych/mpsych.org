@@ -23,11 +23,10 @@ title: AI Core
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <div style="background-color: #f7fbff; border: 1px solid #007BFF; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color: #0056b3; line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: border-box;">
 
-- Provides infrastructure for machine learning on massive data collections  
-- Offers cutting-edge algorithms to accelerate AI research  
-- Includes specialized data management services  
-- Delivers targeted software development  
-- Minimizes the cost of manual data processing
+The AI Core provides infrastructure for machine learning on massive data collections, offers cutting-edge algorithms to accelerate AI research.
+
+The AI Core services also includes specialized data management services, delivers targeted software development, and minimizes the cost of manual data processing.
+
 
   </div>
 </div>
