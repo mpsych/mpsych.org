@@ -4,11 +4,12 @@
 You can find us at AI Core — the central hub for cutting-edge research, scientific computing, and AI innovation at UMass Boston.
 
 
-The Artificial Intelligence Core Facility provides infrastructure and algorithms for machine learning on massive data collections.  
+The Artificial Intelligence Core Facility provides infrastructure and algorithms for machine learning on massive data collections.
+
 Services include specialized data management and targeted software development to minimize the cost of manual data processing.
 
 <video width="100%" height="auto" controls>
-  <source src="/Users/ramihuunguyen/Documents/mpsych.org/ai/images/ilovecomputer.mov" type="video/quicktime">
+  <source src="/ai/images/ilovecomputer.mov" type="video/quicktime">
 </video>
 
 
