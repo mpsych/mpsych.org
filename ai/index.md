@@ -26,9 +26,6 @@ title: AI Core
   </div>
 </div>
 
-  </div>
-</div>
-
 
 ## What We Offer
 
