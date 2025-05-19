@@ -70,6 +70,46 @@ We offer specialized data management services, deliver targeted software develop
 
 </div>
 
+## These are specializations
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Virtual Assistants
+  </div>
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Pattern Recognition
+  </div>
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Recommendation Engines
+  </div>
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Fraud Detection
+  </div>
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Computer Vision
+  </div>
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Large Language Models
+  </div>
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Realtime Processing
+  </div>
+
+  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+    Scientific Simulations
+  </div>
+
+</div>
+
+
+
 ## Our Equiments
 
 ![We love computers](images/equipment.png)
