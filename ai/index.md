@@ -7,7 +7,7 @@ title: AI Core
 
   <h2 style="color: #007BFF;">Do you know where to find the most powerful computers on UMass Boston's campus?</h2>
 
-  <p>You can find us at <strong>AI Core Facilities</strong> — the central hub for cutting-edge research, scientific computing, and AI innovation at UMass Boston.</p>
+  <p>You can find us at <strong style="color: #007BFF;">AI Core Facilities</strong> — the central hub for cutting-edge research, scientific computing, and AI innovation at UMass Boston.</p>
 
   <p>
     The facility is led by <em><a href="https://www.linkedin.com/in/haehn" target="_blank" style="color: #007BFF; text-decoration: none;">Professor Daniel Haehn</a></em> (Director) and 
@@ -18,18 +18,35 @@ title: AI Core
 
 </div>
 
-## What is the AI Core?
+## What is AI Core?
 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <div style="background-color: #f7fbff; border: 1px solid #007BFF; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color: #0056b3; line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: border-box;">
-
 The AI Core provides infrastructure for machine learning on massive data collections, offers cutting-edge algorithms to accelerate AI research.
-
-The AI Core services also includes specialized data management services, delivers targeted software development, and minimizes the cost of manual data processing.
-
 
   </div>
 </div>
+
+
+## What We Offer
+
+We offer specialized data management services, deliver targeted software development, and minimize the cost of manual data processing.
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 40px; margin-top: 30px;">
+
+  <div style="width: 100%; max-width: 800px; text-align: center; padding: 10px;">
+    <img src="images/offer1.png" style="width: 100%; border-radius: 6px;" alt="Step 1 - Annotation Framework" />
+    <p style="margin-top: 10px;"></p>
+  </div>
+
+  <div style="width: 100%; max-width: 800px; text-align: center; padding: 10px;">
+    <img src="images/offer2.png" style="width: 100%; border-radius: 6px;" alt="Step 2 - Mammography Database" />
+    <p style="margin-top: 10px;"></p>
+  </div>
+
+</div>
+
+
 
 ## Real-World Applications
 
