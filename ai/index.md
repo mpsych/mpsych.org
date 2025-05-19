@@ -21,8 +21,10 @@ title: AI Core
 ## What is AI Core?
 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
-  <div style="background-color: #f7fbff; border: 1px solid ; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color:rgb(32, 136, 181); line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: #29ABE2border-box;">
-The AI Core provides infrastructure for machine learning on massive data collections, offers cutting-edge algorithms to accelerate AI research.
+  <div style="background-color: #29ABE2; border: 1px solid; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color: #FFFFFF; line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: border-box;">
+    The AI Core provides infrastructure for machine learning on massive data collections, offers cutting-edge algorithms to accelerate AI research.
+  </div>
+</div>
 
   </div>
 </div>
