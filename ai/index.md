@@ -22,6 +22,7 @@ title: AI Core
 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <div style="background-color: #f7fbff; border: 1px solid #007BFF; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color: #0056b3; line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: border-box;">
+
 The AI Core provides infrastructure for machine learning on massive data collections, offers cutting-edge algorithms to accelerate AI research.
 
   </div>
@@ -109,7 +110,7 @@ We offer specialized data management services, deliver targeted software develop
 </div>
 
 
-## Our Equipment Showcase
+## Our Equipments Showcase
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 40px; margin-top: 30px;">
 
@@ -131,8 +132,49 @@ We offer specialized data management services, deliver targeted software develop
 </div>
 
 
-## Several pictures of UMass Boston
+<p style="text-align: center;">
+  We are proudly located at the <span style="color: #007BFF;">University of Massachusetts Boston</span>, where innovation meets accessibility on the beautiful waterfront campus.
+</p>
 
-## Contact Us  
-**Daniel Haehn**, director of AI core  
-**Rami Huu Nguyen**, director of AI deputy
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+
+  <!-- First Row: 4 Images -->
+  <div style="flex: 1 1 22%; text-align: center;">
+    <img src="images/umb1.png" style="width: 100%; height: 180px; object-fit: cover; border-radius: 6px; border: 2px solid #ffffff;" alt="UMass Boston 1" />
+  </div>
+  <div style="flex: 1 1 22%; text-align: center;">
+    <img src="images/umb2.png" style="width: 100%; height: 180px; object-fit: cover; border-radius: 6px; border: 4px solid #ffffff;" alt="UMass Boston 2" />
+  </div>
+  <div style="flex: 1 1 22%; text-align: center;">
+    <img src="images/umb3.png" style="width: 100%; height: 180px; object-fit: cover; border-radius: 6px; border: 4px solid #ffffff;" alt="UMass Boston 3" />
+  </div>
+  <div style="flex: 1 1 22%; text-align: center;">
+    <img src="images/umb4.png" style="width: 150%; height: 180px; object-fit: cover; border-radius: 6px; border: 4px solid #ffffff;" alt="UMass Boston 4" />
+  </div>
+
+  <!-- Second Row: 3 Images -->
+  <div style="flex: 1 1 30%; text-align: center; margin-top: 20px;">
+    <img src="images/umb5.png" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; border: 4px solid #ffffff;" alt="UMass Boston 5" />
+  </div>
+  <div style="flex: 1 1 30%; text-align: center;">
+    <img src="images/umb6.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 6px; border: 4px solid #ffffff;" alt="UMass Boston 6" />
+  </div>
+  <div style="flex: 1 1 30%; text-align: center; margin-top: 20px;">
+    <img src="images/umb7.png" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; border: 4px solid #ffffff;" alt="UMass Boston 7" />
+  </div>
+
+<div style="background-color: #fafcff; border: 1px solid #cce5ff; padding: 30px; border-radius: 8px; max-width: 700px; margin: 40px auto; color: #002b5c; font-size: 1.05rem; line-height: 1.8;">
+
+  <p style="text-align: center;">
+  <strong>Interested in collaborating, accessing our facilities, or learning more about our work?</strong><br>
+  We welcome inquiries from researchers, startups, industry partners, and students.
+</p>
+
+  <p style="margin-top: 20px; text-align: center;">
+    <strong>Daniel Haehn</strong><br>
+    Director, AI Core<br>
+    Assistant Professor, Computer Science at UMass Boston<br>
+    Contact: <a href="mailto:daniel.haehn@umb.edu" style="color: #007BFF;">daniel.haehn@umb.edu</a>
+  </p>
+
+</div>
