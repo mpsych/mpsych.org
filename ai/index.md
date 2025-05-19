@@ -70,7 +70,7 @@ We offer specialized data management services, deliver targeted software develop
 
 </div>
 
-## These are specializations
+## We specialize in:
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
 
@@ -109,35 +109,27 @@ We offer specialized data management services, deliver targeted software develop
 </div>
 
 
+## Our Equipment Showcase
 
-## Our Equiments
+<div style="display: flex; flex-direction: column; align-items: center; gap: 40px; margin-top: 30px;">
 
-![We love computers](images/equipment.png)
+  <div style="width: 100%; max-width: 800px; text-align: center; padding: 10px;">
+    <img src="images/equipment.png" style="width: 100%; border-radius: 6px;" alt="Equipment 1" />
+    <p style="margin-top: 10px;"></p>
+  </div>
 
-## We have pictures of 2x NVIDIA DGX A100  
-- 2 TB RAM  
-- 30 TB Storage  
-- 8x A100 GPUs  
-- High-performance switch
+  <div style="width: 100%; max-width: 800px; text-align: center; padding: 10px;">
+    <img src="images/equipment1.png" style="width: 100%; border-radius: 6px;" alt="Equipment 2" />
+    <p style="margin-top: 10px;"></p>
+  </div>
 
-## NVIDIA DGX H200  
-- 1+ TB GPU Memory
+  <div style="width: 100%; max-width: 800px; text-align: center; padding: 10px;">
+    <img src="images/equipment2.png" style="width: 100%; border-radius: 6px;" alt="Equipment 3" />
+    <p style="margin-top: 10px;"></p>
+  </div>
 
-## These are specializations  
-- Virtual Assistants  
-- Pattern Recognition  
-- Recommendation Engines  
-- Fraud Detection  
-- Computer Vision  
-- Large Language Models  
-- Realtime Processing  
-- Scientific Simulations  
-- Intelligent Annotation Framework
+</div>
 
-## We have real-world application examples  
-- Building the World’s Largest Mammography Database  
-- Automatic Data Filtering  
-- Local LLMs for Data Privacy
 
 ## Several pictures of UMass Boston
 
