@@ -21,8 +21,7 @@ title: AI Core
 ## What is AI Core?
 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
-  <div style="background-color: #f7fbff; border: 1px solid #007BFF; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color: #0056b3; line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: border-box;">
-
+  <div style="background-color: #f7fbff; border: 1px solid ; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color:rgb(32, 136, 181); line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: #29ABE2border-box;">
 The AI Core provides infrastructure for machine learning on massive data collections, offers cutting-edge algorithms to accelerate AI research.
 
   </div>
@@ -31,7 +30,10 @@ The AI Core provides infrastructure for machine learning on massive data collect
 
 ## What We Offer
 
-We offer specialized data management services, deliver targeted software development, and minimize the cost of manual data processing.
+<p>
+  We offer specialized <span style="color: #007BFF;">data management services</span> , deliver <span style="color: #007BFF;">targeted software development</span>, and minimize the cost of manual data processing.
+</p>
+
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 40px; margin-top: 30px;">
 
@@ -75,35 +77,35 @@ We offer specialized data management services, deliver targeted software develop
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color: #29ABE2 ; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Virtual Assistants
   </div>
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color:#29ABE2; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Pattern Recognition
   </div>
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color:#29ABE2; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Recommendation Engines
   </div>
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color:#29ABE2; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Fraud Detection
   </div>
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color:#29ABE2; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Computer Vision
   </div>
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color:#29ABE2; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Large Language Models
   </div>
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color:#29ABE2; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Realtime Processing
   </div>
 
-  <div style="background-color: #eaf4ff; padding: 12px 20px; border-radius: 8px; color: #003366; width: 220px; text-align: center; font-weight: 500;">
+  <div style="background-color:#29ABE2; padding: 12px 20px; border-radius: 8px; color: #FFFFFF; width: 220px; text-align: center; font-weight: 500;">
     Scientific Simulations
   </div>
 
