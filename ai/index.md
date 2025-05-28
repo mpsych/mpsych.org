@@ -3,28 +3,33 @@ layout: default
 title: AI Core
 ---
 
-<div style="padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; margin: 30px 0;">
+
+<div style="padding: 30px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); text-align: center; background-color: #ffffff; margin: 40px 0;">
+
+  <!-- Emphasized AI Core Logo -->
+  <div style="margin-bottom: 25px;">
+    <img src="images/ai_core.png" alt="AI Core Logo"
+         style="height: 120px; width: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  </div>
 
   <h2 style="color: #007BFF;">Do you know where to find the most powerful computers on UMass Boston's campus?</h2>
 
-  <p>You can find us at <strong style="color: #007BFF;">AI Core Facilities</strong> — the central hub for cutting-edge research, scientific computing, and AI innovation at UMass Boston.</p>
+  <p style="margin-top: 15px;">
+    You can find us at <strong style="color: #007BFF;">AI Core Facilities</strong> — the central hub for cutting-edge research, scientific computing, and AI innovation at UMass Boston.
+  </p>
 
   <p>
-    The facility is led by <em><a href="https://www.linkedin.com/in/haehn" target="_blank" style="color: #007BFF; text-decoration: none;">Professor Daniel Haehn</a></em> (Director) and 
+    The facility is led by 
+    <em><a href="https://www.linkedin.com/in/haehn" target="_blank" style="color: #007BFF; text-decoration: none;">Professor Daniel Haehn</a></em> (Director) and 
     <em><a href="https://www.linkedin.com/in/raminguyen" target="_blank" style="color: #007BFF; text-decoration: none;">Rami Huu Nguyen</a></em> (Deputy Director).
   </p>
 
-  <img src="images/welovecomputers.png" alt="We love computers" style="margin-top: 20px; max-width: 450px; width: 100%; border-radius: 10px;" />
+  <img src="images/welovecomputers.png" alt="We love computers"
+       style="margin-top: 20px; max-width: 450px; width: 100%; border-radius: 10px;" />
 
 </div>
 
-## What is AI Core?
 
-<div style="display: flex; justify-content: center; margin-top: 20px;">
-  <div style="background-color: #29ABE2; border: 1px solid; padding: 20px; border-radius: 8px; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); color: #FFFFFF; line-height: 1.8; text-align: left; width: 100%; max-width: 700px; box-sizing: border-box;">
-    The AI Core provides infrastructure for machine learning on massive data collections, offers cutting-edge algorithms to accelerate AI research.
-  </div>
-</div>
 
 
 ## What We Offer
