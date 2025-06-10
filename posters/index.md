@@ -1,8 +1,6 @@
 <a href="Blake CSM 2025 Poster.pdf" target="_blank">
     <img src="Blake-1.png" 
         style='border:solid 1px black;width:500px'>
-    <img src="Blake-2.png"
-        style='border:solid 1px black;width:500px'>
 </a>
 
 <a href="Daniel CSM 2025 Poster.pdf" target="_blank">
@@ -22,7 +20,7 @@
 
 <a href="Jenna ISBI Poster.pdf" target="_blank">
     <img src="Jenna-ISBI.png"
-        style='border:solid 1px black;width:500px;>
+        style='border:solid 1px black;width:500px;'>
 </a>
 
 <a href="Jenna_CTOOI.png" target="_blank">
