@@ -12,7 +12,7 @@ permalink: /people
   <img src="/people/haehn3.jpg">
   <div class="caption">
     Daniel Haehn, PhD<br>
-    <span class="role">Assistant Professor of Computer Science</span><br>
+    <span class="role">Associate Professor of Computer Science</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/haehn/bio.txt">Bio</a>
       <a class="cleanlink" href="https://danielhaehn.com/CV.pdf">CV</a>
@@ -64,19 +64,37 @@ permalink: /people
 </div>
 
 <div class="person">
-  <img src="/people/vidhya.png">
+  <img src="/people/rami/rami.png">
   <div class="caption">
-    Vidhya Sree Narayanappa<br>
-    <span class="role">Machine Psychology Fellow</span><br>
+    Rami Huu Nguyen <br>
+    <span class="role">PhD Student in Computational Sciences</span><br>
     <span class="links">
+      <a class="cleanlink" href="/people/rami/bio.txt">Bio</a>
+      <a class="cleanlink" href="/people/rami/RamiResume.pdf">CV</a>
     </span><br>
     <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="mailto:REPLACE_WITH_LASTNAME@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+      <a href="https://www.linkedin.com/in/rami-huu-nguyen/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/raminguyen" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:rami@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
     </div>
   </div>
 </div>
 
-
+<div class="person">
+  <img src="/people/avanith/avanith.png">
+  <div class="caption">
+    Avanith Kanamarlapudi<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/avanith/bio.txt">Bio</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/avanith-kanamarlapudi-8aa081204/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/Avanith12" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:A.Kanamarlapudi001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
 
 <div class="person">
   <img src="/people/edwardgaibor.png">
@@ -131,54 +149,11 @@ permalink: /people
   </div>
 </div>
 
-<div class="person">
-  <img src="/people/maeda/kenichi_maeda.jpg">
-  <div class="caption">
-    Kenichi Maeda<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/maeda/bio.txt">Bio</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/kenichi-maeda/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/kenichi-maeda" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:Kenichi.Maeda001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
-    </div>
-  </div>
-</div>
 
-<div class="person">
-  <img src="/people/avanith/avanith.png">
-  <div class="caption">
-    Avanith Kanamarlapudi<br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/avanith/bio.txt">Bio</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/avanith-kanamarlapudi-8aa081204/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/Avanith12" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:A.Kanamarlapudi001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
-    </div>
-  </div>
-</div>
 
-<div class="person">
-  <img src="/people/rami/rami.png">
-  <div class="caption">
-    Rami Huu Nguyen <br>
-    <span class="role">Machine Psychology Fellow</span><br>
-    <span class="links">
-      <a class="cleanlink" href="/people/rami/bio.txt">Bio</a>
-      <a class="cleanlink" href="/people/rami/RamiResume.pdf">CV</a>
-    </span><br>
-    <div class="icons gray" style="font-size:14px;margin-left:10px">
-      <a href="https://www.linkedin.com/in/rami-huu-nguyen/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
-      <a href="https://github.com/raminguyen" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
-      <a href="mailto:rami@mpsych.org" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
-    </div>
-  </div>
-</div>
+
+
+
 
 <div class="person">
   <img src="/gfx/team.png">
@@ -483,6 +458,28 @@ permalink: /people
     <span class="role">Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="https://www.linkedin.com/in/mahsa-geshvadi-13233a124/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/maeda.jpg">
+  <div class="caption">
+    Kenichi Maeda<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/kenichi-maeda/">Website</a>
+    </span>
+  </div>
+</div>
+
+<div class="alumni">
+  <img src="/people/alumni/vidhya.png">
+  <div class="caption">
+    Vidhya Sree Narayanappa<br>
+    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="https://www.linkedin.com/in/vidhya-sree-n/">Website</a>
     </span>
   </div>
 </div>
