@@ -165,6 +165,23 @@ permalink: /people
   </div>
 </div>
 
+<div class="person">
+  <img src="/people/jon/jon.jpeg">
+  <div class="caption">
+    Jon Allen<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/jon/bio.txt">Bio</a>
+      <a class="cleanlink" href="https://jonallen.netlify.app/">Website</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/jonallenvx/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/jon-vx" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:jonathan.allen002@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
+
 
 
 
