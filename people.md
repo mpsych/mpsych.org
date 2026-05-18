@@ -100,7 +100,7 @@ permalink: /people
   <img src="/people/edwardgaibor.png">
   <div class="caption">
     Edward Gaibor<br>
-    <span class="role">IDS Student Fellow</span><br>
+    <span class="role">STEMPOWER Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/edward/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/edward/Resume_Edward_Gaibor.pdf">CV</a>
@@ -136,7 +136,7 @@ permalink: /people
   <img src="/people/gross/daniel_gross.jpg">
   <div class="caption">
     Daniel Gross<br>
-    <span class="role">IDS Student Fellow</span><br>
+    <span class="role">STEMPOWER Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/gross/bio.txt">Bio</a>
       <a class="cleanlink" href="/people/gross/resume_daniel_gross.pdf">CV</a>
@@ -153,7 +153,7 @@ permalink: /people
   <img src="/people/cameau/mckenshel.jpg">
   <div class="caption">
     Mckenshel Cameau<br>
-    <span class="role">Machine Psychology Fellow</span><br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/cameau/bio.txt">Bio</a>
     </span><br>
@@ -199,7 +199,7 @@ permalink: /people
   <img src="/people/collaborators/kim.png">
   <div class="caption">
     Nam Wook Kim, PhD<br>
-    <span class="role">Assistant Professor at Boston College</span><br>
+    <span class="role">Associate Professor at Boston College</span><br>
     <span class="links">
       <a class="cleanlink" href="http://namwkim.org" target="_blank">Website</a>
     </span>
