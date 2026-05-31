@@ -182,6 +182,22 @@ permalink: /people
   </div>
 </div>
 
+<div class="person">
+  <img src="/people/ayden/ayden.jpg">
+  <div class="caption">
+    Ayden Bronsdon<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/ayden/bio.txt">Bio</a>
+      <a class="cleanlink" href="https://aydenbronsdon.com/">Website</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://www.linkedin.com/in/aydenbronsdon/" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/bronsdonayden" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:ayden.bronsdon001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
 
 
 
