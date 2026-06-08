@@ -2,6 +2,21 @@
 % 2026
 %
 
+@article{kanamarlapudi2026omama,
+title={OMAMA-DB: the Oregon-Massachusetts Mammography Database},
+author={Avanith Kanamarlapudi and Ryan Zurrin and Edward Gaibor and Benjamin Bendiksen Gutierrez and Neha Goyal and Vidhya Sree Narayanapa and Dan Simovici and Nurit Haspel and Marc Pomplun and Hyunkwang Lee and Mack Bandler and Greg Sorensen and \myname{Daniel Haehn}},
+journal={Journal of Medical Imaging},
+volume={13},
+number={6},
+pages={062205},
+year={2026},
+abstract={Public datasets for training artificial intelligence (AI) models in breast cancer screening are limited in size and quality, making it difficult to develop reliable systems. We introduce OMAMA-DB, an extensive publicly available collection of two-dimensional (2D) mammograms and three-dimensional (3D) tomosynthesis volumes. Starting from 967,991 images, we created a curated set of 231,080 images using a multi-stage filtering process that removes missing labels, uncommon dimensions, rare scanner types, duplicate studies, and invalid DICOM files. All 2D images then undergo additional outlier detection using histogram filtering and a variational autoencoder to remove low-quality outliers. OMAMA-DB includes pathology-based cancer labels and automated lesion annotations generated using DeepSight. We also provide a web-based annotation tool for expert validation. To demonstrate usability, we fine-tuned MedGemma on a balanced subset of OMAMA-DB. We conducted a preliminary user study comparing human and automated classification of real and synthetic mammograms. OMAMA-DB contains 231,080 images, including 7351 2D and 374 3D cancer cases. Fine-tuned MedGemma achieved 0.989 accuracy, 0.997 sensitivity, and an F1 score of 0.989 on a balanced validation set of 2942 images. In real-versus-synthetic classification, humans achieved 0.485 accuracy, and logistic regression and convolutional neural network achieved 0.972 and 0.997, respectively. OMAMA-DB provides a large mammography dataset with pathology-based labels and automated lesion annotations to support medical imaging research. Fine-tuned foundation models demonstrate strong cancer classification performance, and the gap between human and automated detection of synthetic images highlights the importance of real clinical data. All data, models, and parameters are openly available for research use.},
+shortvenue={JMI 2026},
+website={https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-13/issue-06/062205/OMAMA-DB-the-Oregon-Massachusetts-Mammography-Database/10.1117/1.JMI.13.6.062205.full},
+code={https://github.com/mpsych/ODM},
+data={https://dataverse.harvard.edu/dataverse/omama}
+}
+
 
 @inproceedings{
 kim2026uncertainty,
