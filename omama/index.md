@@ -17,27 +17,59 @@ Supported by
 
 <a href='https://www.masslifesciences.com/' target='_blank'><img src='images/mlsc.jpg' style='width:200px'></a> 
 
-# Outlier Detection for Mammograms (MIDL 2023)
+<div class="twocolumn">
+<h1>OMAMA-DB: the Oregon-Massachusetts Mammography Database (JMI 2026)</h1>
 
+<a href='https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-13/issue-06/062205/OMAMA-DB-the-Oregon-Massachusetts-Mammography-Database/10.1117/1.JMI.13.6.062205.pdf' target='_blank'><img src='images/jmi_paper.png' style='border:solid thin black;width:300px'></a>
+</div>
+
+<div class="twocolumn">
+<h1>Outlier Detection for Mammograms (MIDL 2023)</h1>
 
 <a href='https://danielhaehn.com/papers/?zurrin2023outlier' target='_blank'><img src='images/midl_paper.png' style='border:solid thin black;width:300px'></a>
+</div>
+
+<br style="clear:both">
+
+BibTex
+
+<div class="twocolumn">
+<pre style="overflow:auto; text-align:left; font-size:0.8em;font-family:courier;margin-bottom: 20px;min-height:295px;"><span class="bibtexraw noread">@article{10.1117/1.JMI.13.6.062205,
+  title={OMAMA-DB: the Oregon-Massachusetts Mammography Database},
+  author={Avanith Kanamarlapudi and Ryan Zurrin and Edward Gaibor and Benjamin Bendiksen Gutierrez and Neha Goyal and Vidhya Sree Narayanapa and Dan Simovici and Nurit Haspel and Marc Pomplun and Hyunkwang Lee and Mack Bandler and Greg Sorensen and Daniel Haehn},
+  journal={Journal of Medical Imaging},
+  volume={13},
+  number={6},
+  pages={062205},
+  year={2026},
+  publisher={SPIE},
+  doi={10.1117/1.JMI.13.6.062205},
+  url={https://doi.org/10.1117/1.JMI.13.6.062205}
+}</span></pre>
+</div>
+
+<div class="twocolumn">
+<pre style="overflow:auto; text-align:left; font-size:0.8em;font-family:courier;margin-bottom: 20px;min-height:295px;"><span class="bibtexraw noread">@inproceedings{zurrin2023outlier,
+  title={Outlier Detection for Mammograms},
+  author={Ryan Zurrin and Neha Goyal and Pablo Bendiksen and Muskaan Manocha and Dan Simovici and Nurit Haspel and Marc Pomplun and Daniel Haehn},
+  booktitle={International Conference on Medical Imaging with Deep Learning},
+  year={2023},
+  url={https://openreview.net/forum?id=4E93Xdg98u},
+  code={https://github.com/mpsych/ODM}
+}</span></pre>
+</div>
+
+<br style="clear:both">
 
 [Code available on github!](https://github.com/mpsych/ODM)
 
 <a href='images/midl.pdf' target='_blank'><img src='images/midl.png' style='border:solid thin black;width:400px'></a>&nbsp;&nbsp;&nbsp;<a href='images/csm.pdf' target='_blank'><img src='images/csm.png' style='border:solid thin black;width:400px'></a>
 
-BibTex
+# Slides
 
-<pre style="overflow:auto; text-align:left; font-size:0.8em;font-family:courier;margin-bottom: 20px;"><span class="bibtexraw noread">@inproceedings{zurrin2023outlier,
-title={Outlier Detection for Mammograms},
-author={Ryan Zurrin and Neha Goyal and Pablo Bendiksen and Muskaan Manocha and Dan Simovici and Nurit Haspel and Marc Pomplun and Daniel Haehn},
-abstract={Mammograms are vital for detecting breast cancer, the most common cancer among women in the US. However, low-quality scans and imaging artifacts can compromise their efficacy. We introduce an automated pipeline to filter low-quality mammograms from large datasets. Our initial dataset of 176,492 mammograms contained an estimated 5.5% lower quality scans with issues like metal coil frames, wire clamps, and breast implants. Manually removing these images is tedious and error-prone. Our two-stage process first uses threshold-based 5-bin histogram filtering to eliminate undesirable images, followed by a variational autoencoder to remove remaining low-quality scans. Our method detects such scans with an F1 Score of 0.8862 and preserves 163,568 high-quality mammograms. We provide results and tools publicly available as open-source software.},
-booktitle={International Conference on Medical Imaging with Deep Learning},
-year={2023},
-url={https://openreview.net/forum?id=4E93Xdg98u},
-code={https://github.com/mpsych/ODM},
-shortvenue={MIDL 2023}
-}</span></pre>
+<center>
+<iframe src="https://slides.com/avanith/omama-db/embed" width="500" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</center>
 
 # Press
 
