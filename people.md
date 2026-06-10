@@ -148,7 +148,7 @@ permalink: /people
 <div class="person">
   <img src="/people/anya/anya.jpg">
   <div class="caption">
-    Ayden Bronsdon<br>
+    Anya Tongprasith<br>
     <span class="role">Undergraduate Machine Psychology Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/anya/bio.txt">Bio</a>
