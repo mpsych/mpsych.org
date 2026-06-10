@@ -145,7 +145,21 @@ permalink: /people
   </div>
 </div>
 
-
+<div class="person">
+  <img src="/people/anya/anya.jpg">
+  <div class="caption">
+    Ayden Bronsdon<br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/anya/bio.txt">Bio</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="www.linkedin.com/in/anya-tongprasith-78772335a" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/hanzeltkr" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:anya.tongprasith001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+    </div>
+  </div>
+</div>
 
 
 <div class="person">
