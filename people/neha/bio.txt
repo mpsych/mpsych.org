@@ -1,2 +1,0 @@
-Neha Goyal is a graduate student with her MS in Computer Science from University of Massachusetts, Boston (UMB). She joined the lab in the year of 2021. Before joining the Machine Psychology research team, Neha worked as Software Developer in Accenture, India. Neha's current research interests are deep learning in medical applications such as object detection and pattern recognition, auto image registration in the field of Connectomics etc. 
- 
