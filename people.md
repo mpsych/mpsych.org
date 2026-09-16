@@ -178,6 +178,23 @@ permalink: /people
   </div>
 </div>
 
+</div class="person">
+  <img src="/people/chelsea/chelsea.jpg">
+  <div class="caption">
+    Chelsea Nguyen <br>
+    <span class="role">Undergraduate Machine Psychology Fellow</span><br>
+    <span class="links">
+      <a class="cleanlink" href="/people/chelsea/bio.txt">Bio</a>
+      <a class="cleanlink" href="https://chelsea.cchelseanguyen.workers.dev/">Website</a>
+    </span><br>
+    <div class="icons gray" style="font-size:14px;margin-left:10px">
+      <a href="https://linkedin.com/in/chelsea-nguyen-" target="_blank"><span class="icon-linkedin2 tooltip"><span class="tooltiptext">LinkedIn</span></span></a>
+      <a href="https://github.com/chelseanguyenn" target="_blank"><span class="icon-github tooltip"><span class="tooltiptext">GitHub</span></span></a>
+      <a href="mailto:chelsea.nguyen001@umb.edu" target="_blank"><span class="icon-email tooltip"><span class="tooltiptext">E-Mail</span></span></a>
+     </div>
+   </div>
+</div>     
+      
 <div class="person">
   <img src="/gfx/team.png">
   <div class="caption">
