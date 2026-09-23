@@ -178,7 +178,7 @@ permalink: /people
   </div>
 </div>
 
-</div class="person">
+<div class="person">
   <img src="/people/chelsea/chelsea.jpg">
   <div class="caption">
     Chelsea Nguyen <br>
