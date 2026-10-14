@@ -198,7 +198,7 @@ permalink: /people
    <div class="person">
   <img src="/people/kalysha/Kaly.jpg">
   <div class="caption">
-    Chelsea Nguyen <br>
+    Kalysha Melendez Hernandez <br>
     <span class="role">STEMPOWER Fellow</span><br>
     <span class="links">
       <a class="cleanlink" href="/people/kalysha/bio.txt">Bio</a>
