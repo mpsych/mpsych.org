@@ -52,3 +52,8 @@
     <img src="Simple 2.png"
         style='border:solid 1px black;width:500px'>
 </a>
+
+<a href="AnyaBreastCancerClassifier.pdf" target="_blank">
+    <img src="Anya.png"
+        style='border:solid 1px black;width:500px'>
+</a>
